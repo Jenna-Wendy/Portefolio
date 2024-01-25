@@ -74,6 +74,10 @@ footer{
             filter: grayscale(1) invert(1);
             img{
                 height: 100%;
+                transition: all .25s ease-in-out;
+                &:hover{
+                    transform: scale(1.1);
+                }
             }
         }
     }

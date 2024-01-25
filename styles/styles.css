@@ -73,6 +73,10 @@ footer .social div {
 }
 footer .social div img {
   height: 100%;
+  transition: all 0.25s ease-in-out;
+}
+footer .social div img:hover {
+  transform: scale(1.1);
 }
 
 /*Section 01*/
