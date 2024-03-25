@@ -1,0 +1,40 @@
+footer{
+    background: #000;
+    padding: 50px 0 12px 0;
+    margin-top: 8%;
+    a{
+        @include arimo(300);
+    }
+    .contact{
+        display: flex;
+        justify-content: space-evenly;
+        margin-bottom: $spacing-xxl;
+    }
+    .social-media{
+        display: flex;
+        gap: 10%;
+        justify-content: center;
+        margin-bottom: $spacing-lg;
+        .me{
+            text-align: center;
+        }
+        .icons{
+            display: flex;
+            gap: $spacing;
+            width: max-content;
+            margin: 8px auto;
+            div{
+                width: 35px;
+                height: 35px;
+            }
+            img{
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+    .copyright{
+        margin-top: $spacing;
+        text-align: center;
+    }
+}

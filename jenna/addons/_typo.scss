@@ -1,2 +1,27 @@
 /* importing fonts */
 @import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=League+Spartan:wght@100..900&display=swap');
+
+a{
+    @include leaguespartan(600);
+    color: #fff;
+}
+h1{
+    @include leaguespartan(600);
+    font-size: clamp(1.5em, 10vw, 3em);
+    width: max-content;
+}
+h2{
+    @include leaguespartan(600);
+    font-size: clamp(1em, 5vw, 1.3em);
+}
+h3{
+    @include leaguespartan(700);
+    letter-spacing: 1px;
+}
+h4{
+    @include leaguespartan(600);
+    letter-spacing: 1px;
+}
+p{
+    @include arimo(300);
+}

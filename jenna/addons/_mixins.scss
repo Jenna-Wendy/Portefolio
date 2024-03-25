@@ -20,3 +20,17 @@
     font-weight: $font-weight;
     font-style: normal;
 }
+
+// vars
+$spacing: 12px;
+$spacing-md: $spacing * 1.25;
+$spacing-lg: $spacing * 1.5;
+$spacing-xl: $spacing * 1.75;
+$spacing-2xl: $spacing * 2;
+$spacing-xxl: $spacing * 4;
+
+$bor-ra: 20px;
+$bor-ra-md: $bor-ra * 1.25;
+$bor-ra-lg: $bor-ra * 1.5;
+$bor-ra-xl: $bor-ra * 1.75;
+$bor-ra-2xl: $bor-ra * 2;
