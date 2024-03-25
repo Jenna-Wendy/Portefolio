@@ -1,0 +1,20 @@
+// resets
+@import './addons/default';
+
+// default body
+@import './addons/default';
+
+// typo and mixins
+@import './addons/mixins';
+@import './addons/typo';
+
+// navbar and footer
+@import './components/navbar';
+@import './components/footer';
+
+// home and other page
+@import './pages/home';
+@import './pages/projects';
+
+// responsive
+@import 'responsive';
