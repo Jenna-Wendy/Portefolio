@@ -1,0 +1,116 @@
+#bio{
+    display: flex;
+    padding: $spacing-2xl;
+    gap: $spacing-2xl;
+    .content{
+        text-align: justify;
+    }
+    .infos{
+        width: 50%;
+        .content{
+            width: clamp(300px, 100%, 405px);
+            margin: 75px auto;
+        }
+        .title{
+            margin-bottom: $spacing-xl;
+        }
+        .text{
+            line-height: 20px;
+        }
+    }
+    .desc{
+        width: 50%;
+        .content{
+            width: clamp(300px, 100%, 375px);
+            background: #000;
+            padding: $spacing-lg;
+            border-radius: $bor-ra;
+        }
+        .photo{
+            width: max-content;
+            margin: 0 auto;
+            img{
+                width: clamp(100px, 100%, 420px);
+                height: clamp(75px, 100%, 210px);
+                max-height: 200px;
+                object-fit: cover;
+                object-position: 10% 0%;
+            }
+        }
+        .about{
+            line-height: 20px;
+            width: 100%;
+            text-align: justify;
+        }
+        .use{
+            margin-top: $spacing-lg;
+        }
+        h3{
+            text-align: center;
+            margin: 12px 0 5px 0;
+            font-size: 1.2em;
+        }
+    }
+    .about{
+        padding: 0 $spacing-2xl;
+        div{
+            display: flex;
+            justify-content: space-between;
+            letter-spacing: 1px;
+        }
+    }
+    .tools{
+        display: flex;
+        justify-content: space-evenly;
+        div{
+            height: 55px;
+            width: 55px;
+            img{
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+
+}
+
+#skills{
+    h2, h3{
+        text-align: center;
+    }
+    h2{
+        margin-bottom: $spacing-xl;
+    }
+    .cards{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .card{
+        width: 320px;
+        text-align: justify;
+        line-height: 20px;
+        background: #1E1E20FF;
+        padding: $spacing;
+        border-radius: $bor-ra;
+        position: relative;
+
+        h3{
+            margin-bottom: $spacing;
+            font-size: 1.25em;
+            color: #A175F9FF;
+        }
+
+        p{
+            margin-bottom: $spacing-2xl;
+        }
+        a{
+            position: absolute;
+            bottom: -20px;
+            right: -35px;
+            background: #A175F9FF;
+            padding: $spacing-md $spacing-2xl 10px $spacing-2xl;
+            border-radius: $bor-ra-md;
+            border: #000 solid 4px;
+        }
+    }
+}
