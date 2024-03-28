@@ -1,11 +1,10 @@
-// resets
-@import './addons/default';
+// mixins
+@import './addons/mixins';
 
 // default body
 @import './addons/default';
 
-// typo and mixins
-@import './addons/mixins';
+// typo
 @import './addons/typo';
 
 // navbar and footer

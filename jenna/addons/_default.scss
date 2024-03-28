@@ -6,6 +6,7 @@
     list-style: none;
     text-decoration: none;
     font-weight: normal;
+    scroll-behavior: smooth;
 }
 
 /* body default style */
@@ -18,4 +19,30 @@ body{
     color: #fff;
     font-size: 16px;
     text-transform: uppercase;
+
+    &::-webkit-scrollbar{
+        width: .25em;
+    }
+    &::-webkit-scrollbar-track{
+        background: #000;
+    }
+    &::-webkit-scrollbar-thumb{
+        background: #aa8bfa;
+    }
+}
+
+/* arrow to navigate */
+.portal{
+    position: fixed;
+    display: grid;
+    gap: $spacing-xxl;
+    left: 12px;
+    top: calc(50% + 42px);
+    transform: translateY(calc(-50% - 42px));
+    .arrow{
+        width: 32px;
+        height: 32px;
+        background: #000;
+        cursor: pointer;
+    }
 }

@@ -1,21 +1,27 @@
 #bio{
     display: flex;
+    align-items: center;
     padding: $spacing-2xl;
     gap: $spacing-2xl;
+    min-height: 90vh;
+    background: url(../../assets/imgs/bg/bg.gif) center/cover no-repeat;
+
     .content{
         text-align: justify;
     }
     .infos{
-        width: 50%;
+        width: 75%;
         .content{
             width: clamp(300px, 100%, 405px);
             margin: 75px auto;
         }
         .title{
-            margin-bottom: $spacing-xl;
+            margin-bottom: $spacing-2xl;
         }
         .text{
-            line-height: 20px;
+            line-height: 25px;
+            text-transform: initial;
+            font-size: 1.25em;
         }
     }
     .desc{
@@ -28,26 +34,28 @@
         }
         .photo{
             width: max-content;
-            margin: 0 auto;
+            margin: 0 auto 25px auto;
+            width: clamp(100px, 100%, 420px);
+            aspect-ratio: 16 / 9;
+            overflow: hidden;
             img{
-                width: clamp(100px, 100%, 420px);
-                height: clamp(75px, 100%, 210px);
-                max-height: 200px;
+                width: 175%;
+                height: 100%;
                 object-fit: cover;
-                object-position: 10% 0%;
+                object-position: -125px 50%;
             }
         }
         .about{
-            line-height: 20px;
+            line-height: 25px;
             width: 100%;
             text-align: justify;
         }
         .use{
-            margin-top: $spacing-lg;
+            margin-top: $spacing-2xl;
         }
         h3{
             text-align: center;
-            margin: 12px 0 5px 0;
+            margin: 12px 0 25px 0;
             font-size: 1.2em;
         }
     }
@@ -75,39 +83,53 @@
 }
 
 #skills{
+    margin-top: 5%;
+    box-shadow: inset #1B0A45 0px 0px 50px,
+                inset #1B0A45 0px 0px 50px,
+                inset #1B0A45 0px 0px 50px,
+                inset #1B0A45 0px 0px 50px,
+                inset #1B0A45 0px 0px 50px;
+    background: url(../../assets/imgs/bg/left.webp) left/75vh no-repeat,
+                url(../../assets/imgs/bg/center-002.webp) center/45vw no-repeat,
+                url(../../assets/imgs/bg/right.webp) right/75vh no-repeat;
     h2, h3{
         text-align: center;
     }
     h2{
-        margin-bottom: $spacing-xl;
+        margin-bottom: 75px;
+        font-size: 2.5em;
     }
     .cards{
         display: flex;
-        justify-content: space-evenly;
+        justify-content: center;
+        gap: 10%;
     }
     .card{
         width: 320px;
         text-align: justify;
         line-height: 20px;
-        background: #1E1E20FF;
-        padding: $spacing;
+        background: rgb(16, 16, 17);
+        box-shadow: #ffffff3f -12px 12px 20px,
+                    #00000088 12px -12px 20px;
+        padding: $spacing-lg;
         border-radius: $bor-ra;
         position: relative;
-
+        font-size: 1.1em;
         h3{
             margin-bottom: $spacing;
             font-size: 1.25em;
             color: #A175F9FF;
         }
-
+        
         p{
             margin-bottom: $spacing-2xl;
+            text-transform: initial;
         }
         a{
             position: absolute;
             bottom: -20px;
             right: -35px;
-            background: #A175F9FF;
+            background: #512fa8;
             padding: $spacing-md $spacing-2xl 10px $spacing-2xl;
             border-radius: $bor-ra-md;
             border: #000 solid 4px;

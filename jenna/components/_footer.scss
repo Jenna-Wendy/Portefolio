@@ -5,16 +5,25 @@ footer{
     a{
         @include arimo(300);
     }
+    h3{
+        color: #A175F9FF;
+        text-shadow: hsl(273, 100%, 50%) 0px 0px 5px;
+    }
     .contact{
         display: flex;
-        justify-content: space-evenly;
-        margin-bottom: $spacing-xxl;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-bottom: calc($spacing-xxl * 1.25);
+        line-height: 20px;
+        h4{
+            margin-bottom: $spacing;
+        }
     }
     .social-media{
         display: flex;
         gap: 10%;
         justify-content: center;
-        margin-bottom: $spacing-lg;
+        margin-bottom: $spacing-2xl;
         .me{
             text-align: center;
         }
@@ -35,6 +44,7 @@ footer{
     }
     .copyright{
         margin-top: $spacing;
+        margin-bottom: $spacing-2xl;
         text-align: center;
     }
 }
