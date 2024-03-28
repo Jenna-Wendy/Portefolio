@@ -168,13 +168,13 @@ footer .social-media .icons {
   width: max-content;
   margin: 8px auto;
 }
-footer .social-media .icons div {
+footer .social-media .icons a {
   width: 35px;
   height: 35px;
   transition: 0.25s all ease-in-out;
   cursor: pointer;
 }
-footer .social-media .icons div:hover {
+footer .social-media .icons a:hover {
   transform: scale(1.1) translateY(-5px);
 }
 footer .social-media .icons img {
