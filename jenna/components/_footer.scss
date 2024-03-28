@@ -1,12 +1,12 @@
 footer{
-    background: #000;
+    background: hsl(0, 0%, 0%);
     padding: 50px 0 12px 0;
     margin-top: 8%;
     a{
         @include arimo(300);
     }
     h3{
-        color: #A175F9FF;
+        color: hsl(260, 92%, 72%);
         text-shadow: hsl(273, 100%, 50%) 0px 0px 5px;
     }
     .contact{

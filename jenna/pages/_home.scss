@@ -28,7 +28,7 @@
         width: 50%;
         .content{
             width: clamp(300px, 100%, 375px);
-            background: #000;
+            background: hsl(0, 0%, 0%);
             padding: $spacing-lg;
             border-radius: $bor-ra;
         }
@@ -84,11 +84,11 @@
 
 #skills{
     margin-top: 5%;
-    box-shadow: inset #1B0A45 0px 0px 50px,
-                inset #1B0A45 0px 0px 50px,
-                inset #1B0A45 0px 0px 50px,
-                inset #1B0A45 0px 0px 50px,
-                inset #1B0A45 0px 0px 50px;
+    box-shadow: inset hsl(257, 75%, 15%) 0px 0px 50px,
+                inset hsl(257, 75%, 15%) 0px 0px 50px,
+                inset hsl(257, 75%, 15%) 0px 0px 50px,
+                inset hsl(257, 75%, 15%) 0px 0px 50px,
+                inset hsl(257, 75%, 15%) 0px 0px 50px;
     background: url(../../assets/imgs/bg/left.webp) left/75vh no-repeat,
                 url(../../assets/imgs/bg/center-002.webp) center/45vw no-repeat,
                 url(../../assets/imgs/bg/right.webp) right/75vh no-repeat;
@@ -108,17 +108,17 @@
         width: 320px;
         text-align: justify;
         line-height: 20px;
-        background: rgb(16, 16, 17);
-        box-shadow: #ffffff3f -12px 12px 20px,
-                    #00000088 12px -12px 20px;
+        background: hsl(240, 3%, 12%);
+        box-shadow: hsla(0, 0%, 100%, 0.151) -15px 15px 20px,
+                    hsla(0, 0%, 0%, 0.568) 15px -15px 20px;
         padding: $spacing-lg;
-        border-radius: $bor-ra;
+        border-radius: $bor-ra-2xl;
         position: relative;
         font-size: 1.1em;
         h3{
             margin-bottom: $spacing;
             font-size: 1.25em;
-            color: #A175F9FF;
+            color: hsl(260, 92%, 72%);
         }
         
         p{
@@ -129,10 +129,10 @@
             position: absolute;
             bottom: -20px;
             right: -35px;
-            background: #512fa8;
+            background: hsl(257, 56%, 42%);
             padding: $spacing-md $spacing-2xl 10px $spacing-2xl;
             border-radius: $bor-ra-md;
-            border: #000 solid 4px;
+            border: hsl(0, 0%, 0%) solid 4px;
         }
     }
 }
