@@ -4,7 +4,6 @@
     padding: $spacing-2xl;
     gap: $spacing-2xl;
     min-height: 90vh;
-    background: url(../../assets/imgs/bg/bg.gif) center/cover no-repeat;
 
     .content {
         text-align: justify;
@@ -35,6 +34,7 @@
         .content {
             width: clamp(300px, 100%, 375px);
             background: hsl(0, 0%, 0%);
+            box-shadow: #000000 0px 0px 10px;
             padding: $spacing-lg;
             border-radius: $bor-ra;
         }
@@ -45,6 +45,8 @@
             width: clamp(100px, 100%, 420px);
             aspect-ratio: 16 / 9;
             overflow: hidden;
+            border-radius: 10px;
+            box-shadow: #383838 0px 0px 8px;
 
             img {
                 width: 175%;

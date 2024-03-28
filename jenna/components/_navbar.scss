@@ -6,4 +6,13 @@ header {
         display: flex;
         justify-content: space-between;
     }
+
+    a{
+        transition: .25s all ease-in-out;
+        &:hover{
+            letter-spacing: 1px;
+            color: hsl(260, 92%, 72%);
+            text-shadow: hsl(273, 100%, 50%) 0px 0px 5px;
+        }
+    }
 }

@@ -17,7 +17,7 @@ body {
   flex-direction: column;
   justify-content: space-between;
   min-height: 100vh;
-  background: hsl(257, 75%, 15%);
+  background: hsl(257, 75%, 15%) url(../../assets/imgs/bg/bg.gif) top center/100%;
   color: hsl(0, 0%, 100%);
   font-size: 16px;
   text-transform: uppercase;
@@ -113,6 +113,14 @@ header nav {
   display: flex;
   justify-content: space-between;
 }
+header a {
+  transition: 0.25s all ease-in-out;
+}
+header a:hover {
+  letter-spacing: 1px;
+  color: hsl(260, 92%, 72%);
+  text-shadow: hsl(273, 100%, 50%) 0px 0px 5px;
+}
 
 footer {
   background: hsl(0, 0%, 0%);
@@ -185,7 +193,6 @@ footer .copyright {
   padding: 24px;
   gap: 24px;
   min-height: 90vh;
-  background: url(../../assets/imgs/bg/bg.gif) center/cover no-repeat;
 }
 #bio .content {
   text-align: justify;
@@ -211,6 +218,7 @@ footer .copyright {
 #bio .desc .content {
   width: clamp(300px, 100%, 375px);
   background: hsl(0, 0%, 0%);
+  box-shadow: #000000 0px 0px 10px;
   padding: 18px;
   border-radius: 20px;
 }
@@ -220,6 +228,8 @@ footer .copyright {
   width: clamp(100px, 100%, 420px);
   aspect-ratio: 16/9;
   overflow: hidden;
+  border-radius: 10px;
+  box-shadow: #383838 0px 0px 8px;
 }
 #bio .desc .photo img {
   width: 175%;
