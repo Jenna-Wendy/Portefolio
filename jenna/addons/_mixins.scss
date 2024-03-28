@@ -1,11 +1,13 @@
 // Fonts importation
 @import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=League+Spartan:wght@100..900&display=swap');
+
 // from 200 to 900
 @mixin barlow($font-weight) {
     font-family: "Barlow", sans-serif;
     font-weight: $font-weight;
     font-style: normal;
 }
+
 // from 100 to 900
 @mixin leaguespartan($font-weight) {
     font-family: "League Spartan", sans-serif;
@@ -13,6 +15,7 @@
     font-weight: $font-weight;
     font-style: normal;
 }
+
 // from 400 to 700
 @mixin arimo($font-weight) {
     font-family: "League Spartan", sans-serif;
@@ -34,3 +37,81 @@ $bor-ra-md: $bor-ra * 1.25;
 $bor-ra-lg: $bor-ra * 1.5;
 $bor-ra-xl: $bor-ra * 1.75;
 $bor-ra-2xl: $bor-ra * 2;
+
+@mixin apply-animation {
+    &:hover :nth-child(1) {
+        animation: .5s wave ease-in-out both;
+    }
+
+    &:hover :nth-child(2) {
+        animation: .5s wave ease-in-out both .15s;
+    }
+
+    &:hover :nth-child(3) {
+        animation: .5s wave ease-in-out both .20s;
+    }
+
+    &:hover :nth-child(4) {
+        animation: .5s wave ease-in-out both .25s;
+    }
+
+    &:hover :nth-child(5) {
+        animation: .5s wave ease-in-out both .25s;
+    }
+
+    &:hover :nth-child(6) {
+        animation: .5s wave ease-in-out both .30s;
+    }
+
+    &:hover :nth-child(7) {
+        animation: .5s wave ease-in-out both .35s;
+    }
+
+    &:hover :nth-child(8) {
+        animation: .5s wave ease-in-out both .40s;
+    }
+
+    &:hover :nth-child(9) {
+        animation: .5s wave ease-in-out both .45s;
+    }
+
+    &:hover :nth-child(10) {
+        animation: .5s wave ease-in-out both .5s;
+    }
+
+    &:hover :nth-child(11) {
+        animation: .5s wave ease-in-out both .55s;
+    }
+
+    &:hover :nth-child(12) {
+        animation: .5s wave ease-in-out both .60s;
+    }
+
+    &:hover :nth-child(13) {
+        animation: .5s wave ease-in-out both .65s;
+    }
+
+    &:hover :nth-child(14) {
+        animation: .5s wave ease-in-out both .70s;
+    }
+
+    &:hover :nth-child(15) {
+        animation: .5s wave ease-in-out both .75s;
+    }
+
+    &:hover :nth-child(16) {
+        animation: .5s wave ease-in-out both .80s;
+    }
+    &:hover :nth-child(17) {
+        animation: .5s wave ease-in-out both .85s;
+    }
+    &:hover :nth-child(18) {
+        animation: .5s wave ease-in-out both .90s;
+    }
+    &:hover :nth-child(19) {
+        animation: .5s wave ease-in-out both .95s;
+    }
+    &:hover :nth-child(20) {
+        animation: .5s wave ease-in-out both 1s;
+    }
+}
