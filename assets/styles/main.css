@@ -29,23 +29,28 @@ body::-webkit-scrollbar-track {
   background: hsl(0, 0%, 0%);
 }
 body::-webkit-scrollbar-thumb {
-  background: hsl(257, 92%, 76%);
+  background: #a989fa;
 }
 
 /* arrow to navigate */
 .portal {
   position: fixed;
   display: grid;
-  gap: 48px;
-  left: 12px;
+  gap: 21px;
+  left: 20px;
   top: calc(50% + 42px);
   transform: translateY(calc(-50% - 42px));
 }
 .portal .arrow {
   width: 32px;
   height: 32px;
-  background: hsl(0, 0%, 0%);
   cursor: pointer;
+}
+.portal :nth-child(1) img {
+  transform: rotate(-90deg);
+}
+.portal :nth-child(2) img {
+  transform: rotate(90deg);
 }
 
 /* importing fonts */
@@ -232,10 +237,10 @@ footer .copyright {
   box-shadow: #383838 0px 0px 8px;
 }
 #bio .desc .photo img {
-  width: 175%;
+  width: 135%;
   height: 100%;
   object-fit: cover;
-  object-position: -125px 50%;
+  object-position: -35px 10%;
 }
 #bio .desc .about {
   line-height: 25px;
@@ -406,6 +411,103 @@ footer .copyright {
     top: 0;
   }
 }
+section {
+  width: calc(100vw - 50px);
+  margin: 96px 0 0 0;
+  padding: 0 48px;
+}
+section .wrap {
+  width: 100%;
+  height: max-content;
+  min-height: 200px;
+  background: hsl(0, 0%, 0%);
+  border-radius: 25px;
+  padding: 21px;
+  margin: 24px 0;
+}
+section .wrapper {
+  height: 200px;
+}
+section .btns {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 150px;
+}
+section .btns a {
+  font-family: "League Spartan", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 550;
+  font-style: normal;
+  background: hsl(257, 56%, 42%);
+  padding: 21px 48px;
+  margin: 21px 0;
+  border-radius: 30px;
+  letter-spacing: 1px;
+  width: 425px;
+  text-align: center;
+  border: hsl(275, 94%, 20%) solid 2px;
+  box-shadow: #fff 0px 0px 5px;
+  position: relative;
+  cursor: pointer;
+}
+section .btns a .hover-light.one {
+  transition: 0.25s text-shadow ease-in;
+}
+section .btns a .hover-light.two {
+  transition: 0.25s text-shadow ease-in 0.25s;
+}
+section .btns a .hover-light.three {
+  transition: 0.25s text-shadow ease-in 0.5s;
+}
+section .btns a .hover-light.four {
+  transition: 0.25s text-shadow ease-in 0.75s;
+}
+section .btns a:hover .hover-light {
+  text-shadow: #fff 0px 0px 5px;
+}
+section .btns a:hover .trait {
+  opacity: 1;
+}
+section .btns a:hover .right img {
+  transform: translateX(0);
+  filter: blur(0);
+  opacity: 1;
+}
+section .btns .down,
+section .btns .right {
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  transform: translateY(-50%);
+  display: flex;
+  align-items: center;
+}
+section .btns .down.right img,
+section .btns .right.right img {
+  transform: translateX(-5px);
+  filter: blur(5px);
+  opacity: 0;
+  transition: 0.25s all ease-in-out 1.25s;
+}
+section .btns .down.down img,
+section .btns .right.down img {
+  transform: rotate(90deg);
+}
+section .btns .down .trait, section .btns .down .traits,
+section .btns .right .trait,
+section .btns .right .traits {
+  height: 45px;
+  width: 2px;
+  background: hsla(0, 0%, 100%, 0.418);
+  margin: 0 10px;
+  transition: 0.25s opacity ease-in-out 1s;
+}
+section .btns .down .trait,
+section .btns .right .trait {
+  opacity: 0;
+}
+
 /*Desktop First*/
 .container {
   max-width: 1536px;

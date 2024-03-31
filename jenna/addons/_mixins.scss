@@ -38,6 +38,12 @@ $bor-ra-lg: $bor-ra * 1.5;
 $bor-ra-xl: $bor-ra * 1.75;
 $bor-ra-2xl: $bor-ra * 2;
 
+// colors
+$primary: hsl(257, 75%, 15%);
+$secondary: hsl(275, 94%, 20%);
+$tertiary: hsl(257, 56%, 42%);
+$black: hsl(0, 0%, 0%);
+
 @mixin apply-animation {
     &:hover :nth-child(1) {
         animation: .5s wave ease-in-out both;

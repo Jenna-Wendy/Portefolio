@@ -15,7 +15,7 @@ body{
     flex-direction: column;
     justify-content: space-between;
     min-height: 100vh;
-    background: hsl(257, 75%, 15%) url(../../assets/imgs/bg/bg.gif) top center/100%;
+    background: $primary url(../../assets/imgs/bg/bg.gif) top center/100%;
     color: hsl(0, 0%, 100%);
     font-size: 16px;
     text-transform: uppercase;
@@ -24,10 +24,10 @@ body{
         width: .25em;
     }
     &::-webkit-scrollbar-track{
-        background: hsl(0, 0%, 0%);
+        background: $black;
     }
     &::-webkit-scrollbar-thumb{
-        background: hsl(257, 92%, 76%);
+        background: #a989fa;
     }
 }
 
@@ -35,14 +35,19 @@ body{
 .portal{
     position: fixed;
     display: grid;
-    gap: $spacing-xxl;
-    left: 12px;
+    gap: $spacing-xl;
+    left: 20px;
     top: calc(50% + 42px);
     transform: translateY(calc(-50% - 42px));
     .arrow{
         width: 32px;
         height: 32px;
-        background: hsl(0, 0%, 0%);
         cursor: pointer;
+    }
+    & :nth-child(1) img{
+        transform: rotate(-90deg);
+    }
+    & :nth-child(2) img{
+        transform: rotate(90deg);
     }
 }

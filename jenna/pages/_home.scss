@@ -49,10 +49,10 @@
             box-shadow: #383838 0px 0px 8px;
 
             img {
-                width: 175%;
+                width: 135%;
                 height: 100%;
                 object-fit: cover;
-                object-position: -125px 50%;
+                object-position: -35px 10%;
             }
         }
 
@@ -108,11 +108,11 @@
 
 #skills {
     margin-top: 5%;
-    box-shadow: inset hsl(257, 75%, 15%) 0px 0px 50px,
-        inset hsl(257, 75%, 15%) 0px 0px 50px,
-        inset hsl(257, 75%, 15%) 0px 0px 50px,
-        inset hsl(257, 75%, 15%) 0px 0px 50px,
-        inset hsl(257, 75%, 15%) 0px 0px 50px;
+    box-shadow: inset $primary 0px 0px 50px,
+        inset $primary 0px 0px 50px,
+        inset $primary 0px 0px 50px,
+        inset $primary 0px 0px 50px,
+        inset $primary 0px 0px 50px;
     background: url(../../assets/imgs/bg/left.webp) left/75vh no-repeat,
         url(../../assets/imgs/bg/center-002.webp) center/45vw no-repeat,
         url(../../assets/imgs/bg/right.webp) right/75vh no-repeat;
@@ -160,10 +160,10 @@
             position: absolute;
             bottom: -20px;
             right: -15px;
-            background: hsl(257, 56%, 42%) url(../../assets/imgs/right.svg) 90% 45%/0px no-repeat;
+            background: $tertiary url(../../assets/imgs/right.svg) 90% 45%/0px no-repeat;
             padding: 10px $spacing 7px $spacing;
             border-radius: $bor-ra-md;
-            border: hsl(275, 94%, 20%) solid 2px;
+            border: $secondary solid 2px;
             box-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
             font-size: .9em;
             transition: .25s all ease 1.1s;
@@ -176,7 +176,7 @@
 
             &:hover {
                 right: -31px;
-                background: hsl(257, 56%, 42%) url(../../assets/imgs/right.svg) 97% 45%/20px no-repeat;
+                background: $tertiary url(../../assets/imgs/right.svg) 97% 45%/20px no-repeat;
                 padding: 10px 28px 7px $spacing;
             }
         }
