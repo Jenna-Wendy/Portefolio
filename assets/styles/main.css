@@ -268,7 +268,7 @@ footer .copyright p {
 }
 
 #skills {
-  margin-top: clamp(75px, 15%, 150px);
+  margin-top: 25px;
   min-height: 100vh;
   background: url(../../assets/imgs/bg/left.webp) left/75vh no-repeat, url(../../assets/imgs/bg/center-002.webp) center/45vw no-repeat, url(../../assets/imgs/bg/right.webp) right/75vh no-repeat;
   box-shadow: inset hsl(257, 75%, 15%) 0px 0px 50px, inset hsl(257, 75%, 15%) 0px 0px 50px, inset hsl(257, 75%, 15%) 0px 0px 25px, inset hsl(257, 75%, 15%) 0px 0px 25px, inset hsl(257, 75%, 15%) 0px 0px 25px, inset hsl(257, 75%, 15%) 0px 0px 50px;
@@ -276,7 +276,128 @@ footer .copyright p {
 #skills h2 {
   text-align: center;
   font-size: clamp(1.5em, 7vw, 2.5em);
-  margin-bottom: 24px;
+  margin-bottom: 48px;
+}
+#skills h2:hover :nth-child(1) {
+  animation: 0.5s reverse-l ease-in-out both;
+}
+#skills h2:hover :nth-child(2) {
+  animation: 0.5s reverse-l ease-in-out both 0.15s;
+}
+#skills h2:hover :nth-child(3) {
+  animation: 0.5s reverse-l ease-in-out both 0.2s;
+}
+#skills h2:hover :nth-child(4) {
+  animation: 0.5s reverse-l ease-in-out both 0.25s;
+}
+#skills h2:hover :nth-child(5) {
+  animation: 0.5s reverse-l ease-in-out both 0.25s;
+}
+#skills h2:hover :nth-child(6) {
+  animation: 0.5s reverse-l ease-in-out both 0.3s;
+}
+#skills h2:hover :nth-child(7) {
+  animation: 0.5s reverse-l ease-in-out both 0.35s;
+}
+#skills h2:hover :nth-child(8) {
+  animation: 0.5s reverse-l ease-in-out both 0.4s;
+}
+#skills h2:hover :nth-child(9) {
+  animation: 0.5s reverse-l ease-in-out both 0.45s;
+}
+#skills h2:hover :nth-child(10) {
+  animation: 0.5s reverse-l ease-in-out both 0.5s;
+}
+#skills h2:hover :nth-child(11) {
+  animation: 0.5s reverse-l ease-in-out both 0.55s;
+}
+#skills h2:hover :nth-child(12) {
+  animation: 0.5s reverse-l ease-in-out both 0.6s;
+}
+#skills h2:hover :nth-child(13) {
+  animation: 0.5s reverse-l ease-in-out both 0.65s;
+}
+#skills h2:hover :nth-child(14) {
+  animation: 0.5s reverse-l ease-in-out both 0.7s;
+}
+#skills h2:hover :nth-child(15) {
+  animation: 0.5s reverse-l ease-in-out both 0.75s;
+}
+#skills h2:hover :nth-child(16) {
+  animation: 0.5s reverse-l ease-in-out both 0.8s;
+}
+#skills h2:hover :nth-child(17) {
+  animation: 0.5s reverse-l ease-in-out both 0.85s;
+}
+#skills h2:hover :nth-child(18) {
+  animation: 0.5s reverse-l ease-in-out both 0.9s;
+}
+#skills h2:hover :nth-child(19) {
+  animation: 0.5s reverse-l ease-in-out both 0.95s;
+}
+#skills h2:hover :nth-child(20) {
+  animation: 0.5s reverse-l ease-in-out both 1s;
+}
+
+.desc h3:hover :nth-child(1) {
+  animation: 0.5s light ease-in-out both;
+}
+.desc h3:hover :nth-child(2) {
+  animation: 0.5s light ease-in-out both 0.15s;
+}
+.desc h3:hover :nth-child(3) {
+  animation: 0.5s light ease-in-out both 0.2s;
+}
+.desc h3:hover :nth-child(4) {
+  animation: 0.5s light ease-in-out both 0.25s;
+}
+.desc h3:hover :nth-child(5) {
+  animation: 0.5s light ease-in-out both 0.25s;
+}
+.desc h3:hover :nth-child(6) {
+  animation: 0.5s light ease-in-out both 0.3s;
+}
+.desc h3:hover :nth-child(7) {
+  animation: 0.5s light ease-in-out both 0.35s;
+}
+.desc h3:hover :nth-child(8) {
+  animation: 0.5s light ease-in-out both 0.4s;
+}
+.desc h3:hover :nth-child(9) {
+  animation: 0.5s light ease-in-out both 0.45s;
+}
+.desc h3:hover :nth-child(10) {
+  animation: 0.5s light ease-in-out both 0.5s;
+}
+.desc h3:hover :nth-child(11) {
+  animation: 0.5s light ease-in-out both 0.55s;
+}
+.desc h3:hover :nth-child(12) {
+  animation: 0.5s light ease-in-out both 0.6s;
+}
+.desc h3:hover :nth-child(13) {
+  animation: 0.5s light ease-in-out both 0.65s;
+}
+.desc h3:hover :nth-child(14) {
+  animation: 0.5s light ease-in-out both 0.7s;
+}
+.desc h3:hover :nth-child(15) {
+  animation: 0.5s light ease-in-out both 0.75s;
+}
+.desc h3:hover :nth-child(16) {
+  animation: 0.5s light ease-in-out both 0.8s;
+}
+.desc h3:hover :nth-child(17) {
+  animation: 0.5s light ease-in-out both 0.85s;
+}
+.desc h3:hover :nth-child(18) {
+  animation: 0.5s light ease-in-out both 0.9s;
+}
+.desc h3:hover :nth-child(19) {
+  animation: 0.5s light ease-in-out both 0.95s;
+}
+.desc h3:hover :nth-child(20) {
+  animation: 0.5s light ease-in-out both 1s;
 }
 
 .cards {
@@ -309,17 +430,99 @@ footer .copyright p {
   position: absolute;
   bottom: -25px;
   right: -35px;
+  letter-spacing: 1px;
   background: hsl(257, 56%, 42%) url(../../assets/imgs/right.svg) 85% center/0px no-repeat;
-  padding: 15px 48px 12px 48px;
+  padding: 15px 21px 12px 21px;
   border-radius: 30px;
   border: 2px solid hsl(257, 75%, 15%);
   box-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
-  transition: 0.25s background ease-in-out 0.25s;
+  transition: 0.25s right ease-in-out 1.25s, 0.25s background ease-in-out 1.25s, 0.25s padding ease-in-out 1.25s;
+}
+.card a:hover :nth-child(1) {
+  animation: 0.5s light ease-in-out both;
+}
+.card a:hover :nth-child(2) {
+  animation: 0.5s light ease-in-out both 0.15s;
+}
+.card a:hover :nth-child(3) {
+  animation: 0.5s light ease-in-out both 0.2s;
+}
+.card a:hover :nth-child(4) {
+  animation: 0.5s light ease-in-out both 0.25s;
+}
+.card a:hover :nth-child(5) {
+  animation: 0.5s light ease-in-out both 0.25s;
+}
+.card a:hover :nth-child(6) {
+  animation: 0.5s light ease-in-out both 0.3s;
+}
+.card a:hover :nth-child(7) {
+  animation: 0.5s light ease-in-out both 0.35s;
+}
+.card a:hover :nth-child(8) {
+  animation: 0.5s light ease-in-out both 0.4s;
+}
+.card a:hover :nth-child(9) {
+  animation: 0.5s light ease-in-out both 0.45s;
+}
+.card a:hover :nth-child(10) {
+  animation: 0.5s light ease-in-out both 0.5s;
+}
+.card a:hover :nth-child(11) {
+  animation: 0.5s light ease-in-out both 0.55s;
+}
+.card a:hover :nth-child(12) {
+  animation: 0.5s light ease-in-out both 0.6s;
+}
+.card a:hover :nth-child(13) {
+  animation: 0.5s light ease-in-out both 0.65s;
+}
+.card a:hover :nth-child(14) {
+  animation: 0.5s light ease-in-out both 0.7s;
+}
+.card a:hover :nth-child(15) {
+  animation: 0.5s light ease-in-out both 0.75s;
+}
+.card a:hover :nth-child(16) {
+  animation: 0.5s light ease-in-out both 0.8s;
+}
+.card a:hover :nth-child(17) {
+  animation: 0.5s light ease-in-out both 0.85s;
+}
+.card a:hover :nth-child(18) {
+  animation: 0.5s light ease-in-out both 0.9s;
+}
+.card a:hover :nth-child(19) {
+  animation: 0.5s light ease-in-out both 0.95s;
+}
+.card a:hover :nth-child(20) {
+  animation: 0.5s light ease-in-out both 1s;
 }
 .card a:hover {
+  right: -62px;
   background: hsl(257, 56%, 42%) url(../../assets/imgs/right.svg) 97% center/25px no-repeat;
+  padding: 15px 48px 12px 21px;
 }
 
+@keyframes light {
+  0% {
+    text-shadow: none;
+  }
+  100% {
+    text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+  }
+}
+@keyframes reverse-l {
+  0% {
+    text-shadow: none;
+  }
+  50% {
+    text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+  }
+  100% {
+    text-shadow: none;
+  }
+}
 /*Desktop First*/
 .container {
   max-width: 1536px;

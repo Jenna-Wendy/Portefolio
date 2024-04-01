@@ -75,7 +75,7 @@
 }
 
 #skills {
-    margin-top: clamp(75px, 15%, 150px);
+    margin-top: 25px;
     min-height: 100vh;
 
     background: url(../../assets/imgs/bg/left.webp) left/75vh no-repeat,
@@ -91,10 +91,16 @@
     h2 {
         text-align: center;
         font-size: clamp(1.5em, 7vw, 2.5em);
-        margin-bottom: $spacing-2xl;
+        margin-bottom: $spacing-xxl;
+        @include apply-animation(reverse-l);
     }
 }
 
+.desc{
+    h3{
+        @include apply-animation();
+    }
+}
 .cards {
     display: flex;
     flex-wrap: wrap;
@@ -127,14 +133,37 @@
         position: absolute;
         bottom: -25px;
         right: -35px;
+        letter-spacing: 1px;
         background: $tertiary url(../../assets/imgs/right.svg) 85% center/0px no-repeat;
-        padding: $spacing-md $spacing-xxl $spacing $spacing-xxl;
+        padding: $spacing-md $spacing-xl $spacing $spacing-xl;
         border-radius: $bor-ra-lg;
         border: 2px solid $primary;
         box-shadow: $white 0px 0px 5px;
-        transition: .25s background ease-in-out .25s;
+        transition: .25s right ease-in-out 1.25s, .25s background ease-in-out 1.25s, .25s padding ease-in-out 1.25s;
+        @include apply-animation();
         &:hover{
+            right: calc(-14px - $spacing-xxl);
             background: $tertiary url(../../assets/imgs/right.svg) 97% center/25px no-repeat;
+            padding: $spacing-md $spacing-xxl $spacing $spacing-xl;
         }
+    }
+}
+@keyframes light {
+    0%{
+        text-shadow: none;
+    }
+    100%{
+        text-shadow: $white 0px 0px 5px;
+    }
+}
+@keyframes reverse-l {
+    0%{
+        text-shadow: none;
+    }
+    50%{
+        text-shadow: $white 0px 0px 5px;
+    }
+    100%{
+        text-shadow: none;
     }
 }
