@@ -50,6 +50,7 @@ $text-shadow: hsl(273, 100%, 50%);
 $btn: hsl(275, 94%, 20%);
 
 
+
 // mixins animation
 @mixin zoom-up($scale: 1.1, $top: -5px) {
     transition: .25s transform ease-in-out;

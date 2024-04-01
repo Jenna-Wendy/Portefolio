@@ -233,7 +233,7 @@ footer .copyright p {
   height: 200px;
   overflow: hidden;
   border-radius: 15px;
-  box-shadow: hsl(257, 56%, 42%) 0px 0px 8px;
+  box-shadow: #707070 0px 0px 8px;
 }
 .desc .photo img {
   width: 135%;
@@ -267,11 +267,63 @@ footer .copyright p {
   height: 100%;
 }
 
+#skills {
+  margin-top: clamp(75px, 15%, 150px);
+  min-height: 100vh;
+  background: url(../../assets/imgs/bg/left.webp) left/75vh no-repeat, url(../../assets/imgs/bg/center-002.webp) center/45vw no-repeat, url(../../assets/imgs/bg/right.webp) right/75vh no-repeat;
+  box-shadow: inset hsl(257, 75%, 15%) 0px 0px 50px, inset hsl(257, 75%, 15%) 0px 0px 50px, inset hsl(257, 75%, 15%) 0px 0px 25px, inset hsl(257, 75%, 15%) 0px 0px 25px, inset hsl(257, 75%, 15%) 0px 0px 25px, inset hsl(257, 75%, 15%) 0px 0px 50px;
+}
+#skills h2 {
+  text-align: center;
+  font-size: clamp(1.5em, 7vw, 2.5em);
+  margin-bottom: 24px;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 48px;
+  justify-content: space-evenly;
+}
+.cards h3 {
+  text-align: center;
+  margin-bottom: 18px;
+  color: hsl(260, 92%, 72%);
+  font-size: 1.35em;
+}
+.cards p {
+  font-size: 1.15em;
+  text-transform: initial;
+}
+
+.card {
+  max-width: 325px;
+  line-height: 20px;
+  background: hsl(240, 3%, 12%);
+  box-shadow: hsla(0, 0%, 100%, 0.151) -15px 15px 20px, hsla(0, 0%, 0%, 0.568) 15px -15px 20px;
+  padding: 21px 21px 32px 21px;
+  border-radius: 40px;
+  position: relative;
+}
+.card a {
+  position: absolute;
+  bottom: -25px;
+  right: -35px;
+  background: hsl(257, 56%, 42%) url(../../assets/imgs/right.svg) 85% center/0px no-repeat;
+  padding: 15px 48px 12px 48px;
+  border-radius: 30px;
+  border: 2px solid hsl(257, 75%, 15%);
+  box-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+  transition: 0.25s background ease-in-out 0.25s;
+}
+.card a:hover {
+  background: hsl(257, 56%, 42%) url(../../assets/imgs/right.svg) 97% center/25px no-repeat;
+}
+
 /*Desktop First*/
 .container {
   max-width: 1536px;
   margin: 0 auto;
-  border: 1px solid #ff0000;
 }
 
 /*2xl*/
@@ -293,6 +345,9 @@ footer .copyright p {
   }
   #bio {
     margin-top: 75px;
+  }
+  #skills {
+    margin-bottom: 100px;
   }
 }
 /*md*/
@@ -319,6 +374,9 @@ footer .copyright p {
   body {
     font-size: 14px;
   }
+  header a {
+    font-size: 1.2em;
+  }
 }
 /*xs*/
 @media (max-width: 475px) {
@@ -328,6 +386,11 @@ footer .copyright p {
   .copyright {
     width: 30ch;
     margin: 0 auto;
+  }
+  .card a {
+    right: 50%;
+    transform: translateX(50%);
+    min-width: max-content;
   }
 }
 main {

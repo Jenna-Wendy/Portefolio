@@ -2,7 +2,6 @@
 .container {
     max-width: 1536px;
     margin: 0 auto;
-    border: 1px solid #ff0000;
 }
 
 /*2xl*/
@@ -26,6 +25,9 @@
     }
     #bio{
         margin-top: 75px;
+    }
+    #skills{
+        margin-bottom: 100px;
     }
 }
 
@@ -64,6 +66,12 @@
         font-size: 14px;
     }
 
+    // header
+    header{
+        a{
+            font-size: 1.2em;
+        }
+    }
     // footer
     // footer{
 
@@ -92,5 +100,14 @@
     .copyright {
         width: 30ch;
         margin: 0 auto;
+    }
+
+    // home skill cards
+    .card {
+        a{
+            right: 50%;
+            transform: translateX(50%);
+            min-width: max-content;
+        }
     }
 }
