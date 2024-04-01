@@ -1,5 +1,5 @@
 // First section
-section {
+#real {
     width: calc(100vw - 50px);
     margin: calc($spacing-xxl * 2) 0 0 0;
     padding: 0 $spacing-xxl;
@@ -15,7 +15,36 @@ section {
     }
 
     .wrapper {
-        height: 200px;
+        display: flex;
+        justify-content: space-evenly;
+        gap: $spacing-xl;
+        margin-top: $spacing;
+        height: 385px;
+        div{
+            border: 2px solid #fff;
+            overflow: hidden;
+            border-radius: $bor-ra;
+            img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                object-position: 0px 10%;
+            }
+            
+        }
+        .tall{
+            width: 225px;
+        }
+        .horizon{
+            border: none;
+            width: 300px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            img{
+                width: 100%;
+            }
+        }
     }
 
     .btns {

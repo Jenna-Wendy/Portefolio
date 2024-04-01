@@ -183,16 +183,13 @@
     }
 }
 
-@keyframes wave {
+@keyframes light {
     0% {
-        top: 0;
-    }
-
-    50% {
-        top: -5px;
+        text-shadow: none;
     }
 
     100% {
-        top: 0;
+        text-shadow: #fff 0px 0px 5px;
     }
+
 }
