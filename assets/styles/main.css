@@ -9,6 +9,7 @@
   text-decoration: none;
   font-weight: normal;
   scroll-behavior: smooth;
+  text-align: justify;
 }
 
 /* body default style */
@@ -105,6 +106,11 @@ p {
   font-style: normal;
 }
 
+.active {
+  color: hsl(260, 92%, 72%);
+  text-shadow: hsl(273, 100%, 50%) 0px 0px 5px;
+}
+
 header {
   padding: 12px 16px;
   background: hsl(0, 0%, 0%);
@@ -176,8 +182,8 @@ footer .social-media .icons {
 footer .social-media .icons a {
   width: 35px;
   height: 35px;
-  transition: 0.25s all ease-in-out;
   cursor: pointer;
+  transition: 0.25s transform ease-in-out;
 }
 footer .social-media .icons a:hover {
   transform: scale(1.1) translateY(-5px);
@@ -189,7 +195,76 @@ footer .social-media .icons img {
 footer .copyright {
   margin-top: 12px;
   margin-bottom: 24px;
+}
+footer .copyright p {
   text-align: center;
+}
+
+#bio {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 48px 0;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  min-height: calc(100vh - 45px);
+}
+
+.infos .content {
+  width: 50ch;
+  margin: 0 auto;
+}
+.infos .text {
+  line-height: 25px;
+  margin-top: 24px;
+  text-transform: initial;
+  font-size: 1.2em;
+}
+
+.desc .content {
+  background: hsl(0, 0%, 0%);
+  width: clamp(350px, 90%, 450px);
+  padding: 24px;
+  border-radius: 20px;
+  margin: 0 auto;
+}
+.desc .photo {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 15px;
+  box-shadow: hsl(257, 56%, 42%) 0px 0px 8px;
+}
+.desc .photo img {
+  width: 135%;
+  height: 100%;
+  object-fit: cover;
+  object-position: -100px 0%;
+}
+.desc h3 {
+  text-align: center;
+  margin: 24px 0;
+}
+.desc .about div {
+  display: flex;
+  justify-content: space-between;
+  line-height: 25px;
+  margin: 0 18px;
+}
+.desc .tools {
+  display: flex;
+  justify-content: space-evenly;
+}
+.desc .tools a {
+  width: 55px;
+  transition: 0.25s transform ease-in-out;
+}
+.desc .tools a:hover {
+  transform: scale(1.1) translateY(-5px);
+}
+.desc .tools img {
+  width: 100%;
+  height: 100%;
 }
 
 /*Desktop First*/
@@ -215,6 +290,9 @@ footer .copyright {
 @media (max-width: 1024px) {
   .container {
     max-width: 768px;
+  }
+  #bio {
+    margin-top: 75px;
   }
 }
 /*md*/
@@ -251,4 +329,7 @@ footer .copyright {
     width: 30ch;
     margin: 0 auto;
   }
+}
+main {
+  width: 100%;
 }

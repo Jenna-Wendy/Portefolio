@@ -58,12 +58,8 @@ footer {
             a {
                 width: 35px;
                 height: 35px;
-                transition: .25s all ease-in-out;
                 cursor: pointer;
-
-                &:hover {
-                    transform: scale(1.1) translateY(-5px);
-                }
+                @include zoom-up();                
             }
 
             img {
@@ -76,6 +72,8 @@ footer {
     .copyright {
         margin-top: $spacing;
         margin-bottom: $spacing-2xl;
-        text-align: center;
+        p{
+            text-align: center;
+        }
     }
 }

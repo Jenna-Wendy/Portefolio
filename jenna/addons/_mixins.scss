@@ -49,6 +49,16 @@ $tertiary: hsl(257, 56%, 42%);
 $text-shadow: hsl(273, 100%, 50%);
 $btn: hsl(275, 94%, 20%);
 
+
+// mixins animation
+@mixin zoom-up($scale: 1.1, $top: -5px) {
+    transition: .25s transform ease-in-out;
+
+    &:hover {
+        transform: scale($scale) translateY($top);
+    }
+}
+
 @mixin apply-animation {
     &:hover :nth-child(1) {
         animation: .5s light ease-in-out both;
@@ -113,15 +123,19 @@ $btn: hsl(275, 94%, 20%);
     &:hover :nth-child(16) {
         animation: .5s light ease-in-out both .80s;
     }
+
     &:hover :nth-child(17) {
         animation: .5s light ease-in-out both .85s;
     }
+
     &:hover :nth-child(18) {
         animation: .5s light ease-in-out both .90s;
     }
+
     &:hover :nth-child(19) {
         animation: .5s light ease-in-out both .95s;
     }
+
     &:hover :nth-child(20) {
         animation: .5s light ease-in-out both 1s;
     }

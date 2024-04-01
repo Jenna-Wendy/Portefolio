@@ -24,6 +24,9 @@
     .container {
         max-width: 768px;
     }
+    #bio{
+        margin-top: 75px;
+    }
 }
 
 /*md*/
@@ -33,16 +36,18 @@
     }
 
     // footer
-    footer{
-    
-        .contact{
+    footer {
+
+        .contact {
             padding: 0 10%;
             gap: $spacing-xl;
-            div{
-                
+
+            div {
+
                 margin: 0 auto 0 0;
             }
-            .large{
+
+            .large {
                 order: 4;
             }
         }
@@ -54,10 +59,11 @@
     .container {
         max-width: 475px;
     }
-    
-    body{
+
+    body {
         font-size: 14px;
     }
+
     // footer
     // footer{
 
