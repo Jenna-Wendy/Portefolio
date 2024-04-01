@@ -1,5 +1,5 @@
 footer {
-    background: hsl(0, 0%, 0%);
+    background: $black;
     padding: 50px 0 12px 0;
     margin-top: 8%;
 
@@ -9,8 +9,8 @@ footer {
 
     h3,
     h4 {
-        color: hsl(260, 92%, 72%);
-        text-shadow: hsl(273, 100%, 50%) 0px 0px 5px;
+        color: $secondary;
+        text-shadow: $text-shadow 0px 0px 5px;
     }
 
 
@@ -23,18 +23,25 @@ footer {
     .contact {
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-around;
+        gap: $spacing-xxl $spacing;
+        
         margin-bottom: calc($spacing-xxl * 1.25);
         line-height: 20px;
 
         h4 {
             margin-bottom: $spacing;
         }
+
+        div{
+            min-width: max-content;
+            margin: 0 auto 0 auto;
+        }
     }
 
     .social-media {
         display: flex;
-        gap: 10%;
+        flex-wrap: wrap;
+        gap: $spacing-2xl 10%;
         justify-content: center;
         margin-bottom: $spacing-2xl;
 

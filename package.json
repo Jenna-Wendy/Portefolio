@@ -1,12 +1,15 @@
 {
-  "name": "jenna-portefolio",
+  "name": "portefolio-final",
   "version": "1.0.0",
   "description": "Web designer portefolio",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "keywords": [
+    "portefolio"
+  ],
+  "author": "Axel RAKOTOARIVAO",
   "license": "ISC",
   "devDependencies": {
     "gulp": "^5.0.0",

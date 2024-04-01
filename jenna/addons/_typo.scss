@@ -4,20 +4,20 @@
 a,
 span {
     @include leaguespartan(600);
-    color: hsl(0, 0%, 100%);
+    color: $white;
 }
 
 h1 {
     @include leaguespartan(600);
     font-size: clamp(1.5em, 10vw, 3em);
     width: max-content;
-    text-shadow: hsl(0, 0%, 0%) 2px 2px 5px;
+    text-shadow: $black 2px 2px 5px;
 }
 
 h2 {
     @include leaguespartan(600);
     font-size: clamp(1em, 5vw, 1.3em);
-    text-shadow: hsl(0, 0%, 0%) 2px 2px 5px;
+    text-shadow: $black 2px 2px 5px;
 }
 
 h3 {
@@ -32,9 +32,4 @@ h4 {
 
 p {
     @include arimo(300);
-}
-
-.active {
-    color: hsl(260, 92%, 72%);
-    text-shadow: hsl(273, 100%, 50%) 0px 0px 5px;
 }

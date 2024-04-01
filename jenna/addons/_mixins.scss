@@ -39,10 +39,15 @@ $bor-ra-xl: $bor-ra * 1.75;
 $bor-ra-2xl: $bor-ra * 2;
 
 // colors
-$primary: hsl(257, 75%, 15%);
-$secondary: hsl(275, 94%, 20%);
-$tertiary: hsl(257, 56%, 42%);
+$white: hsl(0, 0%, 100%);
 $black: hsl(0, 0%, 0%);
+
+$primary: hsl(257, 75%, 15%);
+$secondary: hsl(260, 92%, 72%);
+$tertiary: hsl(257, 56%, 42%);
+
+$text-shadow: hsl(273, 100%, 50%);
+$btn: hsl(275, 94%, 20%);
 
 @mixin apply-animation {
     &:hover :nth-child(1) {

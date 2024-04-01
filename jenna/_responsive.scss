@@ -31,6 +31,22 @@
     .container {
         max-width: 640px;
     }
+
+    // footer
+    footer{
+    
+        .contact{
+            padding: 0 10%;
+            gap: $spacing-xl;
+            div{
+                
+                margin: 0 auto 0 0;
+            }
+            .large{
+                order: 4;
+            }
+        }
+    }
 }
 
 /*sm*/
@@ -38,11 +54,37 @@
     .container {
         max-width: 475px;
     }
+    
+    body{
+        font-size: 14px;
+    }
+    // footer
+    // footer{
+
+    //     .contact{
+    //         div{
+    //             margin-left: 15px;
+    //             background: red;
+    //         }
+    //     }
+    // }
 }
 
 /*xs*/
 @media (max-width: 475px) {
     .container {
         width: 100%;
+    }
+
+    // footer
+    // .contact{
+    //     div{
+    //         margin-left: clamp(100px, 25%, 250px);
+    //     }
+    // }
+
+    .copyright {
+        width: 30ch;
+        margin: 0 auto;
     }
 }
