@@ -78,6 +78,7 @@
     margin-top: 25px;
     min-height: 100vh;
 
+    // TODO responsive
     background: url(../../assets/imgs/bg/left.webp) left/75vh no-repeat,
                 url(../../assets/imgs/bg/center-002.webp) center/45vw no-repeat,
                 url(../../assets/imgs/bg/right.webp) right/75vh no-repeat;
@@ -92,13 +93,13 @@
         text-align: center;
         font-size: clamp(1.5em, 7vw, 2.5em);
         margin-bottom: $spacing-xxl;
-        @include apply-animation(reverse-l);
+        // @include apply-animation(reverse-l);
     }
 }
 
 .desc{
     h3{
-        @include apply-animation();
+        @include apply-animation(light, 29);
     }
 }
 .cards {

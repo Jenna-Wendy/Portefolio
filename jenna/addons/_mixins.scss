@@ -60,84 +60,17 @@ $btn: hsl(275, 94%, 20%);
     }
 }
 
-@mixin apply-animation($animation: light) {
-    &:hover :nth-child(1) {
-        animation: .5s $animation ease-in-out both;
+// Define the function without style rules
+@function apply-animation($animation: light, $num-children: 20) {
+    $animation-duration: 0.5s;
+    $animation-delay: 0.05s;
+  
+    $styles: (); // Define an empty list to store styles
+  
+    @for $i from 1 through $num-children {
+      // Add animation styles to the list
+      $styles: append($styles, "&:hover :nth-child(#{$i}) {animation: #{$animation-duration} #{$animation} ease-in-out both #{$animation-delay * ($i - 1)};}");
     }
-
-    &:hover :nth-child(2) {
-        animation: .5s $animation ease-in-out both .15s;
-    }
-
-    &:hover :nth-child(3) {
-        animation: .5s $animation ease-in-out both .20s;
-    }
-
-    &:hover :nth-child(4) {
-        animation: .5s $animation ease-in-out both .25s;
-    }
-
-    &:hover :nth-child(5) {
-        animation: .5s $animation ease-in-out both .25s;
-    }
-
-    &:hover :nth-child(6) {
-        animation: .5s $animation ease-in-out both .30s;
-    }
-
-    &:hover :nth-child(7) {
-        animation: .5s $animation ease-in-out both .35s;
-    }
-
-    &:hover :nth-child(8) {
-        animation: .5s $animation ease-in-out both .40s;
-    }
-
-    &:hover :nth-child(9) {
-        animation: .5s $animation ease-in-out both .45s;
-    }
-
-    &:hover :nth-child(10) {
-        animation: .5s $animation ease-in-out both .5s;
-    }
-
-    &:hover :nth-child(11) {
-        animation: .5s $animation ease-in-out both .55s;
-    }
-
-    &:hover :nth-child(12) {
-        animation: .5s $animation ease-in-out both .60s;
-    }
-
-    &:hover :nth-child(13) {
-        animation: .5s $animation ease-in-out both .65s;
-    }
-
-    &:hover :nth-child(14) {
-        animation: .5s $animation ease-in-out both .70s;
-    }
-
-    &:hover :nth-child(15) {
-        animation: .5s $animation ease-in-out both .75s;
-    }
-
-    &:hover :nth-child(16) {
-        animation: .5s $animation ease-in-out both .80s;
-    }
-
-    &:hover :nth-child(17) {
-        animation: .5s $animation ease-in-out both .85s;
-    }
-
-    &:hover :nth-child(18) {
-        animation: .5s $animation ease-in-out both .90s;
-    }
-
-    &:hover :nth-child(19) {
-        animation: .5s $animation ease-in-out both .95s;
-    }
-
-    &:hover :nth-child(20) {
-        animation: .5s $animation ease-in-out both 1s;
-    }
-}
+  
+    @return $styles; // Return the list of styles
+  }
