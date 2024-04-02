@@ -54,6 +54,16 @@
             }
         }
     }
+
+    // skills
+    #skills {
+        height: 100%;
+    
+        background: url(../../assets/imgs/bg/top.webp) top/100vh no-repeat,
+                    url(../../assets/imgs/bg/center-002.webp) center/45vw no-repeat,
+                    url(../../assets/imgs/bg/bottom.webp) bottom/100vh no-repeat;
+    }
+    
 }
 
 /*sm*/

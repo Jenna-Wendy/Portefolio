@@ -38,6 +38,8 @@ $bor-ra-lg: $bor-ra * 1.5;
 $bor-ra-xl: $bor-ra * 1.75;
 $bor-ra-2xl: $bor-ra * 2;
 
+// TODO reverse animation with javascript
+
 // colors
 $white: hsl(0, 0%, 100%);
 $black: hsl(0, 0%, 0%);
@@ -60,17 +62,17 @@ $btn: hsl(275, 94%, 20%);
     }
 }
 
-// Define the function without style rules
-@function apply-animation($animation: light, $num-children: 20) {
-    $animation-duration: 0.5s;
-    $animation-delay: 0.05s;
-  
-    $styles: (); // Define an empty list to store styles
-  
+@mixin apply-animation($animation: light, $num-children: 20, $speed: 0.05s) {
+    $delay-increment: $speed;
+    
     @for $i from 1 through $num-children {
-      // Add animation styles to the list
-      $styles: append($styles, "&:hover :nth-child(#{$i}) {animation: #{$animation-duration} #{$animation} ease-in-out both #{$animation-delay * ($i - 1)};}");
+        &:hover :nth-child(#{$i}) {
+            $delay: $delay-increment * ($i - 1);
+            animation: .5s $animation ease-in-out both $delay;
+        }
     }
-  
-    @return $styles; // Return the list of styles
-  }
+
+    &:hover {
+        animation-fill-mode: forwards;
+    }
+}

@@ -46,7 +46,7 @@
         }
     }
 
-    h3 {
+    h3, h4 {
         text-align: center;
         margin: $spacing-2xl 0;
     }
@@ -78,7 +78,6 @@
     margin-top: 25px;
     min-height: 100vh;
 
-    // TODO responsive
     background: url(../../assets/imgs/bg/left.webp) left/75vh no-repeat,
                 url(../../assets/imgs/bg/center-002.webp) center/45vw no-repeat,
                 url(../../assets/imgs/bg/right.webp) right/75vh no-repeat;
@@ -93,22 +92,17 @@
         text-align: center;
         font-size: clamp(1.5em, 7vw, 2.5em);
         margin-bottom: $spacing-xxl;
-        // @include apply-animation(reverse-l);
     }
 }
 
-.desc{
-    h3{
-        @include apply-animation(light, 29);
-    }
-}
+
 .cards {
     display: flex;
     flex-wrap: wrap;
     gap: $spacing-xxl;
     justify-content: space-evenly;
     
-    h3 {
+    h3, h4 {
         text-align: center;
         margin-bottom: $spacing-lg;
         color: $secondary;
@@ -147,24 +141,5 @@
             background: $tertiary url(../../assets/imgs/right.svg) 97% center/25px no-repeat;
             padding: $spacing-md $spacing-xxl $spacing $spacing-xl;
         }
-    }
-}
-@keyframes light {
-    0%{
-        text-shadow: none;
-    }
-    100%{
-        text-shadow: $white 0px 0px 5px;
-    }
-}
-@keyframes reverse-l {
-    0%{
-        text-shadow: none;
-    }
-    50%{
-        text-shadow: $white 0px 0px 5px;
-    }
-    100%{
-        text-shadow: none;
     }
 }

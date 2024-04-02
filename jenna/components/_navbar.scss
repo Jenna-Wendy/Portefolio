@@ -9,10 +9,9 @@ header {
 
     a{
         transition: .25s all ease-in-out;
-        &:hover{
-            letter-spacing: 1px;
-            color: hsl(260, 92%, 72%);
-            text-shadow: hsl(273, 100%, 50%) 0px 0px 5px;
-        }
+        position: relative;
+        text-transform: uppercase;
+
+        @include apply-animation($animation: light-purple, $num-children: 11, $speed: 0.025s);
     }
 }
