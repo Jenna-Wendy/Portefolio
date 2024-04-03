@@ -737,8 +737,8 @@ footer .copyright p {
   bottom: -25px;
   right: -35px;
   letter-spacing: 1px;
-  background: hsl(257, 56%, 42%) url(../../assets/imgs/right.svg) 85% center/0px no-repeat;
   padding: 15px 21px 12px 21px;
+  background: hsl(257, 56%, 42%) url(../../assets/imgs/right.svg) 85% center/0px no-repeat;
   border-radius: 30px;
   border: 2px solid hsl(257, 75%, 15%);
   box-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
@@ -813,6 +813,150 @@ footer .copyright p {
   padding: 15px 48px 12px 21px;
 }
 
+.box-r {
+  background: hsl(0, 0%, 0%);
+  padding: 24px;
+  border-radius: 30px;
+  margin: 24px 0;
+  height: auto;
+}
+.box-r h2 {
+  margin-bottom: 18px;
+}
+.box-r div {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+.box-r div a {
+  flex-grow: 1;
+  display: grid;
+  place-content: center;
+  text-align: center;
+  border-radius: 30px;
+  width: calc(33.3333333333% - 25px);
+  min-width: 265px;
+  font-family: "League Spartan", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  background: hsl(257, 56%, 42%);
+  padding: 24px 24px 20px;
+  background: hsl(257, 56%, 42%) url(../../assets/imgs/right.svg) 85% center/0px no-repeat;
+  border: 2px solid hsl(257, 75%, 15%);
+  box-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+  transition: 0.25s background ease-in-out 1.25s;
+  position: relative;
+}
+.box-r div a:hover :nth-child(1) {
+  animation: 0.5s light ease-in-out both 0s;
+}
+.box-r div a:hover :nth-child(2) {
+  animation: 0.5s light ease-in-out both 0.05s;
+}
+.box-r div a:hover :nth-child(3) {
+  animation: 0.5s light ease-in-out both 0.1s;
+}
+.box-r div a:hover :nth-child(4) {
+  animation: 0.5s light ease-in-out both 0.15s;
+}
+.box-r div a:hover :nth-child(5) {
+  animation: 0.5s light ease-in-out both 0.2s;
+}
+.box-r div a:hover :nth-child(6) {
+  animation: 0.5s light ease-in-out both 0.25s;
+}
+.box-r div a:hover :nth-child(7) {
+  animation: 0.5s light ease-in-out both 0.3s;
+}
+.box-r div a:hover :nth-child(8) {
+  animation: 0.5s light ease-in-out both 0.35s;
+}
+.box-r div a:hover :nth-child(9) {
+  animation: 0.5s light ease-in-out both 0.4s;
+}
+.box-r div a:hover :nth-child(10) {
+  animation: 0.5s light ease-in-out both 0.45s;
+}
+.box-r div a:hover :nth-child(11) {
+  animation: 0.5s light ease-in-out both 0.5s;
+}
+.box-r div a:hover :nth-child(12) {
+  animation: 0.5s light ease-in-out both 0.55s;
+}
+.box-r div a:hover :nth-child(13) {
+  animation: 0.5s light ease-in-out both 0.6s;
+}
+.box-r div a:hover :nth-child(14) {
+  animation: 0.5s light ease-in-out both 0.65s;
+}
+.box-r div a:hover :nth-child(15) {
+  animation: 0.5s light ease-in-out both 0.7s;
+}
+.box-r div a:hover :nth-child(16) {
+  animation: 0.5s light ease-in-out both 0.75s;
+}
+.box-r div a:hover :nth-child(17) {
+  animation: 0.5s light ease-in-out both 0.8s;
+}
+.box-r div a:hover :nth-child(18) {
+  animation: 0.5s light ease-in-out both 0.85s;
+}
+.box-r div a:hover :nth-child(19) {
+  animation: 0.5s light ease-in-out both 0.9s;
+}
+.box-r div a:hover :nth-child(20) {
+  animation: 0.5s light ease-in-out both 0.95s;
+}
+.box-r div a:hover {
+  animation-fill-mode: forwards;
+}
+.box-r div a::after {
+  position: absolute;
+  right: 50px;
+  top: 50%;
+  transform: translateY(-50%);
+  content: "";
+  width: 2px;
+  height: 0%;
+  transform-origin: center;
+  background: hsl(260, 92%, 72%);
+  transition: 0.25s all ease-in-out 1.3s;
+}
+.box-r div a:hover, .box-r div a:focus {
+  background: hsl(257, 56%, 42%) url(../../assets/imgs/right.svg) 97% center/25px no-repeat;
+}
+.box-r div a:hover::after, .box-r div a:focus::after {
+  height: 75%;
+}
+
+.design .proto-box {
+  justify-content: space-evenly;
+}
+.design .img {
+  height: 240px;
+  border-radius: 10px;
+  border: 2px solid hsl(257, 75%, 15%);
+  box-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+  overflow: hidden;
+}
+.design img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50% 5%;
+}
+.design .wrap {
+  display: flex;
+  flex-direction: column;
+  width: 28.5714285714%;
+  gap: 12px;
+}
+.design .wrap a {
+  width: auto;
+}
+
 /*Desktop First*/
 .container {
   max-width: 1536px;
@@ -842,6 +986,10 @@ footer .copyright p {
   #skills {
     margin-bottom: 100px;
   }
+  .design .wrap {
+    width: 50%;
+    gap: 12px;
+  }
 }
 /*md*/
 @media (max-width: 768px) {
@@ -861,6 +1009,16 @@ footer .copyright p {
   #skills {
     height: 100%;
     background: url(../../assets/imgs/bg/top.webp) top/100vh no-repeat, url(../../assets/imgs/bg/center-002.webp) center/45vw no-repeat, url(../../assets/imgs/bg/bottom.webp) bottom/100vh no-repeat;
+  }
+  .design div {
+    flex-direction: column;
+  }
+  .design .wrap {
+    width: 100%;
+    gap: 12px;
+  }
+  .design .wrap a {
+    width: auto;
   }
 }
 /*sm*/
@@ -888,6 +1046,9 @@ footer .copyright p {
     right: 50%;
     transform: translateX(50%);
     min-width: max-content;
+  }
+  #real {
+    margin: 48px 18px 0;
   }
 }
 main {

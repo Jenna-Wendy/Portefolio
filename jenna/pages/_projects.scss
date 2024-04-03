@@ -1,134 +1,99 @@
 // First section
-#real {
-    width: calc(100vw - 50px);
-    margin: calc($spacing-xxl * 2) 0 0 0;
-    padding: 0 $spacing-xxl;
+// #real {
+//     width: calc(100vw - 50px);
+//     margin: calc($spacing-xxl * 2) auto 0;
+//     padding: 0 $spacing-xxl;
+// }
 
-    .wrap {
-        width: 100%;
-        height: max-content;
-        min-height: 200px;
-        background: $black;
-        border-radius: $bor-ra-md;
-        padding: $spacing-xl;
-        margin: $spacing-2xl 0;
+.box-r {
+    background: $black;
+    padding: $spacing-2xl;
+    border-radius: $bor-ra-lg;
+    margin: $spacing-2xl 0;
+    height: auto;
+
+    h2 {
+        margin-bottom: $spacing-lg;
     }
 
-    .wrapper {
+    div {
         display: flex;
-        justify-content: space-evenly;
-        gap: $spacing-xl;
-        margin-top: $spacing;
-        height: 385px;
-        div{
-            border: 2px solid #fff;
-            overflow: hidden;
-            border-radius: $bor-ra;
-            img{
-                width: 100%;
-                height: 100%;
-                object-fit: cover;
-                object-position: 0px 10%;
-            }
-            
-        }
-        .tall{
-            width: 225px;
-        }
-        .horizon{
-            border: none;
-            width: 300px;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            img{
-                width: 100%;
-            }
-        }
-    }
-
-    .btns {
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
-        height: 150px;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: $spacing-2xl;
 
         a {
-            @include arimo(550);
-            background: $tertiary;
-            padding: $spacing-xl $spacing-xxl;
-            margin: $spacing-xl 0;
-            border-radius: $bor-ra-lg;
-            letter-spacing: 1px;
-            width: 425px;
+            flex-grow: 1;
+            display: grid;
+            place-content: center;
             text-align: center;
-            border: $secondary solid 2px;
-            box-shadow: #fff 0px 0px 5px;
+            border-radius: $bor-ra-lg;
+            width: calc((100% / 3) - 25px);
+            min-width: 265px;
+            @include arimo(400);
+            background: $tertiary;
+            padding: $spacing-2xl $spacing-2xl calc($spacing-2xl - 4px);
+            background: $tertiary url(../../assets/imgs/right.svg) 85% center/0px no-repeat;
+            border: 2px solid $primary;
+            box-shadow: $white 0px 0px 5px;
+            transition: .25s background ease-in-out 1.25s;
+            @include apply-animation();
             position: relative;
-            cursor: pointer;
 
-
-            .hover-light.one {
-                transition: .25s text-shadow ease-in;
-            }
-
-            .hover-light.two {
-                transition: .25s text-shadow ease-in .25s;
-            }
-
-            .hover-light.three {
-                transition: .25s text-shadow ease-in .5s;
-            }
-
-            .hover-light.four {
-                transition: .25s text-shadow ease-in .75s;
-            }
-
-            &:hover .hover-light {
-                text-shadow: #fff 0px 0px 5px;
-            }
-
-            &:hover .trait{
-                opacity: 1;
-            }
-
-            &:hover .right img{
-                transform: translateX(0);
-                filter: blur(0);
-                opacity: 1;
-            }
-        }
-
-        .down,
-        .right {
-            position: absolute;
-            top: 50%;
-            right: 15px;
-            transform: translateY(-50%);
-            display: flex;
-            align-items: center;
-
-            &.right img{
-                transform: translateX(-5px);
-                filter: blur(5px);
-                opacity: 0;
-                transition: .25s all ease-in-out 1.25s;
-            }
-
-            &.down img {
-                transform: rotate(90deg);
-            }
-
-            & .trait, & .traits {
-                height: 45px;
+            &::after {
+                position: absolute;
+                right: 50px;
+                top: 50%;
+                transform: translateY(-50%);
+                content: '';
                 width: 2px;
-                background: hsla(0, 0%, 100%, 0.418);
-                margin: 0 10px;
-                transition: .25s opacity ease-in-out 1s;
+                height: 0%;
+                transform-origin: center;
+                background: $secondary;
+                transition: .25s all ease-in-out 1.30s;
             }
-            & .trait {
-                opacity: 0;
+
+            &:hover,
+            &:focus {
+                background: $tertiary url(../../assets/imgs/right.svg) 97% center/25px no-repeat;
+
+                &::after {
+                    height: 75%;
+                }
             }
+
+        }
+    }
+
+}
+
+.design {
+    .proto-box{
+        justify-content: space-evenly;
+    }
+    .img {
+        height: 240px;
+        border-radius: 10px;
+        border: 2px solid $primary;
+        box-shadow: $white 0px 0px 5px;
+        overflow: hidden;
+    }
+    
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: 50% 5%;
+    }
+
+    .wrap {
+        display: flex;
+        flex-direction: column;
+        width: calc(100% / 3.5);
+        gap: $spacing;
+
+        a {
+            width: auto;
         }
     }
 }

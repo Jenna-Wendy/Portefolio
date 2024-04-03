@@ -51,7 +51,22 @@ $tertiary: hsl(257, 56%, 42%);
 $text-shadow: hsl(273, 100%, 50%);
 $btn: hsl(275, 94%, 20%);
 
+// mixins button
+@mixin button() {
+    background: $tertiary url(../../assets/imgs/right.svg) 85% center/0px no-repeat;
+    padding: $spacing-md $spacing-xl $spacing $spacing-xl;
+    border-radius: $bor-ra-lg;
+    border: 2px solid $primary;
+    box-shadow: $white 0px 0px 5px;
+    transition: .25s right ease-in-out 1.25s, .25s background ease-in-out 1.25s, .25s padding ease-in-out 1.25s;
+    @include apply-animation();
 
+    &:hover {
+        right: calc(-14px - $spacing-xxl);
+        background: $tertiary url(../../assets/imgs/right.svg) 97% center/25px no-repeat;
+        padding: $spacing-md $spacing-xxl $spacing $spacing-xl;
+    }
+}
 
 // mixins animation
 @mixin zoom-up($scale: 1.1, $top: -5px) {
@@ -64,7 +79,7 @@ $btn: hsl(275, 94%, 20%);
 
 @mixin apply-animation($animation: light, $num-children: 20, $speed: 0.05s) {
     $delay-increment: $speed;
-    
+
     @for $i from 1 through $num-children {
         &:hover :nth-child(#{$i}) {
             $delay: $delay-increment * ($i - 1);

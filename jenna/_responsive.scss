@@ -23,11 +23,21 @@
     .container {
         max-width: 768px;
     }
-    #bio{
+
+    #bio {
         margin-top: 75px;
     }
-    #skills{
+
+    #skills {
         margin-bottom: 100px;
+    }
+
+    .design {
+        .wrap {
+            width: 50%;
+            gap: $spacing;
+
+        }
     }
 }
 
@@ -58,12 +68,26 @@
     // skills
     #skills {
         height: 100%;
-    
+
         background: url(../../assets/imgs/bg/top.webp) top/100vh no-repeat,
-                    url(../../assets/imgs/bg/center-002.webp) center/45vw no-repeat,
-                    url(../../assets/imgs/bg/bottom.webp) bottom/100vh no-repeat;
+            url(../../assets/imgs/bg/center-002.webp) center/45vw no-repeat,
+            url(../../assets/imgs/bg/bottom.webp) bottom/100vh no-repeat;
     }
-    
+
+    .design {
+        div {
+            flex-direction: column;
+        }
+
+        .wrap {
+            width: 100%;
+            gap: $spacing;
+
+            a {
+                width: auto;
+            }
+        }
+    }
 }
 
 /*sm*/
@@ -77,11 +101,12 @@
     }
 
     // header
-    header{
-        a{
+    header {
+        a {
             font-size: 1.2em;
         }
     }
+
     // footer
     // footer{
 
@@ -114,10 +139,14 @@
 
     // home skill cards
     .card {
-        a{
+        a {
             right: 50%;
             transform: translateX(50%);
             min-width: max-content;
         }
+    }
+
+    #real {
+        margin: $spacing-xxl $spacing-lg 0;
     }
 }
