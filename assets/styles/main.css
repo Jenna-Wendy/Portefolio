@@ -967,10 +967,21 @@ footer .copyright p {
   gap: 24px;
   justify-content: space-evenly;
 }
+.video-box .video {
+  max-width: 375px;
+  width: 100%;
+  min-width: 275px;
+}
 .video-box .thumb {
   position: relative;
   overflow: hidden;
   border-radius: 20px 20px 5px 5px;
+}
+.video-box .thumb .preview {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50% 5%;
 }
 .video-box .play {
   max-width: 85px;
@@ -1095,6 +1106,9 @@ footer .copyright p {
   }
   #real {
     margin: 48px 18px 0;
+  }
+  .video {
+    padding: 18px 12px;
   }
 }
 main {
