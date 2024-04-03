@@ -17,10 +17,6 @@
     }
 
     div {
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-        gap: $spacing-2xl;
 
         a {
             flex-grow: 1;
@@ -33,6 +29,7 @@
             @include arimo(400);
             background: $tertiary;
             padding: $spacing-2xl $spacing-2xl calc($spacing-2xl - 4px);
+            margin: 0 auto;
             background: $tertiary url(../../assets/imgs/right.svg) 85% center/0px no-repeat;
             border: 2px solid $primary;
             box-shadow: $white 0px 0px 5px;
@@ -64,13 +61,22 @@
 
         }
     }
-
+    .proto-btn{
+        display: flex;
+        flex-wrap: wrap;
+        gap: $spacing-2xl;
+        justify-content: space-evenly;
+    }
+    .proto-box{
+        
+        display: flex;
+        flex-wrap: wrap;
+        gap: $spacing-2xl;
+        justify-content: space-evenly;
+    }
 }
 
 .design {
-    .proto-box{
-        justify-content: space-evenly;
-    }
     .img {
         height: 240px;
         border-radius: 10px;
@@ -94,6 +100,47 @@
 
         a {
             width: auto;
+        }
+    }
+}
+.video-box{
+    display: flex;
+    flex-wrap: wrap;
+    gap: $spacing-2xl;
+    justify-content: space-evenly;
+    .thumb{
+        position: relative;
+        overflow: hidden;
+        border-radius: $bor-ra $bor-ra 5px 5px;
+    }
+    .play{
+        max-width: 85px;
+        width: 20%;
+        min-width: 45px;
+        aspect-ratio: 1/1;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%) scale(1);
+        cursor: pointer;
+        transition: transform .25s ease-in-out;
+        &:hover{
+            transform: translate(-50%, -50%) scale(1.1);
+        }
+    }
+    .vid::after{
+        display: none;
+    }
+    .vid{
+        display: inline-block;
+        border: none;
+        box-shadow: none;
+        width: 100%;
+        border-radius: 5px 5px $bor-ra $bor-ra;
+        background: $tertiary;
+        text-align: left;
+        &:hover{
+            background: $tertiary;
         }
     }
 }

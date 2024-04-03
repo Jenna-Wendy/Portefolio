@@ -823,12 +823,6 @@ footer .copyright p {
 .box-r h2 {
   margin-bottom: 18px;
 }
-.box-r div {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 24px;
-}
 .box-r div a {
   flex-grow: 1;
   display: grid;
@@ -843,6 +837,7 @@ footer .copyright p {
   font-style: normal;
   background: hsl(257, 56%, 42%);
   padding: 24px 24px 20px;
+  margin: 0 auto;
   background: hsl(257, 56%, 42%) url(../../assets/imgs/right.svg) 85% center/0px no-repeat;
   border: 2px solid hsl(257, 75%, 15%);
   box-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
@@ -930,10 +925,19 @@ footer .copyright p {
 .box-r div a:hover::after, .box-r div a:focus::after {
   height: 75%;
 }
-
-.design .proto-box {
+.box-r .proto-btn {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
   justify-content: space-evenly;
 }
+.box-r .proto-box {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  justify-content: space-evenly;
+}
+
 .design .img {
   height: 240px;
   border-radius: 10px;
@@ -955,6 +959,48 @@ footer .copyright p {
 }
 .design .wrap a {
   width: auto;
+}
+
+.video-box {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  justify-content: space-evenly;
+}
+.video-box .thumb {
+  position: relative;
+  overflow: hidden;
+  border-radius: 20px 20px 5px 5px;
+}
+.video-box .play {
+  max-width: 85px;
+  width: 20%;
+  min-width: 45px;
+  aspect-ratio: 1/1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(1);
+  cursor: pointer;
+  transition: transform 0.25s ease-in-out;
+}
+.video-box .play:hover {
+  transform: translate(-50%, -50%) scale(1.1);
+}
+.video-box .vid::after {
+  display: none;
+}
+.video-box .vid {
+  display: inline-block;
+  border: none;
+  box-shadow: none;
+  width: 100%;
+  border-radius: 5px 5px 20px 20px;
+  background: hsl(257, 56%, 42%);
+  text-align: left;
+}
+.video-box .vid:hover {
+  background: hsl(257, 56%, 42%);
 }
 
 /*Desktop First*/
