@@ -140,4 +140,8 @@
     .video {
         padding: $spacing-lg $spacing;
     }
+
+    .item {
+        grid-column: span 2;
+    }
 }

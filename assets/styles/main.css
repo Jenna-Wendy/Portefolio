@@ -1145,6 +1145,9 @@ footer .copyright p {
   .video {
     padding: 18px 12px;
   }
+  .item {
+    grid-column: span 2;
+  }
 }
 main {
   width: 100%;
