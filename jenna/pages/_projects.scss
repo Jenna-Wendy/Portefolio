@@ -204,3 +204,16 @@
     }
 
 }
+.photo{
+    .grid {
+        .item-1,
+        .item-2,
+        .item-3,
+        .item-4 {
+            grid-row: auto;
+        }
+    }
+    .item-5 {
+        grid-row: auto;
+    }
+}

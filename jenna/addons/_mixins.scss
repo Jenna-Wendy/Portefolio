@@ -91,3 +91,21 @@ $btn: hsl(275, 94%, 20%);
         animation-fill-mode: forwards;
     }
 }
+
+@keyframes forwardAnimation {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(3);
+    }
+}
+
+@keyframes reverseAnimation {
+    from {
+        transform: scale(3);
+    }
+    to {
+        transform: scale(1);
+    }
+}
