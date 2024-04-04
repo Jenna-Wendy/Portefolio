@@ -161,8 +161,7 @@
         border-radius: 5px 5px $bor-ra $bor-ra;
         background: $tertiary;
         text-align: left;
-        click
-
+        pointer-events: none; // TODO switch to div
         &:hover {
             background: $tertiary;
         }

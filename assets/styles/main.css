@@ -1025,8 +1025,9 @@ footer .copyright p {
   border-radius: 5px 5px 20px 20px;
   background: hsl(257, 56%, 42%);
   text-align: left;
+  pointer-events: none;
 }
-click .video-box .vid:hover {
+.video-box .vid:hover {
   background: hsl(257, 56%, 42%);
 }
 
