@@ -1014,6 +1014,37 @@ footer .copyright p {
   background: hsl(257, 56%, 42%);
 }
 
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-auto-rows: minmax(50px, 1fr);
+  gap: 12px;
+}
+.grid .item {
+  border: 2px solid hsl(257, 75%, 15%);
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+  min-height: 50px;
+}
+.grid .item img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.grid .item-1,
+.grid .item-2,
+.grid .item-3,
+.grid .item-4 {
+  grid-row: span 2;
+}
+.grid .item-5 {
+  grid-row: 1;
+}
+.grid .item-6 {
+  grid-row: 2;
+}
+
 /*Desktop First*/
 .container {
   max-width: 1536px;
@@ -1088,6 +1119,10 @@ footer .copyright p {
   }
   header a {
     font-size: 1.2em;
+  }
+  .item-5,
+  .item-6 {
+    grid-column: span 2;
   }
 }
 /*xs*/

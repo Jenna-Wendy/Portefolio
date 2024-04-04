@@ -107,16 +107,10 @@
         }
     }
 
-    // footer
-    // footer{
-
-    //     .contact{
-    //         div{
-    //             margin-left: 15px;
-    //             background: red;
-    //         }
-    //     }
-    // }
+    .item-5,
+    .item-6 {
+        grid-column: span 2;
+    }
 }
 
 /*xs*/
@@ -124,13 +118,6 @@
     .container {
         width: 100%;
     }
-
-    // footer
-    // .contact{
-    //     div{
-    //         margin-left: clamp(100px, 25%, 250px);
-    //     }
-    // }
 
     .copyright {
         width: 30ch;
@@ -149,6 +136,7 @@
     #real {
         margin: $spacing-xxl $spacing-lg 0;
     }
+
     .video {
         padding: $spacing-lg $spacing;
     }
