@@ -107,9 +107,12 @@
         }
     }
 
-    .item-5,
-    .item-6 {
-        grid-column: span 2;
+    .maquettes {
+
+        .item-5,
+        .item-6 {
+            grid-column: span 2;
+        }
     }
 }
 
@@ -141,7 +144,9 @@
         padding: $spacing-lg $spacing;
     }
 
-    .item {
-        grid-column: span 2;
+    .maquettes {
+        .item {
+            grid-column: span 2;
+        }
     }
 }
