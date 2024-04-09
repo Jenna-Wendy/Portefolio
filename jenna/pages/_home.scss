@@ -135,7 +135,7 @@
         border: 2px solid $primary;
         box-shadow: $white 0px 0px 5px;
         transition: .25s right ease-in-out 1.25s, .25s background ease-in-out 1.25s, .25s padding ease-in-out 1.25s;
-        @include apply-animation();
+        @include reverse-l();
         &:hover{
             right: calc(-14px - $spacing-xxl);
             background: $tertiary url(../../assets/imgs/right.svg) 97% center/25px no-repeat;

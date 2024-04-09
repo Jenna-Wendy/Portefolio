@@ -3,26 +3,24 @@
 // h1 entrance zoom out per words
 .title{
     h1{
-        @include apply-animation($animation: reverse-l, $num-children: 15);
+        @include reverse-l($num-children: 15);
     }
     h2{
-        @include apply-animation($animation: reverse-l, $num-children: 33);
+        @include reverse-l($num-children: 33);
     }
-}
-.use {
 }
 #skills {
     h2 {
-        @include apply-animation($animation: reverse-l, $num-children: 15);
+        @include reverse-l($num-children: 15);
     }
 }
 
 .desc{
     h3{
-        @include apply-animation($animation: reverse-l, $num-children: 30);
+        @include reverse-l($num-children: 30);
     }
     h4{
-        @include apply-animation($animation: light, $num-children: 24);
+        @include light($num-children: 24);
     }
 }
 @keyframes light {
@@ -49,4 +47,8 @@
     100%{
         text-shadow: none;
     }
+}
+
+.slow{
+    text-shadow: none;
 }

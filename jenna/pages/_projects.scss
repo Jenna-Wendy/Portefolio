@@ -33,10 +33,10 @@
             background: $tertiary url(../../assets/imgs/right.svg) 85% center/0px no-repeat;
             border: 2px solid $primary;
             box-shadow: $white 0px 0px 5px;
-            transition: .25s background ease-in-out 1.25s;
-            @include apply-animation();
+            transition: .25s background ease-in-out .05s, .25s box-shadow ease-in-out .05s;
+            @include reverse-l();
             position: relative;
-
+            
             &::after {
                 position: absolute;
                 right: 50px;
@@ -47,12 +47,13 @@
                 height: 0%;
                 transform-origin: center;
                 background: $secondary;
-                transition: .25s all ease-in-out 1.30s;
+                transition: .25s all ease-in-out .10s;
             }
 
             &:hover,
             &:focus {
                 background: $tertiary url(../../assets/imgs/right.svg) 97% center/25px no-repeat;
+                box-shadow: $white 0px 0px 12px;
 
                 &::after {
                     height: 75%;
@@ -67,6 +68,33 @@
         flex-wrap: wrap;
         gap: $spacing-2xl;
         justify-content: space-evenly;
+        div{
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            flex-grow: 1;
+            border-radius: $bor-ra-lg;
+            width: calc((100% / 3) - 25px);
+            min-width: 265px;
+            @include arimo(400);
+            background: $tertiary;
+            padding: $spacing-2xl $spacing-2xl calc($spacing-2xl - 4px);
+            background: $tertiary url(../../assets/imgs/down.svg) 96% 18px/25px no-repeat;
+            border: 2px solid $primary;
+            box-shadow: $white 0px 0px 5px;
+            position: relative;
+            &::after {
+                position: absolute;
+                right: 50px;
+                top: 30px;
+                transform: translateY(-50%);
+                content: '';
+                width: 2px;
+                height: 25px;
+                transform-origin: center;
+                background: $secondary;
+            }
+        }
     }
 
     .proto-box {
@@ -78,6 +106,27 @@
     }
 }
 
+.proto-btn div{
+    overflow: hidden;
+    height: 60px;
+    transition: .25s all ease-in-out .5s;
+    &:hover{
+        height: 180px;
+    }
+}
+
+.hidden{
+    margin: $spacing-2xl 0 0;
+    p{
+        border-radius: $bor-ra-lg;
+        border: 2px solid $white;
+        padding: $spacing $spacing-2xl 10px;
+        margin: 0 auto;
+        text-align: center;
+        width: 100%;
+        cursor: pointer;
+    }
+}
 .design {
     .img {
         height: 240px;

@@ -77,35 +77,46 @@ $btn: hsl(275, 94%, 20%);
     }
 }
 
-@mixin apply-animation($animation: light, $num-children: 20, $speed: 0.05s) {
+@mixin turn-purple($num-children: 20, $speed: 0.05s) {
     $delay-increment: $speed;
 
     @for $i from 1 through $num-children {
-        &:hover :nth-child(#{$i}) {
+        & :nth-child(#{$i}) {
             $delay: $delay-increment * ($i - 1);
-            animation: .5s $animation ease-in-out both $delay;
+            transition: .5s all ease-in-out $delay;
+        }
+        &:hover :nth-child(#{$i}) {
+            color: $secondary;
+            text-shadow: hsl(273, 100%, 50%) 0px 0px 5px;
         }
     }
+}
+@mixin light($num-children: 20, $speed: 0.05s) {
+    $delay-increment: $speed;
 
-    &:hover {
-        animation-fill-mode: forwards;
+    @for $i from 1 through $num-children {
+        & :nth-child(#{$i}) {
+            $delay: $delay-increment * ($i - 1);
+            transition: .5s all ease-in-out $delay;
+        }
+        &:hover :nth-child(#{$i}) {
+            text-shadow: $white 0px 0px 5px;
+        }
+    }
+}
+@mixin reverse-l($num-children: 20, $speed: 0.05s) {
+    $delay-increment: $speed;
+
+    @for $i from 1 through $num-children {
+        & :nth-child(#{$i}) {
+            $delay: $delay-increment * ($i - 1);
+            text-shadow: none;
+            transition: .5s all ease-in-out $delay;
+        }
+        &:hover :nth-child(#{$i}) {
+            text-shadow: $white 0px 0px 5px;
+        }
     }
 }
 
-@keyframes forwardAnimation {
-    from {
-        transform: scale(1);
-    }
-    to {
-        transform: scale(3);
-    }
-}
-
-@keyframes reverseAnimation {
-    from {
-        transform: scale(3);
-    }
-    to {
-        transform: scale(1);
-    }
-}
+// @debug apply-animation;

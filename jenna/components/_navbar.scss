@@ -12,6 +12,6 @@ header {
         position: relative;
         text-transform: uppercase;
 
-        @include apply-animation($animation: light-purple, $num-children: 11, $speed: 0.025s);
+        @include turn-purple($num-children: 11, $speed: 0.02s);
     }
 }
