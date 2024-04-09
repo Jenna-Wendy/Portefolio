@@ -1,9 +1,9 @@
 // First section
-// #real {
-//     width: calc(100vw - 50px);
-//     margin: calc($spacing-xxl * 2) auto 0;
-//     padding: 0 $spacing-xxl;
-// }
+#real {
+    // width: calc(100vw - 50px);
+    margin: calc($spacing-xxl * 2) auto 0;
+    padding: 0 $spacing-xxl;
+}
 
 .box-r {
     background: $black;
@@ -73,13 +73,13 @@
             display: flex;
             flex-direction: column;
             flex-grow: 1;
-            border-radius: $bor-ra-lg;
+            border-radius: 8px;
             width: calc((100% / 3) - 25px);
             min-width: 265px;
             @include arimo(400);
             background: $tertiary;
             padding: $spacing-2xl $spacing-2xl calc($spacing-2xl - 4px);
-            background: $tertiary url(../../assets/imgs/down.svg) 96% 18px/25px no-repeat;
+            background: $tertiary url(../../assets/imgs/down.svg) 97% 18px/25px no-repeat;
             border: 2px solid $primary;
             box-shadow: $white 0px 0px 5px;
             position: relative;
@@ -124,6 +124,7 @@
         margin: 0 auto;
         text-align: center;
         width: 100%;
+        position: relative;
         cursor: pointer;
     }
 }

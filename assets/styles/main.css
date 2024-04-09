@@ -1364,6 +1364,11 @@ footer .copyright p {
   padding: 15px 48px 12px 21px;
 }
 
+#real {
+  margin: 96px auto 0;
+  padding: 0 48px;
+}
+
 .box-r {
   background: hsl(0, 0%, 0%);
   padding: 24px;
@@ -1565,7 +1570,7 @@ footer .copyright p {
   display: flex;
   flex-direction: column;
   flex-grow: 1;
-  border-radius: 30px;
+  border-radius: 8px;
   width: calc(33.3333333333% - 25px);
   min-width: 265px;
   font-family: "League Spartan", sans-serif;
@@ -1574,7 +1579,7 @@ footer .copyright p {
   font-style: normal;
   background: hsl(257, 56%, 42%);
   padding: 24px 24px 20px;
-  background: hsl(257, 56%, 42%) url(../../assets/imgs/down.svg) 96% 18px/25px no-repeat;
+  background: hsl(257, 56%, 42%) url(../../assets/imgs/down.svg) 97% 18px/25px no-repeat;
   border: 2px solid hsl(257, 75%, 15%);
   box-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
   position: relative;
@@ -1616,6 +1621,7 @@ footer .copyright p {
   margin: 0 auto;
   text-align: center;
   width: 100%;
+  position: relative;
   cursor: pointer;
 }
 
