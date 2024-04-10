@@ -27,11 +27,11 @@
             width: calc((100% / 3) - 25px);
             min-width: 265px;
             @include arimo(400);
-            background: $tertiary;
+            background: var(--accent);
             padding: $spacing-2xl $spacing-2xl calc($spacing-2xl - 4px);
             margin: 0 auto;
-            background: $tertiary url(../../assets/imgs/right.svg) 85% center/0px no-repeat;
-            border: 2px solid $primary;
+            background: var(--accent) url(../../assets/imgs/right.svg) 85% center/0px no-repeat;
+            border: 2px solid var(--primary);
             box-shadow: $white 0px 0px 5px;
             transition: .25s background ease-in-out .05s, .25s box-shadow ease-in-out .05s;
             @include reverse-l();
@@ -46,13 +46,13 @@
                 width: 2px;
                 height: 0%;
                 transform-origin: center;
-                background: $secondary;
+                background: var(--secondary);
                 transition: .25s all ease-in-out .10s;
             }
 
             &:hover,
             &:focus {
-                background: $tertiary url(../../assets/imgs/right.svg) 97% center/25px no-repeat;
+                background: var(--accent) url(../../assets/imgs/right.svg) 97% center/25px no-repeat;
                 box-shadow: $white 0px 0px 12px;
 
                 &::after {
@@ -79,10 +79,10 @@
             max-width: 400px;
             min-width: 265px;
             @include arimo(400);
-            background: $tertiary;
+            background: var(--accent);
             padding: $spacing-2xl $spacing-2xl calc($spacing-2xl - 4px);
-            background: $tertiary url(../../assets/imgs/down.svg) 97% 18px/25px no-repeat;
-            border: 2px solid $primary;
+            background: var(--accent) url(../../assets/imgs/down.svg) 97% 18px/25px no-repeat;
+            border: 2px solid var(--primary);
             box-shadow: $white 0px 0px 5px;
             position: relative;
 
@@ -95,7 +95,7 @@
                 width: 2px;
                 height: 25px;
                 transform-origin: center;
-                background: $secondary;
+                background: var(--secondary);
             }
         }
     }
@@ -139,7 +139,7 @@
     .img {
         height: 240px;
         border-radius: 10px;
-        border: 2px solid $primary;
+        border: 2px solid var(--primary);
         box-shadow: $white 0px 0px 5px;
         overflow: hidden;
     }
@@ -216,12 +216,12 @@
         box-shadow: none;
         width: 100%;
         border-radius: 5px 5px $bor-ra $bor-ra;
-        background: $tertiary;
+        background: var(--accent);
         text-align: left;
         pointer-events: none; // TODO switch to div
 
         &:hover {
-            background: $tertiary;
+            background: var(--accent);
         }
     }
 }
@@ -234,7 +234,7 @@
         gap: $spacing;
 
         .item {
-            border: 2px solid $primary;
+            border: 2px solid var(--primary);
             border-radius: 15px;
             overflow: hidden;
             box-shadow: $white 0px 0px 5px;
@@ -324,7 +324,7 @@
         gap: $spacing;
 
         .item {
-            border: 2px solid $primary;
+            border: 2px solid var(--primary);
             border-radius: 15px;
             overflow: hidden;
             box-shadow: $white 0px 0px 5px;

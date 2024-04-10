@@ -35,6 +35,6 @@ p {
 }
 
 .active {
-    color: $secondary;
-    text-shadow: $text-shadow 0px 0px 5px;
+    color: var(--secondary);
+    text-shadow: var(--text-shadow) 0px 0px 5px;
 }

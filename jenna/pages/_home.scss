@@ -78,16 +78,6 @@
     margin-top: 25px;
     min-height: 100vh;
 
-    background: url(../../assets/imgs/bg/left.webp) left/75vh no-repeat,
-                url(../../assets/imgs/bg/center-002.webp) center/45vw no-repeat,
-                url(../../assets/imgs/bg/right.webp) right/75vh no-repeat;
-    box-shadow: inset $primary 0px 0px 50px,
-                inset $primary 0px 0px 50px,
-                inset $primary 0px 0px 25px,
-                inset $primary 0px 0px 25px,
-                inset $primary 0px 0px 25px,
-                inset $primary 0px 0px 50px;
-
     h2 {
         text-align: center;
         font-size: clamp(1.5em, 7vw, 2.5em);
@@ -105,7 +95,7 @@
     h3, h4 {
         text-align: center;
         margin-bottom: $spacing-lg;
-        color: $secondary;
+        color: var(--secondary);
         font-size: 1.35em;
     }
     p{
@@ -130,15 +120,15 @@
         right: -35px;
         letter-spacing: 1px;
         padding: $spacing-md $spacing-xl $spacing $spacing-xl;
-        background: $tertiary url(../../assets/imgs/right.svg) 85% center/0px no-repeat;
+        background: var(--accent) url(../../assets/imgs/right.svg) 85% center/0px no-repeat;
         border-radius: $bor-ra-lg;
-        border: 2px solid $primary;
+        border: 2px solid var(--primary);
         box-shadow: $white 0px 0px 5px;
         transition: .25s right ease-in-out 1.25s, .25s background ease-in-out 1.25s, .25s padding ease-in-out 1.25s;
         @include reverse-l();
         &:hover{
             right: calc(-14px - $spacing-xxl);
-            background: $tertiary url(../../assets/imgs/right.svg) 97% center/25px no-repeat;
+            background: var(--accent) url(../../assets/imgs/right.svg) 97% center/25px no-repeat;
             padding: $spacing-md $spacing-xxl $spacing $spacing-xl;
         }
     }

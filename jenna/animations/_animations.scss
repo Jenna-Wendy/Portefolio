@@ -33,7 +33,7 @@
 }
 @keyframes light-purple {
     100%{
-        color: $secondary;
+        color: var(--secondary);
         text-shadow: hsl(273, 100%, 50%) 0px 0px 5px;
     }
 }

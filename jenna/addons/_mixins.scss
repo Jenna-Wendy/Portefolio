@@ -37,33 +37,25 @@ $bor-ra-md: $bor-ra * 1.25;
 $bor-ra-lg: $bor-ra * 1.5;
 $bor-ra-xl: $bor-ra * 1.75;
 $bor-ra-2xl: $bor-ra * 2;
-
-// TODO reverse animation with javascript
-
 // colors
 $white: hsl(0, 0%, 100%);
 $black: hsl(0, 0%, 0%);
 
-$primary: hsl(257, 75%, 15%);
-$secondary: hsl(260, 92%, 72%);
-$tertiary: hsl(257, 56%, 42%);
-
-$text-shadow: hsl(273, 100%, 50%);
-$btn: hsl(275, 94%, 20%);
+// TODO reverse animation with javascript
 
 // mixins button
 @mixin button() {
-    background: $tertiary url(../../assets/imgs/right.svg) 85% center/0px no-repeat;
+    background: var(--accent) url(../../assets/imgs/right.svg) 85% center/0px no-repeat;
     padding: $spacing-md $spacing-xl $spacing $spacing-xl;
     border-radius: $bor-ra-lg;
-    border: 2px solid $primary;
+    border: 2px solid var(--primary);
     box-shadow: $white 0px 0px 5px;
     transition: .25s right ease-in-out 1.25s, .25s background ease-in-out 1.25s, .25s padding ease-in-out 1.25s;
     @include apply-animation();
 
     &:hover {
         right: calc(-14px - $spacing-xxl);
-        background: $tertiary url(../../assets/imgs/right.svg) 97% center/25px no-repeat;
+        background: var(--accent) url(../../assets/imgs/right.svg) 97% center/25px no-repeat;
         padding: $spacing-md $spacing-xxl $spacing $spacing-xl;
     }
 }
@@ -86,7 +78,7 @@ $btn: hsl(275, 94%, 20%);
             transition: .5s all ease-in-out $delay;
         }
         &:hover :nth-child(#{$i}) {
-            color: $secondary;
+            color: var(--secondary);
             text-shadow: hsl(273, 100%, 50%) 0px 0px 5px;
         }
     }
