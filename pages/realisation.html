@@ -7,6 +7,25 @@
     <link rel="shortcut icon" href="../assets/imgs/logo.webp" type="image/x-icon">
     <link rel="stylesheet" href="../assets/styles/main.css">
     <script src="../assets/scripts/site.js" defer></script>
+
+    <!-- Swiper JS -->
+    
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    
+
+    <!-- Lightgalleryjs -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.2/css/lightgallery-bundle.min.css" integrity="sha512-nUqPe0+ak577sKSMThGcKJauRI7ENhKC2FQAOOmdyCYSrUh0GnwLsZNYqwilpMmplN+3nO3zso8CWUgu33BDag==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.2/css/lg-video.min.css" integrity="sha512-89gDQOHnYjji90NPJ7+M5tgA/0E+fjL4KuSFhi6tjH6sZ54yUEogPMmOAgbI599fW1CtCyrsJbch8k/QzuoXzw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <!-- Lightgalleryjs -->
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.2/lightgallery.min.js" integrity="sha512-jEJ0OA9fwz5wUn6rVfGhAXiiCSGrjYCwtQRUwI/wRGEuWRZxrnxoeDoNc+Pnhx8qwKVHs2BRQrVR9RE6T4UHBg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.2/plugins/zoom/lg-zoom.umd.min.js" integrity="sha512-OUF2jbRheQR5yXPCvXN71udWa5cvwPf+shcXM+5GrW1vtNurTn7az8LCP3hS50gm17ULXdh3cdkhiPa0Qqyczw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.2/plugins/thumbnail/lg-thumbnail.min.js" integrity="sha512-VBbe8aA3uiK90EUKJnZ4iEs0lKXRhzaAXL8CIHWYReUwULzxkOSxlNixn41OLdX0R1KNP23/s76YPyeRhE6P+Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.2/plugins/video/lg-video.umd.min.js" integrity="sha512-olksMIiITctwLVsKDH2fm9nylHHYzK2v/bIY+LzBO9GAw9A44MBjYaJGm/2eIbhTtXZXdXQUoS17HoV2rI+fFA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.2/plugins/video/lg-video.min.js" integrity="sha512-Eo7d/1I/2Yywxw/unjfX06Q+owD82+3ign70yHtNTajId+C3CcHeqb+XP/a+uq/Fhrrkf8MeBcBiZqoMASFiiw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </head>
 <body>
     <!-- header navigation -->
@@ -62,6 +81,35 @@
                         <img src="../assets/imgs/realisation/maquettes/top.webp" alt="">
                         <h2>Top Fresh</h2>
                     </div>
+                </div>
+
+                <!-- Swiper container -->
+                <div class="swiper-container lightbox" style="display: none;">
+                    <button class="close-button">X</button>
+                    <div class="swiper-wrapper">
+                        <!-- Swiper slides -->
+                        <div class="swiper-slide">
+                            <img src="../assets/imgs/realisation/maquettes/malala-evasion-v1.webp" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="../assets/imgs/realisation/maquettes/summer.webp" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="../assets/imgs/realisation/maquettes/otaku.webp" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="../assets/imgs/realisation/maquettes/panther.webp" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="../assets/imgs/realisation/maquettes/aishiteiru.webp" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="../assets/imgs/realisation/maquettes/top.webp" alt="">
+                        </div>
+                        <!-- Add more slides as needed -->
+                    </div>
+                    <!-- Add Pagination -->
+                    <div class="swiper-pagination"></div>
                 </div>
             </div>
 
@@ -131,20 +179,20 @@
             <!-- Photos -->
             <div class="box-r photo">
                 <h2>Montages photos :</h2>
-                <div class="grid">
-                    <div class="item item-1">
+                <div class="grid gallery">
+                    <div class="item item-1" href="../assets/imgs/photo/001.webp">
                         <img src="../assets/imgs/photo/001.webp" alt="">
                     </div>
-                    <div class="item item-2">
+                    <div class="item item-2" href="../assets/imgs/photo/002.webp">
                         <img src="../assets/imgs/photo/002.webp" alt="">
                     </div>
-                    <div class="item item-3">
+                    <div class="item item-3" href="../assets/imgs/photo/003.webp">
                         <img src="../assets/imgs/photo/003.webp" alt="">
                     </div>
-                    <div class="item item-4">
+                    <div class="item item-4" href="../assets/imgs/photo/004.webp">
                         <img src="../assets/imgs/photo/004.webp" alt="">
                     </div>
-                    <div class="item item-5">
+                    <div class="item item-5" href="../assets/imgs/photo/005.webp">
                         <img src="../assets/imgs/photo/005.webp" alt="">
                         
                     </div>
@@ -154,22 +202,22 @@
             <!-- Vidéos -->
             <div class="box-r video">
                 <h2>Montages vidéos :</h2>
-                <div class="video-box">
-                    <div class="video">
+                <div class="video-box" >
+                    <div class="video" href="https://www.youtube.com/watch?v=tyusEkThQAY">
                         <div class="thumb">
                             <img src="../assets/imgs/Vidéo/1.webp" alt="" class="preview">
                             <img src="../assets/imgs/play.webp" alt="" class="play">
                         </div>
                         <a class="vid" href="">Jenna - J'oublie</a>
                     </div>
-                    <div class="video">
+                    <div class="video" href="https://www.youtube.com/watch?v=tyusEkThQAY">
                         <div class="thumb">
                             <img src="../assets/imgs/Vidéo/2.webp" alt="" class="preview">
                             <img src="../assets/imgs/play.webp" alt="" class="play">
                         </div>
                         <a class="vid" href="">Jenna - Parce que c'est toi</a>
                     </div>
-                    <div class="video">
+                    <div class="video" href="https://www.youtube.com/watch?v=tyusEkThQAY">
                         <div class="thumb">
                             <img src="../assets/imgs/Vidéo/3.webp" alt="" class="preview">
                             <img src="../assets/imgs/play.webp" alt="" class="play">
@@ -227,5 +275,26 @@
             <p>Fait avec ❤️ par Jenna et Axel (Ohayo Dev & Design)</p>
         </div>
     </footer>
+<script>
+    // Wait for the DOM to be fully loaded
+    document.addEventListener("DOMContentLoaded", function() {
+        // Initialize lightGallery on the .gallery element
+        lightGallery(document.querySelector('.gallery'), {
+            // Add your lightGallery options here for photos
+            plugins: [lgZoom],
+            speed: 500,
+            // other options...
+            thumbnail: true
+        });
+
+        // Initialize lightGallery for video-box
+        lightGallery(document.querySelector('.video-box'), {
+            // Add your lightGallery options here for videos
+            plugins: [lgVideo],
+            // other options...
+            thumbnail: false // Videos typically don't have thumbnails
+        });
+    });
+</script>
 </body>
 </html>
