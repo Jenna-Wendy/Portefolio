@@ -2,6 +2,21 @@ document.addEventListener("DOMContentLoaded", function() {
     // Get all the divs, the Swiper containers, and the close buttons
     const divs = document.querySelectorAll('.grid .item');
     const closeButtons = document.querySelectorAll('.close-button');
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('is-visible');
+                observer.unobserve(entry.target);  // Stop observing the element after it becomes visible
+            }
+        });
+    }, {
+        threshold: 0.25
+    });
+
+    const fadeInSections = document.querySelectorAll('.fade-in-section');
+    fadeInSections.forEach(section => {
+        observer.observe(section);
+    });
 
     // Function to update slides per view based on viewport width
     function updateSlidesPerView(swiper, index) {
