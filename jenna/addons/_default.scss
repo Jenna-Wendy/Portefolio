@@ -54,50 +54,66 @@ html {
 }
 
 html[data-theme="light"]>body {
-    background: url(../../assets/imgs/day/4b3e8d41.png) top center/clamp(800px, 100vw, 100%) no-repeat,
-                // url(../../assets/imgs/day/Cloud-PNG-10.png) -7% 20%/50vw no-repeat,
-                // url(../../assets/imgs/day/cloud-004.webp) 110% 20%/50vw no-repeat,
-                url(../../assets/imgs/day/cloud-003.webp) center left/clamp(1200px, 100vw, 100%) no-repeat,
-                url(../../assets/imgs/day/cloud-004.webp) center right/clamp(1200px, 100vw, 100%) no-repeat,
-                url(../../assets/imgs/day/cloud-007.webp) bottom center/clamp(1200px, 100vw, 100%) no-repeat;
-                // url(../../assets/imgs/day/sun.webp) top right/75vw no-repeat;
+    background: url(../../assets/imgs/day/pngegg-003.png) top right/clamp(800px, 80vw, 100%) no-repeat,
+        url(../../assets/imgs/day/pngegg-004.png) top left/clamp(800px, 50vw, 100%) no-repeat,
+        // url(../../assets/imgs/day/cloud-004.webp) 110% 20%/50vw no-repeat,
+        // url(../../assets/imgs/day/cloud-003.webp) center left/clamp(1200px, 100vw, 100%) no-repeat,
+        url(../../assets/imgs/day/cloud-004.webp) center right/clamp(1200px, 100vw, 100%) no-repeat,
+        url(../../assets/imgs/day/cloud-007.webp) bottom center/clamp(1200px, 100vw, 100%) no-repeat;
+
+    // url(../../assets/imgs/day/sun.webp) top right/75vw no-repeat;
     .infos {
-        background: #80808075;
+        background: hsla(202, 79%, 23%, 0.44);
         padding: 24px;
         border-radius: $bor-ra;
-        box-shadow: #93939342 0px 0px 5px,
-                    #7c7c7c63 0px 0px 25px,
-                    #6969695e 0px 0px 25px,
-                    #6d6d6d38 inset 0px 0px 25px,
-                    #5252525e inset 0px 0px 15px,
-                    #5c5c5c63 0px 0px 25px;
+        min-height: 552px;
         
         h1 *, h2 *{
-            text-shadow: #00000080 0px 0px 5px, #000000b3 0px 0px 10px;
+            text-shadow: #000000a6 0px 2px 5px, #000000a6 0px 2px 5px;
         }
-        p{
-            text-shadow: #000000a6 0px 0px 5px, #3e3e3e 0px 0px 5px, #000000a6 0px 0px 5px, #555555f4 0px 0px 5px;
+        p {
+            //  color: #000;
+            text-shadow: #000000a6 0px 0px 5px;
+            font-weight: 350;
+        }
+    }
+    #skills{
+        h2 *{
+            text-shadow: #000000a6 0px 2px 5px, #000000a6 0px 2px 5px;
         }
     }
 }
 
 html[data-theme="dark"]>body {
     background: var(--primary) url(../../assets/imgs/bg/bg.gif) top center/100%;
-
+    
     #skills {
         background: url(../../assets/imgs/bg/left.webp) left/75vh no-repeat,
             url(../../assets/imgs/bg/center-002.webp) center/45vw no-repeat,
             url(../../assets/imgs/bg/right.webp) right/75vh no-repeat;
         box-shadow: inset var(--primary) 0px 0px 50px,
-                    inset var(--primary) 0px 0px 50px,
-                    inset var(--primary) 0px 0px 25px,
-                    inset var(--primary) 0px 0px 25px,
-                    inset var(--primary) 0px 0px 25px,
-                    inset var(--primary) 0px 0px 50px;
+            inset var(--primary) 0px 0px 50px,
+            inset var(--primary) 0px 0px 25px,
+            inset var(--primary) 0px 0px 25px,
+            inset var(--primary) 0px 0px 25px,
+            inset var(--primary) 0px 0px 50px;
+    }
+
+    .infos {
+        padding: 24px;
+        min-height: 552px;
+        p {
+            font-weight: 350;
+        }
+    }
+    #skills{
+        h2 *{
+            text-shadow: #000000a6 0px 2px 5px, #000000a6 0px 2px 5px;
+        }
     }
 }
 
-.switch-mode{
+.switch-mode {
     position: fixed;
     top: 55px;
     right: 12px;
@@ -109,19 +125,21 @@ html[data-theme="dark"]>body {
     display: flex;
     gap: 5px;
     flex-direction: column;
-    .sep{
+
+    .sep {
         background: #777;
         width: 100%;
         height: 2px;
     }
-    button{
+
+    button {
         background: none;
         border: none;
         cursor: pointer;
-        transition: .25s filter ease-in-out;
-        opacity: .7;
+        opacity: .6;
         transition: opacity .25s ease-in-out;
-        &:hover{
+
+        &:hover {
             opacity: 1;
         }
     }

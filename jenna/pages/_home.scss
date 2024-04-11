@@ -12,6 +12,7 @@
     .content {
         width: 50ch;
         margin: 0 auto;
+        position: relative;
     }
 
     .text {
@@ -132,4 +133,19 @@
             padding: $spacing-md $spacing-xxl $spacing $spacing-xl;
         }
     }
+}
+
+.contact-me{
+    position: absolute;
+    bottom: -70px;
+    right: 0;
+    letter-spacing: 1px;
+    padding: $spacing-md $spacing-xl $spacing $spacing-xl;
+    margin: 0 0 0 auto;
+    background: var(--accent);
+    border-radius: $bor-ra-lg;
+    border: 2px solid var(--primary);
+    box-shadow: $white 0px 0px 5px;
+    transition: .25s right ease-in-out 1.25s, .25s background ease-in-out 1.25s, .25s padding ease-in-out 1.25s;
+    @include reverse-l();
 }
