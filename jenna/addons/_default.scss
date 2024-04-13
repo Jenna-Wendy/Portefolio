@@ -54,8 +54,8 @@ html {
 }
 
 html[data-theme="light"]>body {
-    background: url(../../assets/imgs/day/pngegg-003.png) top right/clamp(800px, 80vw, 100%) no-repeat,
-        url(../../assets/imgs/day/pngegg-004.png) top left/clamp(800px, 50vw, 100%) no-repeat,
+    background: url(../../assets/imgs/day/pngegg-003.webp) top right/clamp(800px, 80vw, 100%) no-repeat,
+        url(../../assets/imgs/day/pngegg-004.webp) top left/clamp(800px, 50vw, 100%) no-repeat,
         // url(../../assets/imgs/day/cloud-004.webp) 110% 20%/50vw no-repeat,
         // url(../../assets/imgs/day/cloud-003.webp) center left/clamp(1200px, 100vw, 100%) no-repeat,
         url(../../assets/imgs/day/cloud-004.webp) center right/clamp(1200px, 100vw, 100%) no-repeat,
@@ -157,4 +157,8 @@ html[data-theme="dark"]>body {
     opacity: 1;
     filter: blur(0);
     transform: translate(0, 0);
+}
+
+[not-yet] {
+    pointer-events: none;
 }

@@ -116,7 +116,7 @@
     cursor: cell;
 
     &:hover {
-        height: 180px;
+        height: 250px;
     }
 }
 
@@ -125,13 +125,38 @@
 
     p {
         border-radius: $bor-ra-lg;
-        border: 2px solid $white;
         padding: $spacing $spacing-2xl 10px;
+        border: 2px solid $white;
         margin: 0 auto;
         text-align: center;
         width: 100%;
         position: relative;
         cursor: pointer;
+        a{
+            padding: $spacing $spacing-2xl 10px!important;
+            font-weight: normal;
+            display: initial;
+            place-content: initial;
+            text-align: initial;
+            border-radius: initial;
+            width: initial;
+            min-width: initial;
+            background: initial;
+            margin: initial;
+            border: initial;
+            box-shadow: initial;
+            transition: initial;
+            position: initial;
+            &:hover,
+            &:focus {
+                background: none;
+                box-shadow: none;
+
+                &::after {
+                    height: 0;
+                }
+            }
+        }
     }
 }
 

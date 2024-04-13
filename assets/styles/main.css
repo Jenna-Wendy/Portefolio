@@ -880,7 +880,7 @@ html {
 }
 
 html[data-theme=light] > body {
-  background: url(../../assets/imgs/day/pngegg-003.png) top right/clamp(800px, 80vw, 100%) no-repeat, url(../../assets/imgs/day/pngegg-004.png) top left/clamp(800px, 50vw, 100%) no-repeat, url(../../assets/imgs/day/cloud-004.webp) center right/clamp(1200px, 100vw, 100%) no-repeat, url(../../assets/imgs/day/cloud-007.webp) bottom center/clamp(1200px, 100vw, 100%) no-repeat;
+  background: url(../../assets/imgs/day/pngegg-003.webp) top right/clamp(800px, 80vw, 100%) no-repeat, url(../../assets/imgs/day/pngegg-004.webp) top left/clamp(800px, 50vw, 100%) no-repeat, url(../../assets/imgs/day/cloud-004.webp) center right/clamp(1200px, 100vw, 100%) no-repeat, url(../../assets/imgs/day/cloud-007.webp) bottom center/clamp(1200px, 100vw, 100%) no-repeat;
 }
 html[data-theme=light] > body .infos {
   background: hsla(202, 79%, 23%, 0.44);
@@ -956,6 +956,10 @@ html[data-theme=dark] > body #skills h2 * {
   opacity: 1;
   filter: blur(0);
   transform: translate(0, 0);
+}
+
+[not-yet] {
+  pointer-events: none;
 }
 
 /* importing fonts */
@@ -1840,7 +1844,7 @@ footer .copyright p {
   cursor: cell;
 }
 .proto-btn div:hover {
-  height: 180px;
+  height: 250px;
 }
 
 .hidden {
@@ -1848,13 +1852,36 @@ footer .copyright p {
 }
 .hidden p {
   border-radius: 30px;
-  border: 2px solid hsl(0, 0%, 100%);
   padding: 12px 24px 10px;
+  border: 2px solid hsl(0, 0%, 100%);
   margin: 0 auto;
   text-align: center;
   width: 100%;
   position: relative;
   cursor: pointer;
+}
+.hidden p a {
+  padding: 12px 24px 10px !important;
+  font-weight: normal;
+  display: initial;
+  place-content: initial;
+  text-align: initial;
+  border-radius: initial;
+  width: initial;
+  min-width: initial;
+  background: initial;
+  margin: initial;
+  border: initial;
+  box-shadow: initial;
+  transition: initial;
+  position: initial;
+}
+.hidden p a:hover, .hidden p a:focus {
+  background: none;
+  box-shadow: none;
+}
+.hidden p a:hover::after, .hidden p a:focus::after {
+  height: 0;
 }
 
 .design .img {
