@@ -1,111 +1,520 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="dark">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portefolio - Jenna</title>
-    <link rel="shortcut icon" href="../imgs/j.png" type="image/x-icon">
-    <link rel="stylesheet" href="../styles/styles.css">
+    <title>Portefolio - Jenna - Réalisation</title>
+    <link rel="shortcut icon" href="../assets/imgs/logo.webp" type="image/x-icon">
+    <link rel="stylesheet" href="../assets/styles/main.css">
+    <script src="../assets/scripts/site.js" defer></script>
+    <script src="../assets/scripts/mode.js" defer></script>
+
+    <!-- Swiper JS -->
+    
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    
+
+    <!-- Lightgalleryjs -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.2/css/lightgallery-bundle.min.css" integrity="sha512-nUqPe0+ak577sKSMThGcKJauRI7ENhKC2FQAOOmdyCYSrUh0GnwLsZNYqwilpMmplN+3nO3zso8CWUgu33BDag==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.2/css/lg-video.min.css" integrity="sha512-89gDQOHnYjji90NPJ7+M5tgA/0E+fjL4KuSFhi6tjH6sZ54yUEogPMmOAgbI599fW1CtCyrsJbch8k/QzuoXzw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <!-- Lightgalleryjs -->
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.2/lightgallery.min.js" integrity="sha512-jEJ0OA9fwz5wUn6rVfGhAXiiCSGrjYCwtQRUwI/wRGEuWRZxrnxoeDoNc+Pnhx8qwKVHs2BRQrVR9RE6T4UHBg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.2/plugins/zoom/lg-zoom.umd.min.js" integrity="sha512-OUF2jbRheQR5yXPCvXN71udWa5cvwPf+shcXM+5GrW1vtNurTn7az8LCP3hS50gm17ULXdh3cdkhiPa0Qqyczw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.2/plugins/thumbnail/lg-thumbnail.min.js" integrity="sha512-VBbe8aA3uiK90EUKJnZ4iEs0lKXRhzaAXL8CIHWYReUwULzxkOSxlNixn41OLdX0R1KNP23/s76YPyeRhE6P+Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.2/plugins/video/lg-video.umd.min.js" integrity="sha512-olksMIiITctwLVsKDH2fm9nylHHYzK2v/bIY+LzBO9GAw9A44MBjYaJGm/2eIbhTtXZXdXQUoS17HoV2rI+fFA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.2/plugins/video/lg-video.min.js" integrity="sha512-Eo7d/1I/2Yywxw/unjfX06Q+owD82+3ign70yHtNTajId+C3CcHeqb+XP/a+uq/Fhrrkf8MeBcBiZqoMASFiiw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </head>
 <body>
-    <header>
+    <!-- header navigation -->
+    <header id="head">
         <nav>
-            <div class="home"><a href="../index.html">Acceuil</a></div>
-            <div class="realisation"><a href="#" style="color: #BE8CD2;">Réalisation</a></div>
+            <div class="home">
+                <a href="../index.html" class="animated-element">
+                    <span>A</span><span>c</span><span>c</span><span>e</span><span>u</span><span>i</span><span>l</span>
+                </a>
+            </div>
+            <div class="projects">
+                <a href="#" class="active">Réalisation</a>
+            </div>
         </nav>
     </header>
-    <main>
-        <section>
-            <div class="one">
-                <div class="blocus">
-                    <h2>Maquettes :</h2>
-                    <div class="maquette">
-                        <div class="otaku"><a href="https://dribbble.com/shots/22443940-Maquette-OTAKU-ANIME"><img src="../data/Maquettes/00.png" alt=""></a><div class="btn-ma" onclick="location.href='https://dribbble.com/shots/22443940-Maquette-OTAKU-ANIME';">Otaku Anime</div></div>
-                        <div class="aishi">
-                            <div><a href="https://dribbble.com/shots/23506463-Maquette-Aishiteiru"><img src="../data/Maquettes/11.png" alt=""></a></div>
-                            <div><a href="https://dribbble.com/shots/23506463-Maquette-Aishiteiru"><img src="../data/Maquettes/12.png" alt=""></a></div>
-                            <div class="btn-ma" onclick="location.href='https://dribbble.com/shots/23506463-Maquette-Aishiteiru';">Aishiteiru</div>
-                        </div>
-                        <div class="panther"><a href="https://dribbble.com/shots/22500684-BLACK-PANTH-RE"><img src="../data/Maquettes/22.png" alt=""></a><div class="btn-ma" onclick="location.href='https://dribbble.com/shots/22500684-BLACK-PANTH-RE';">Black Panther</div></div>
+
+    <div class="switch-mode">
+        <button id="dark"><img src="../assets/imgs/dark.svg" alt="dark mode illustration btn" width="25px" height="25px"></button>
+        <div class="sep"></div>
+        <button id="light"><img src="../assets/imgs/light.svg" alt="light mode illustration btn" width="25px" height="25px"></button>
+    </div>
+
+    <!-- portal -->
+    <main class="container">
+        <section id="real">
+            <!-- Maquettes -->
+            <div style="transition-duration: 1s;" class="box-r fade-in-section maquettes">
+                <h2>Maquettes :</h2>
+                <div class="grid">
+                    <div id="item-1" class="item item-1">
+                        <img src="../assets/imgs/realisation/maquettes/malala-evasion-v1.webp" alt="">
+                        <h2>Malala Evasion</h2>
+                    </div>
+                    <div id="item-2" class="item item-2">
+                        <img src="../assets/imgs/realisation/maquettes/summer.webp" alt="">
+                        <h2>Summer in Nosy Be</h2>
+                    </div>
+                    <div id="item-3" class="item item-3">
+                        <img src="../assets/imgs/realisation/maquettes/otaku.webp" alt="">
+                        <h2>Otaku Anime</h2>
+                    </div>
+                    <div id="item-4" class="item item-4">
+                        <img src="../assets/imgs/realisation/maquettes/panther.webp" alt="">
+                        <h2>Black Panther</h2>
+                    </div>
+                    <div id="item-5" class="item item-5">
+                        <img src="../assets/imgs/realisation/maquettes/aishiteiru.webp" alt="">
+                        <h2>Aishiteiru</h2>
+                    </div>
+                    <div id="item-6" class="item item-6">
+                        <img src="../assets/imgs/realisation/maquettes/top.webp" alt="">
+                        <h2>Top Fresh</h2>
                     </div>
                 </div>
-                <div class="blocus rgt">
-                    <h2>Prototype :</h2>
-                    <a href="https://www.figma.com/proto/HTQ9piVow2oThudvqG3std/Design-SAYNA-SPACE?node-id=3-2&starting-point-node-id=3%3A2&mode=design&t=iwQGWkNTKGqz0j1M-1" class="proto">Sayna Space version Jenna</a>
-                    <a href="https://www.figma.com/proto/uvVgAMA4HjFEduQgMmI4ut/EMJ-STUDIO?node-id=59-4&starting-point-node-id=59%3A4&mode=design&t=AELFnJTfh77brkxU-1" class="proto">EMJ Studio</a>
-                    <a href="https://www.figma.com/proto/h1PVAuIxZrfSA0SlIKt4Rr/Design-SAYNA-ACADEMY?node-id=3-3&starting-point-node-id=3%3A3&mode=design&t=wF3RZlwCPqiDWRRE-1" class="proto">Sayna academie version Jenna</a>
+
+                <!-- Swiper container -->
+                <div id="swip-01" class="swiper-container lightbox" style="display: none;">
+                    <button class="close-button"><img src="../assets/imgs/close-svgrepo-com.svg" alt="close button" width="25px" height="25px"></button>
+                    <div class="swiper-wrapper">
+                        <!-- Swiper slides -->
+                        <div class="swiper-slide">
+                            <img src="../assets/imgs/realisation/malala/1_resultat.webp" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="../assets/imgs/realisation/malala/2_resultat.webp" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="../assets/imgs/realisation/malala/3_resultat.webp" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="../assets/imgs/realisation/malala/4_resultat.webp" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="../assets/imgs/realisation/malala/5_resultat.webp" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="../assets/imgs/realisation/malala/6_resultat.webp" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="../assets/imgs/realisation/malala/7_resultat.webp" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="../assets/imgs/realisation/malala/8_resultat.webp" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="../assets/imgs/realisation/malala/9_resultat.webp" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="../assets/imgs/realisation/malala/10_resultat.webp" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="../assets/imgs/realisation/malala/11_resultat.webp" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="../assets/imgs/realisation/malala/12_resultat.webp" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="../assets/imgs/realisation/malala/13_resultat.webp" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="../assets/imgs/realisation/malala/14_resultat.webp" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="../assets/imgs/realisation/malala/15_resultat.webp" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="../assets/imgs/realisation/malala/16_resultat.webp" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="../assets/imgs/realisation/malala/17_resultat.webp" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="../assets/imgs/realisation/malala/18_resultat.webp" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="../assets/imgs/realisation/malala/19_resultat.webp" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="../assets/imgs/realisation/malala/20_resultat.webp" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="../assets/imgs/realisation/malala/21_resultat.webp" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="../assets/imgs/realisation/malala/22_resultat.webp" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="../assets/imgs/realisation/malala/23_resultat.webp" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="../assets/imgs/realisation/malala/24_resultat.webp" alt="">
+                        </div>
+                        <!-- Add more slides as needed -->
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <!-- Add Pagination -->
+                    <div class="swiper-pagination"></div>
+                </div>
+                <!-- Swiper container -->
+                <div id="swip-02" class="swiper-container lightbox" style="display: none;">
+                    <button class="close-button"><img src="../assets/imgs/close-svgrepo-com.svg" alt="close button" width="25px" height="25px"></button>
+                    <div class="swiper-wrapper">
+                        <!-- Swiper slides -->
+                        <div class="swiper-slide">
+                            <img src="../assets/imgs/realisation/summer/1_resultat.webp" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="../assets/imgs/realisation/summer/2_resultat.webp" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="../assets/imgs/realisation/summer/3_resultat.webp" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="../assets/imgs/realisation/summer/4_resultat.webp" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="../assets/imgs/realisation/summer/5_resultat.webp" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="../assets/imgs/realisation/summer/6_resultat.webp" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="../assets/imgs/realisation/summer/7_resultat.webp" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="../assets/imgs/realisation/summer/8_resultat.webp" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="../assets/imgs/realisation/summer/9_resultat.webp" alt="">
+                        </div>
+                        <!-- Add more slides as needed -->
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <!-- Add Pagination -->
+                    <div class="swiper-pagination"></div>
+                </div>
+                <!-- Swiper container -->
+                <div id="swip-03" class="swiper-container lightbox" style="display: none;">
+                    <button class="close-button"><img src="../assets/imgs/close-svgrepo-com.svg" alt="close button" width="25px" height="25px"></button>
+                    <div class="swiper-wrapper">
+                        <!-- Swiper slides -->
+                        <div class="swiper-slide">
+                            <img src="../assets/imgs/realisation/otaku/001.webp" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="../assets/imgs/realisation/otaku/002.webp" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="../assets/imgs/realisation/otaku/003.webp" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="../assets/imgs/realisation/otaku/004.webp" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="../assets/imgs/realisation/otaku/005.webp" alt="">
+                        </div>
+                        <!-- Add more slides as needed -->
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <!-- Add Pagination -->
+                    <div class="swiper-pagination"></div>
+                </div>
+                <!-- Swiper container -->
+                <div id="swip-04" class="swiper-container lightbox" style="display: none;">
+                    <button class="close-button"><img src="../assets/imgs/close-svgrepo-com.svg" alt="close button" width="25px" height="25px"></button>
+                    <div class="swiper-wrapper">
+                        <!-- Swiper slides -->
+                        <div class="swiper-slide">
+                            <img src="../assets/imgs/realisation/black/001.webp" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="../assets/imgs/realisation/black/002.webp" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="../assets/imgs/realisation/black/003.webp" alt="">
+                        </div>
+                        <!-- Add more slides as needed -->
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <!-- Add Pagination -->
+                    <div class="swiper-pagination"></div>
+                </div>
+                <!-- Swiper container -->
+                <div id="swip-05" class="swiper-container lightbox" style="display: none;">
+                    <button class="close-button"><img src="../assets/imgs/close-svgrepo-com.svg" alt="close button" width="25px" height="25px"></button>
+                    <div class="swiper-wrapper">
+                        <!-- Swiper slides -->
+                        <div class="swiper-slide">
+                            <img src="../assets/imgs/realisation/aishiteiru/1_resultat.webp" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="../assets/imgs/realisation/aishiteiru/2_resultat.webp" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="../assets/imgs/realisation/aishiteiru/3_resultat.webp" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="../assets/imgs/realisation/aishiteiru/4_resultat.webp" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="../assets/imgs/realisation/aishiteiru/5_resultat.webp" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="../assets/imgs/realisation/aishiteiru/6_resultat.webp" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="../assets/imgs/realisation/aishiteiru/7_resultat.webp" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="../assets/imgs/realisation/aishiteiru/8_resultat.webp" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="../assets/imgs/realisation/aishiteiru/9_resultat.webp" alt="">
+                        </div>
+                        <!-- Add more slides as needed -->
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <!-- Add Pagination -->
+                    <div class="swiper-pagination"></div>
+                </div>
+                <!-- Swiper container -->
+                <div id="swip-06" class="swiper-container lightbox" style="display: none;">
+                    <button class="close-button"><img src="../assets/imgs/close-svgrepo-com.svg" alt="close button" width="25px" height="25px"></button>
+                    <div class="swiper-wrapper">
+                        <!-- Swiper slides -->
+                        <div class="swiper-slide">
+                            <img src="../assets/imgs/realisation/top/1_resultat.webp" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="../assets/imgs/realisation/top/2_resultat.webp" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="../assets/imgs/realisation/top/3_resultat.webp" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="../assets/imgs/realisation/top/4_resultat.webp" alt="">
+                        </div>
+                        <!-- Add more slides as needed -->
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <!-- Add Pagination -->
+                    <div class="swiper-pagination"></div>
                 </div>
             </div>
-            <div class="two">
-                <div class="blocus">
-                    <h2>Montage vidéo :</h2>
-                    <div class="vids">
-                        <div class="box">
-                            <div>
-                                <div><div class="play" onclick="location.href='https://drive.google.com/file/d/1CviNb03mBihP6AT7Cf-Po7KKgOPpKrvU/view?usp=drivesdk';"><img src="../imgs/play.png" alt="play"></div><img src="../data/Vidéo/1.png" alt="" class="video"></div>
-                                <div class="btn-vid" onclick="location.href='https://drive.google.com/file/d/1CviNb03mBihP6AT7Cf-Po7KKgOPpKrvU/view?usp=drivesdk';">J'oublie</div>
-                            </div>
-                        </div>
-                        <div class="box">
-                            <div>
-                                <div><div class="play" onclick="location.href='https://drive.google.com/file/d/1n_PZ6cww3786qDJC1oGeZgi4Mm_nBk3X/view?usp=drivesdk';"><img src="../imgs/play.png" alt="play"></div><img src="../data/Vidéo/2.png" alt="" class="video"></div>
-                                <div class="btn-vid" onclick="location.href='https://drive.google.com/file/d/1n_PZ6cww3786qDJC1oGeZgi4Mm_nBk3X/view?usp=drivesdk';">Parce que c'est toi</div>
-                            </div>
-                        </div>
-                        <div class="box">
-                            <div>
-                                <div><div class="play" onclick="location.href='https://drive.google.com/file/d/1T7DUz303NmNIRWqPS3fcys6rJU0Y5sSZ/view?usp=drivesdk';"><img src="../imgs/play.png" alt="play"></div><img src="../data/Vidéo/3.png" alt="" class="video"></div>
-                                <div class="btn-vid" onclick="location.href='https://drive.google.com/file/d/1T7DUz303NmNIRWqPS3fcys6rJU0Y5sSZ/view?usp=drivesdk';">Toujours parfait</div>
-                            </div>
-                        </div>
-                    </div>
-                    </div>
+
+            <!-- Prototype -->
+            <div style="transition-duration: 1s;" class="box-r fade-in-section prototype">
+                <h2>Prototype :</h2>
+                <div class="proto-btn">
+                    <a target="_blank" href="https://www.figma.com/proto/HTQ9piVow2oThudvqG3std/Design-SAYNA-SPACE?node-id=3-2&starting-point-node-id=3%3A2&mode=design&t=AhREhrlsW9dHbPHJ-1">Sayna Space version Jenna</a>
+                    <a target="_blank" not-yet href="#">Henshu Studio</a>
+                    <a target="_blank" href="https://www.figma.com/proto/h1PVAuIxZrfSA0SlIKt4Rr/Design-SAYNA-ACADEMY?node-id=3-3&starting-point-node-id=3%3A3&mode=design&t=W3SRV4PqpTJe6WAS-1">Sayna Academy version Jenna</a>
+                </div>
             </div>
-            <div class="three">
-                <div class="blocus">
-                    <h2>Montage photo :</h2>
-                    <div class="pict">
-                        <div class="gsi" onclick="location.href='https://dribbble.com/shots/22443873-Affiche-Otaku-Anim';"><img src="../data/Montage-photo/Affiche Otaku.png" alt=""></div>
-                        <div class="gsi vacance" onclick="location.href='https://dribbble.com/shots/22441961-Affiche-Nosy-Be-vacances';"><img src="../data/Montage-photo/Nosy-Be Vacances.png" alt=""></div>
-                        <div class="gsi music" onclick="location.href='https://dribbble.com/shots/22443859-Affiches-F-te-de-la-musique';"><img src="../data/Montage-photo/Fête de la Musique.png" alt=""></div>
-                        <div class="gsi threee">
-                            <div><img src="../data/Montage-photo/OFA.png" alt="" onclick="location.href='https://dribbble.com/shots/22442261-OFA';"></div>
-                            <div class="infinix">
-                                <div><img src="../data/Montage-photo/INFINIIX I.png" alt="" onclick="location.href='https://dribbble.com/shots/23506463-Maquette-Aishiteiru';"></div>
-                                <div><img src="../data/Montage-photo/INFINIIX II.png" alt="" onclick="location.href='https://dribbble.com/shots/22443897-INFINIIX';"></div>
-                            </div>
+            
+            <!-- Design -->
+            <div style="transition-duration: 1s;" class="box-r fade-in-section design">
+                <h2>Design site en ligne :</h2>
+                <div class="proto-box">
+                    <div class="wrap">
+                        <div class="img">
+                            <img src="../assets/imgs/site/vacances-tour.webp" alt="Aperçu site Vacances Nosy Be Tour" width="774px" height="367px">
                         </div>
+                        <a href="https://vacance-nosy-be-tour.com/" target="_blank">Vacances Nosy Be Tour</a>
+                    </div>
+                    <div class="wrap">
+                        <div class="img">
+                            <img src="../assets/imgs/site/malala-evasion.webp" alt="Aperçu site Vacances Nosy Be Tour" width="774px" height="367px">
+                        </div>
+                        <a href="https://dokja620.github.io/malala-evasion/" target="_blank">Malala Evasion</a>
+                    </div>
+                    <div class="wrap">
+                        <div class="img">
+                            <img src="../assets/imgs/site/ohayo.webp" alt="Aperçu site Vacances Nosy Be Tour" width="774px" height="367px">
+                        </div>
+                        <a not-yet href="">Ohayo Dev & Design</a>
                     </div>
                 </div>
             </div>
-            <div class="four"></div>
+
+            <!-- Rédaction -->
+            <div style="transition-duration: 1s;" class="box-r fade-in-section redaction">
+                <h2>Rédaction :</h2>
+                <div class="proto-btn">
+                    <div>
+                        Mes publications
+                        <span class="hidden">
+                            <p>
+                                <a not-yet class="drop" target="_blank" href="axe">Voir sur Dribbble</a>
+                            </p> <br>
+                            <p>
+                                <a not-yet class="drop" target="_blank" href="axe">Voir les publications du site</a>
+                            </p>
+                        </span>
+                    </div>
+                    <div>
+                        Contenu textuel de site web
+                        <span class="hidden">
+                            <p>
+                                <a not-yet class="drop" target="_blank" href="axe">Ohayo Dev & Design</a>
+                            </p> <br>
+                            <p>
+                                <a class="drop" target="_blank" href="https://dokja620.github.io/malala-evasion/">Malala Evasion</a>
+                            </p>
+                        </span>   
+                    </div>
+                    <div>
+                        Mes e-book
+                        <span class="hidden">
+                            <p>
+                                <a class="drop" target="_blank" href="https://online.fliphtml5.com/pafud/rrgq/#p=1">Créer mon site : Dans quoi je m'embarque ?</a>
+                            </p> <br>
+                            <p>
+                                <a class="drop" target="_blank" href="https://online.fliphtml5.com/pafud/hknn/#p=1">Le guide du survivant</a>
+                            </p> <br>
+                            <p>
+                                <a class="drop" target="_blank" href="https://online.fliphtml5.com/pafud/ueyq/#p=1">Lylith HETZIFILIA</a>
+                            </p>
+                        </span>      
+                    </div>
+                </div>
+            </div>
+
+            <!-- Photos -->
+            <div style="transition-duration: 1s;" class="box-r fade-in-section photo">
+                <h2>Montages photos :</h2>
+                <div class="grid gallery">
+                    <div class="item item-1" href="../assets/imgs/photo/001.webp">
+                        <img src="../assets/imgs/photo/001.webp" alt="">
+                    </div>
+                    <div class="item item-2" href="../assets/imgs/photo/002.webp">
+                        <img src="../assets/imgs/photo/002.webp" alt="">
+                    </div>
+                    <div class="item item-3" href="../assets/imgs/photo/003.webp">
+                        <img src="../assets/imgs/photo/003.webp" alt="">
+                    </div>
+                    <div class="item item-4" href="../assets/imgs/photo/004.webp">
+                        <img src="../assets/imgs/photo/004.webp" alt="">
+                    </div>
+                    <div class="item item-5" href="../assets/imgs/photo/005.webp">
+                        <img src="../assets/imgs/photo/005.webp" alt="">
+                        
+                    </div>
+                </div>
+            </div>
+
+            <!-- Vidéos -->
+            <div style="transition-duration: 1s;" class="box-r fade-in-section video">
+                <h2>Montages vidéos :</h2>
+                <div class="video-box" >
+                    <div not-yet class="video" href="https://drive.google.com/file/d/1CviNb03mBihP6AT7Cf-Po7KKgOPpKrvU/view?usp=sharing">
+                        <div class="thumb">
+                            <img src="../assets/imgs/Vidéo/1.webp" alt="" class="preview">
+                            <img src="../assets/imgs/play.webp" alt="" class="play">
+                        </div>
+                        <a class="vid" href="">Jenna - J'oublie</a>
+                    </div>
+                    <div not-yet class="video" href="https://drive.google.com/file/d/1_Seirhp1MLOJkA9lttPG2WACij-e4SBH/view">
+                        <div class="thumb">
+                            <img src="../assets/imgs/Vidéo/2.webp" alt="" class="preview">
+                            <img src="../assets/imgs/play.webp" alt="" class="play">
+                        </div>
+                        <a class="vid" href="">Jenna - Parce que c'est toi</a>
+                    </div>
+                    <div not-yet class="video" data-src="https://drive.google.com/file/d/1oRh_V04xCf7ZLm1jOZclWzcvxBK-sSM5/view">
+                        <div class="thumb">
+                            <img src="../assets/imgs/Vidéo/3.webp" alt="" class="preview">
+                            <img src="../assets/imgs/play.webp" alt="" class="play">
+                        </div>
+                        <a class="vid" href="">Jenna - Toujours parfait</a>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
-    <footer>
+
+    <!-- Footer -->
+    <footer id="foot">
         <div class="contact">
-            <div class="phone">
-                <h5>Contact:</h5>
-                <p>+261 32 90 783 35</p>
-                <p>+261 32 12 740 42</p>
+            <div>
+                <h4>Pages :</h4>
+                <a href="../index.html" >Acceuil</a><br>
+                <a href="#" class="active">Réalisation</a>
             </div>
-            <div class="mail">
-                <h5>Adresse Email:</h5>
-                <a href="mailto:xxjennawendyxx@gmail.com">xxjennawendyxx@gmail.com</a>
+            <div>
+                <h4>contact :</h4>
+                <p class="not">+261 32 90 783 35</p>
+                <p class="not">+261 32 12 740 42</p>
             </div>
-            <div class="adress">
-                <h5>Adresse:</h5>
+            <div>
+                <h4>Adresse email :</h4>
+                <a href="mailto:xxjennawendyxx@gmail.com">XxjennawendyxX@gmail.com</a><br>
+                <a href="mailto:ohayodevanddesign@gmail.com">ohayodevanddesign@gmail.com</a>
+            </div>
+            <div>
+                <h4>Adresse :</h4>
                 <p>Madagascar,</p>
-                <p>Nosy-Be Hell-Ville,</p>
-                <p>Ambonara</p>
+                <p>Antananarivo</p>
             </div>
         </div>
-        <div class="social">
-            <div onclick="location.href='https://web.facebook.com/profile.php?id=100089742986494';"><img src="../imgs/social-media/facebook-svgrepo-com.svg" alt="facebook"></div>
-            <!-- <div onclick="location.href='';"><img src="imgs/social-media/whatsapp-128-svgrepo-com.svg" alt="whatsapp"></div> -->
-            <div onclick="location.href='https://www.linkedin.com/in/jenna-wendy-091026265/';"><img src="../imgs/social-media/linkedin-round-svgrepo-com.svg" alt="linkedin"></div>
-            <div onclick="location.href='https://dribbble.com/Jennawendy';"><img src="../imgs/social-media/dribble-svgrepo-com.svg" alt="dribbble"></div>
-            <div onclick="location.href='https://github.com/Jenna-Wendy';"><img src="../imgs/social-media/github-142-svgrepo-com.svg" alt="github"></div>
+        <div class="social-media">
+            <div class="me">
+                <div class="icons">
+                    <a href="https://www.facebook.com/profile.php?id=100089742986494" target="_blank"><img loading="lazy" src="../assets/imgs/icons/facebook.webp" alt="icon facebook" height="338px" width="338px"></a>
+                    <a href="http://wa.link/m2w9b3" target="_blank"><img loading="lazy" src="../assets/imgs/icons/whatsapp.webp" alt="icon whatsapp" height="338px" width="338px"></a>
+                    <a href="https://www.linkedin.com/in/jenna-wendy-091026265/" target="_blank"><img loading="lazy" src="../assets/imgs/icons/linkedin.webp" alt="icon linkedin" height="338px" width="338px"></a>
+                </div>
+                <div class="text"><h3>Me contacter</h3></div>
+            </div>
+            <div class="me">
+                <div class="icons">
+                    <a href="https://github.com/Jenna-Wendy" target="_blank"><img loading="lazy" src="../assets/imgs/icons/github.webp" alt="icon github" height="338px" width="338px"></a>
+                    <a not-yet href="" target="_blank"><img loading="lazy" src="../assets/imgs/icons/figma.webp" alt="icon figma" height="338px" width="338px"></a>
+                    <a not-yet href="" target="_blank"><img loading="lazy" src="../assets/imgs/icons/dribbble.webp" alt="icon dribbble" height="338px" width="338px"></a>
+                </div>
+                <div class="text"><h3>Voir mon travail</h3></div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Fait avec ❤️ par Jenna et Axel (Ohayo Dev & Design)</p>
         </div>
     </footer>
+<script>
+    // Wait for the DOM to be fully loaded
+    document.addEventListener("DOMContentLoaded", function() {
+        // Initialize lightGallery on the .gallery element
+        lightGallery(document.querySelector('.gallery'), {
+            // Add your lightGallery options here for photos
+            plugins: [lgZoom],
+            speed: 500,
+            // other options...
+            thumbnail: true
+        });
+
+        // Initialize lightGallery for video-box
+        lightGallery(document.querySelector('.video-box'), {
+            // Add your lightGallery options here for videos
+            plugins: [lgVideo],
+            // other options...
+            thumbnail: false // Videos typically don't have thumbnails
+        });
+    });
+</script>
 </body>
 </html>

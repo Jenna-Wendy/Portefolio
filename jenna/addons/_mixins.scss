@@ -1,0 +1,114 @@
+// Fonts importation
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=League+Spartan:wght@100..900&display=swap');
+
+// from 200 to 900
+@mixin barlow($font-weight) {
+    font-family: "Barlow", sans-serif;
+    font-weight: $font-weight;
+    font-style: normal;
+}
+
+// from 100 to 900
+@mixin leaguespartan($font-weight) {
+    font-family: "League Spartan", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: $font-weight;
+    font-style: normal;
+}
+
+// from 400 to 700
+@mixin arimo($font-weight) {
+    font-family: "League Spartan", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: $font-weight;
+    font-style: normal;
+}
+
+// vars
+$spacing: 12px;
+$spacing-md: $spacing * 1.25;
+$spacing-lg: $spacing * 1.5;
+$spacing-xl: $spacing * 1.75;
+$spacing-2xl: $spacing * 2;
+$spacing-xxl: $spacing * 4;
+
+$bor-ra: 20px;
+$bor-ra-md: $bor-ra * 1.25;
+$bor-ra-lg: $bor-ra * 1.5;
+$bor-ra-xl: $bor-ra * 1.75;
+$bor-ra-2xl: $bor-ra * 2;
+// colors
+$white: hsl(0, 0%, 100%);
+$black: hsl(0, 0%, 0%);
+
+// TODO reverse animation with javascript
+
+// mixins button
+@mixin button() {
+    background: var(--accent) url(../../assets/imgs/right.svg) 85% center/0px no-repeat;
+    padding: $spacing-md $spacing-xl $spacing $spacing-xl;
+    border-radius: $bor-ra-lg;
+    border: 2px solid var(--primary);
+    box-shadow: $white 0px 0px 5px;
+    transition: .25s right ease-in-out 1.25s, .25s background ease-in-out 1.25s, .25s padding ease-in-out 1.25s;
+    @include apply-animation();
+
+    &:hover {
+        right: calc(-14px - $spacing-xxl);
+        background: var(--accent) url(../../assets/imgs/right.svg) 97% center/25px no-repeat;
+        padding: $spacing-md $spacing-xxl $spacing $spacing-xl;
+    }
+}
+
+// mixins animation
+@mixin zoom-up($scale: 1.1, $top: -5px) {
+    transition: .25s transform ease-in-out;
+
+    &:hover {
+        transform: scale($scale) translateY($top);
+    }
+}
+
+@mixin turn-purple($num-children: 20, $speed: 0.05s) {
+    $delay-increment: $speed;
+
+    @for $i from 1 through $num-children {
+        & :nth-child(#{$i}) {
+            $delay: $delay-increment * ($i - 1);
+            transition: .5s all ease-in-out $delay;
+        }
+        &:hover :nth-child(#{$i}) {
+            color: var(--secondary);
+            text-shadow: hsl(273, 100%, 50%) 0px 0px 5px;
+        }
+    }
+}
+@mixin light($num-children: 20, $speed: 0.05s) {
+    $delay-increment: $speed;
+
+    @for $i from 1 through $num-children {
+        & :nth-child(#{$i}) {
+            $delay: $delay-increment * ($i - 1);
+            transition: .5s all ease-in-out $delay;
+        }
+        &:hover :nth-child(#{$i}) {
+            text-shadow: $white 0px 0px 5px;
+        }
+    }
+}
+@mixin reverse-l($num-children: 20, $speed: 0.05s) {
+    $delay-increment: $speed;
+
+    @for $i from 1 through $num-children {
+        & :nth-child(#{$i}) {
+            $delay: $delay-increment * ($i - 1);
+            text-shadow: none;
+            transition: .5s all ease-in-out $delay;
+        }
+        &:hover :nth-child(#{$i}) {
+            text-shadow: $white 0px 0px 5px;
+        }
+    }
+}
+
+// @debug apply-animation;

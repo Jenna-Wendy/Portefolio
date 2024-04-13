@@ -1,119 +1,263 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="dark">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portefolio - Jenna</title>
-    <link rel="shortcut icon" href="imgs/j.png" type="image/x-icon">
-    <link rel="stylesheet" href="styles/styles.css">
+    <title>Portefolio - Jenna - Acceuil</title>
+    <link rel="shortcut icon" href="assets/imgs/logo.webp" type="image/x-icon">
+    <link rel="stylesheet" href="assets/styles/main.css">
+    <script defer src="assets/scripts/site.js"></script>
+    <script defer src="assets/scripts/mode.js"></script>
 </head>
+
 <body>
-    <header>
+    <header id="head">
         <nav>
-            <div class="home"><a href="#" style="color: #BE8CD2;">Acceuil</a></div>
-            <div class="realisation"><a href="pages/realisation.html">Réalisation</a></div>
+            <div class="home">
+                <a href="#" class="active">Acceuil</a>
+            </div>
+            <div class="projects">
+                <a href="pages/realisation.html" class="animated-element">
+                    <span>R</span><span>é</span><span>a</span><span>l</span><span>i</span><span>s</span><span>a</span><span>t</span><span>i</span><span>o</span><span>n</span>
+                </a>
+            </div>
         </nav>
     </header>
-    <main>
-        <div class="first">
-            <div class="description">
-                <h1>HI ! Je suis Jenna,</h1>
-                <h2>Monteuse et UI designer </h2>
-                <div class="txt-block">
-                    <p>
-                        Sortante du programme D-Clic 2023 via SAYNA, je suis certifiée en UX UI Design.
-                    </p>
-                    <p>
-                        Passionée par Le montage photo, j'ai commencé sur Pixlr et pick monckey, après avoir tester d'autres logiciels, canva est à présent celui que j'utilise le plus.
-                    </p>
-                    <p>
-                        Passionée par Le montage photo, j'ai commencé sur Pixlr et pick monckey, après avoir tester d'autres logiciels, canva est à présent celui que j'utilise le plus.
-                    </p>
-                    <p>
-                        Enfin, Je possède Actuellement le DALF C1. Adorant lire et écrire, douée pour les recherches, et ayant le soucis des détails, je fais également de la rédaction web.
-                    </p>
+
+    <div class="switch-mode">
+        <button id="dark"><img src="assets/imgs/dark.svg" alt="dark mode illustration btn" width="25px" height="25px"></button>
+        <div class="sep"></div>
+        <button id="light"><img src="assets/imgs/light.svg" alt="light mode illustration btn" width="25px" height="25px"></button>
+    </div>
+    <!-- <div class="portal">
+        <a href="#head" class="arrow"><img src="assets/imgs/right.svg" alt="up arrow icon" height="40px" width="40px"></a>
+        <a href="#skills" class="arrow"><img src="assets/imgs/right.svg" alt="up arrow icon" height="40px" width="40px"></a>
+    </div> -->
+
+    <main class="container">
+       <section id="bio">
+            <!-- Left part -->
+            <div class="infos">
+                <div class="content fade-in-section">
+                    <div class="title">
+                        <h1>
+                            <span>H</span><span>i</span>
+                            <span>!</span>
+                            <span>J</span><span>e</span>
+                            <span>s</span><span>u</span><span>i</span><span>s</span>
+                            <span>J</span><span>e</span><span>n</span><span>n</span><span>a</span><span>,</span>
+                        </h1>
+                        <h2>
+                            <span>U</span><span>X</span><span>/</span><span>U</span><span>I</span>
+                            <span>D</span><span>e</span><span>s</span><span>i</span><span>g</span><span>n</span><span>e</span><span>r</span><span>,</span>
+                            <span>M</span><span>o</span><span>n</span><span>t</span><span>e</span><span>u</span><span>s</span><span>e</span><span>,</span>
+                            <span>R</span><span>é</span><span>d</span><span>a</span><span>c</span><span>t</span><span>r</span><span>i</span><span>c</span><span>e</span>
+                        </h2>
+                    </div>
+                    <div class="text">
+                        <p>
+                            Ma fascination pour le design, le montage (photo et vidéo), et l'écriture 
+                            m'a conduite à transformer ces passions en carrière. D'ailleurs, chaque projet 
+                            présenté dans ce portfolio, ainsi que le portfolio lui-même (Du design, rédaction 
+                            et montage), a été réalisé par moi.
+                                <br><br>
+                            Actuellement, je suis co-fondatrice de l'agence de développement web 
+                            "Ohayo Dev & Design". J'occupe les rôles de UX/UI Designer et de rédactrice 
+                            de contenu. 
+                                <br><br>
+                            Sans plus attendre, je vous souhaite une bonne visite sur ce portfolio, et vous invite 
+                            à découvrir les travaux que j'ai réalisés.
+                        </p>
+                    </div> <br>
+                    <a href="#foot" class="contact-me">Me contacter</a>
                 </div>
-                <div class="see" onclick="location.href='pages/realisation.html';">Voir mes réalisations <span>></span></div>
             </div>
-            <div class="bio">
-                <div class="pic">
-                    <img src="imgs/photo-Jenna.jpg" alt="Jenna">
+            <!-- Right part -->
+            <div class="desc">
+                <div class="content fade-in-section" style="transition-delay: 1s;">
+                    <div class="photo"><img src="assets/imgs/jenna.webp" alt="photo jenna" width="1344px" height="756px"></div>
+                    <h3>
+                        <span>A</span><span>N</span><span>D</span><span>R</span><span>I</span><span>A</span><span>N</span><span>A</span><span>R</span><span>I</span><span>S</span><span>A</span><span>T</span><span>A</span>
+                        <br> 
+                        <span>R</span><span>a</span><span>n</span><span>j</span><span>a</span> 
+                        <span>J</span><span>e</span><span>n</span><span>n</span><span>a</span> 
+                        <span>W</span><span>e</span><span>n</span><span>d</span><span>y</span>
+                    </h3>
+                    <div class="about">
+                        <div>
+                            <p>21 ans</p>
+                            <p> 02 Janvier 2003</p>
+                        </div>
+                        <div>
+                            <p>Montages,</p>
+                            <p> Rédaction,</p>
+                            <p> UI Design</p>
+                        </div>
+                        <div>
+                            <p>Madagascar,</p>
+                            <p>Nosy-Be Hell-Ville</p>
+                        </div>
+                        <div>
+                            <p>+261 32 90 783 35</p>
+                            <p>+261 33 12 740 42</p>
+                        </div>
+                    </div>
+                    <div class="use">
+                        <h4>
+                            <span>J</span><span>'</span><span>u</span><span>t</span><span>i</span><span>l</span><span>i</span><span>s</span><span>e</span>
+                            <span>p</span><span>r</span><span>i</span><span>n</span><span>c</span><span>i</span><span>p</span><span>a</span><span>l</span><span>e</span><span>m</span><span>e</span><span>n</span><span>t</span>
+                            <span>:</span>
+                        </h4>
+                        <div class="tools">
+                            <a href="https://www.adobe.com/fr/products/premiere.html" target="_blank"><img src="assets/imgs/icons/pr.webp" alt="icon Premier Pro" height="338px" width="338px"></a>
+                            <a href="https://www.canva.com/" target="_blank"><img src="assets/imgs/icons/canva.webp" alt="icon Canvas" height="338px" width="338px"></a>
+                            <a href="https://www.figma.com/" target="_blank"><img src="assets/imgs/icons/figma.webp" alt="icon Figma" height="338px" width="338px"></a>
+                            <a href="https://helpx.adobe.com/fr/xd/get-started.html" target="_blank"><img src="assets/imgs/icons/xd.webp" alt="icon Adobe XD" height="338px" width="338px"></a>
+                        </div>
+                    </div>
                 </div>
-                <div class="dscr">
-                    <h3>ANDRIANARISATA <br> Ranja Jenna Wendy</h3>
-                    <div class="flex">
-                        <p>21 ans</p>
-                        <p>02 Janvier 2003</p>
-                    </div>
-                    <div class="flex">
-                        <p>Montages,</p>
-                        <p>Rédaction,</p>
-                        <p>UI Design</p>
-                    </div>
-                    <div class="flex">
-                        <p>Madagascar,</p>
-                        <p> Nosy-Be Hell-Ville</p>
-                    </div>
-                    <div class="flex">
-                        <p>032 90 783 35</p>
-                        <p>033 12 740 42</p>
-                    </div>
-                </div>
-                <h3 class="use">J'utilise principalement:</h3>
-                <div class="app">
-                    <div><a href="https://filmora.wondershare.net/fr/logiciel-montage-video/ad-filmora.html?gad_source=1&gclid=Cj0KCQiAh8OtBhCQARIsAIkWb6-WuvxI1ETOQc0eVeaxaHxz-aR89J2C2lsaU5G6_f9EO5LzUROFrwkaAstkEALw_wcB"><img src="imgs/tools/Filmora.png" alt=""></a></div>
-                    <div><a href="https://www.canva.com/fr_fr/"><img src="imgs/tools/Canva.png" alt=""></a></div>
-                    <div><a href="https://www.figma.com/fr/"><img src="imgs/tools/Figma.png" alt=""></a></div>
-                    <div><a href="https://audiolab.fr.aptoide.com/app"><img src="imgs/tools/AudioLab.png" alt=""></a></div>
-                </div>
+            </div>
+       </section>
+
+       <!-- skill section -->
+       <section id="skills">
+        <h2 class="fade-in-section">
+            <span>M</span><span>e</span><span>s</span>
+            <span>c</span><span>o</span><span>m</span><span>p</span><span>é</span><span>t</span><span>e</span><span>n</span><span>c</span><span>e</span><span>s</span>
+            <span>:</span>
+        </h2>
+        <div class="cards">
+            <div class="card fade-in-section" style="transition-delay: .75s;">
+                <h3>UX/UI Design</h3>
+                <p>
+                    Ayant été formée par SAYNA, une organisation en partenariat avec 
+                    l'OIF visant à former les jeunes talents de l'océan Indien dans 
+                    le domaine du développement web, je me suis spécialisée en UX/UI 
+                    Design et en suis sortie certifiée après avoir passé plusieurs 
+                    concours et defis éliminatoire, parmi cela, je suis notamment 
+                    arrivée à la première place lors de notre Hackathon grâce à mon 
+                    projet "Otaku animé", notre troisième épreuve éliminatoire. Bien 
+                    que je peux comprendre et gérer l'expérience utilisateur, mec 
+                    compétences sont beaucoup plus mis en avant dans le design 
+                    d'interface. Jusqu'à aujourd'hui, j'ai eu le temps d'avoir assez 
+                    d'expérience, de créativité, de capacité de compréhension du projet 
+                    pour réaliser de beaux wireframe, maquette et de prototypes adapté 
+                    aux site-web et au message qu'ils transmettent.
+                </p>
+                <span class="box">
+                    <a href="#">
+                        <span class="first">A</span><span>p</span><span>e</span><span>r</span><span>ç</span><span>u</span>
+                        <span class="second">d</span><span>e</span>
+                        <span class="three">m</span><span>e</span><span>s</span>
+                        <span class="last">d</span><span>e</span><span>s</span><span>i</span><span>g</span><span>n</span>
+                    </a>
+                    <div class="trait"></div>
+                </span>
+            </div>
+            <div class="card fade-in-section" style="transition-delay: 1.25s;">
+                <h3>Rédaction</h3>
+                <p>
+                    Concernant mon expérience dans la rédaction de contenu. C'est 
+                    d'abord ma passion pour l'écriture qui m'y a conduit, écrivant 
+                    souvent des poèmes, des chansons et des histoires étant plus 
+                    jeune. Après cela, j'ai acquis de l'expérience dans le monde 
+                    du Booking lorsque j'étais en formation et y a appris que la 
+                    plus grande partie du travail d'un rédacteur résidait surtout 
+                    dans les recherches. J'ai donc pratiquer cela dans mes études, 
+                    faisant des recherches approfondies sur divers thèmes et les 
+                    rédigeant. J'ai profité de ma formation sur SAYNA pour, à côté 
+                    du Design, me former dans la rédaction web. Aussi en possession 
+                    de mon DALF C1, je suis maintenant la rédactrice de contenu de 
+                    "Ohayo Dev & Design". J'y redige le contenu de nos site-web mais 
+                    je m'occupe également de toutes nos publications.
+                </p>
+                <span class="box">
+                    <a href="#">
+                        <span class="first">A</span><span>p</span><span>e</span><span>r</span><span>ç</span><span>u</span>
+                        <span class="second">d</span><span>e</span>
+                        <span class="three">m</span><span>e</span><span>s</span>
+                        <span class="last">t</span><span>e</span><span>x</span><span>t</span><span>e</span><span>s</span>
+                    </a>
+                    <div class="trait"></div>
+                </span>
+            </div>
+            <div class="card fade-in-section" style="transition-delay: 1.5s;">
+                <h3>Montage</h3>
+                <p>
+                    J'ai commencé les montages photos en 2014 sur Pixlr et Pick 
+                    monckey, puis suis passér sur divers logiciel. Maintenance, 
+                    j'utilise surtout Canva et Adobe InDesign ayant finalement 
+                    décidé de me spécialiser dans le monde de la publicité (affiches, 
+                    flyers, cartes ...), mais je peux également faire des montages 
+                    personnel et personnalisé si besoin ou des retouches photos. <br><br>
+
+                    En terme de montage vidéo, j'ai commencé en 2018, d'abord sur 
+                    Camtasia, puis filmora pour finir maintenant sur Adobe Première 
+                    pro. Je réalise surtout des clips mais peut aussi faire des vidéos 
+                    publicitaire, courts-métrages... En bref, vous pouviez me confier 
+                    ce que vous voulez.
+                </p>
+                <span class="box">
+                    <a href="#">
+                        <span class="first">A</span><span>p</span><span>e</span><span>r</span><span>ç</span><span>u</span>
+                        <span class="second">d</span><span>e</span>
+                        <span class="three">m</span><span>e</span><span>s</span>
+                        <span class="last">m</span><span>o</span><span>n</span><span>t</span><span>a</span><span>g</span><span>e</span><span>s</span>
+                    </a>
+                    <div class="trait"></div>
+                </span>
             </div>
         </div>
-        <div class="second">
-            <h4>Aperçu de mes réalisations:</h4>
-            <div class="click">
-                <div class="btn"><p>Maquette</p></div>
-                <div class="btn"><p>Prototype</p></div>
-                <div class="btn"><p>Montage Photo</p></div>
-                <div class="btn"><p>Montage Vidéo</p></div>
-                <div class="btn"><p>Musique</p></div>
-            </div>
-        </div>
-        <!-- stars bg -->
-            <div class="star star1"><img src="images/stars/star1.png" alt=""></div>
-            <div class="star star2"><img src="images/stars/star2.png" alt=""></div>
-            <div class="star star3"><img src="images/stars/star3.png" alt=""></div>
-            <div class="star star4"><img src="images/stars/star4.png" alt=""></div>
-            <div class="star star5"><img src="images/stars/star5.png" alt=""></div>
-            <div class="star star6"><img src="images/stars/star6.png" alt=""></div>
-            <div class="star star7"><img src="images/stars/star7.png" alt=""></div>
-            <div class="star star8"><img src="images/stars/star8.png" alt=""></div>
-         <!-- ends here -->
+    </section>
     </main>
-    <footer>
+
+    <!-- Footer -->
+    <footer id="foot">
         <div class="contact">
-            <div class="phone">
-                <h5>Contact:</h5>
-                <p>+261 32 90 783 35</p>
-                <p>+261 32 12 740 42</p>
+            <div>
+                <h4>Pages :</h4>
+                <a href="#" class="active">Acceuil</a> <br>
+                <a href="pages/realisation.html">Réalisation</a>
             </div>
-            <div class="mail">
-                <h5>Adresse Email:</h5>
-                <a href="mailto:xxjennawendyxx@gmail.com">xxjennawendyxx@gmail.com</a>
+            <div>
+                <h4>contact :</h4>
+                <p class="not">+261 32 90 783 35</p>
+                <p class="not">+261 32 12 740 42</p>
             </div>
-            <div class="adress">
-                <h5>Adresse:</h5>
+            <div class="large">
+                <h4>Adresse email :</h4>
+                <a href="mailto:xxjennawendyxx@gmail.com">XxjennawendyxX@gmail.com</a><br>
+                <a href="mailto:ohayodevanddesign@gmail.com">ohayodevanddesign@gmail.com</a>
+            </div>
+            <div>
+                <h4>Adresse :</h4>
                 <p>Madagascar,</p>
-                <p>Nosy-Be Hell-Ville,</p>
-                <p>Ambonara</p>
+                <p>Antananarivo</p>
             </div>
         </div>
-        <div class="social">
-            <div onclick="location.href='https://web.facebook.com/profile.php?id=100089742986494';"><img src="imgs/social-media/facebook-svgrepo-com.svg" alt="facebook"></div>
-            <!-- <div onclick="location.href='';"><img src="imgs/social-media/whatsapp-128-svgrepo-com.svg" alt="whatsapp"></div> -->
-            <div onclick="location.href='https://www.linkedin.com/in/jenna-wendy-091026265/';"><img src="imgs/social-media/linkedin-round-svgrepo-com.svg" alt="linkedin"></div>
-            <div onclick="location.href='https://dribbble.com/Jennawendy';"><img src="imgs/social-media/dribble-svgrepo-com.svg" alt="dribbble"></div>
-            <div onclick="location.href='https://github.com/Jenna-Wendy';"><img src="imgs/social-media/github-142-svgrepo-com.svg" alt="github"></div>
+        <div class="social-media">
+            <div class="me">
+                <div class="icons">
+                    <a href="https://www.facebook.com/profile.php?id=100089742986494" target="_blank"><img loading="lazy" src="../assets/imgs/icons/facebook.webp" alt="icon facebook" height="338px" width="338px"></a>
+                    <a href="http://wa.link/m2w9b3" target="_blank"><img loading="lazy" src="../assets/imgs/icons/whatsapp.webp" alt="icon whatsapp" height="338px" width="338px"></a>
+                    <a href="https://www.linkedin.com/in/jenna-wendy-091026265/" target="_blank"><img loading="lazy" src="../assets/imgs/icons/linkedin.webp" alt="icon linkedin" height="338px" width="338px"></a>
+                </div>
+                <div class="text"><h3>Me contacter</h3></div>
+            </div>
+            <div class="me">
+                <div class="icons">
+                    <a href="https://github.com/Jenna-Wendy" target="_blank"><img loading="lazy" src="../assets/imgs/icons/github.webp" alt="icon github" height="338px" width="338px"></a>
+                    <a not-yet href="" target="_blank"><img loading="lazy" src="../assets/imgs/icons/figma.webp" alt="icon figma" height="338px" width="338px"></a>
+                    <a not-yet href="" target="_blank"><img loading="lazy" src="../assets/imgs/icons/dribbble.webp" alt="icon dribbble" height="338px" width="338px"></a>
+                </div>
+                <div class="text"><h3>Voir mon travail</h3></div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Fait avec ❤️ par Jenna et Axel (Ohayo Dev & Design)</p>
         </div>
     </footer>
 </body>
+
 </html>

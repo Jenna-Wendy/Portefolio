@@ -1,0 +1,54 @@
+//  pop in
+
+// h1 entrance zoom out per words
+.title{
+    h1{
+        @include reverse-l($num-children: 15);
+    }
+    h2{
+        @include reverse-l($num-children: 33);
+    }
+}
+#skills {
+    h2 {
+        @include reverse-l($num-children: 15);
+    }
+}
+
+.desc{
+    h3{
+        @include reverse-l($num-children: 30);
+    }
+    h4{
+        @include light($num-children: 24);
+    }
+}
+@keyframes light {
+    0%{
+        text-shadow: none;
+    }
+    100%{
+        text-shadow: $white 0px 0px 5px;
+    }
+}
+@keyframes light-purple {
+    100%{
+        color: var(--secondary);
+        text-shadow: hsl(273, 100%, 50%) 0px 0px 5px;
+    }
+}
+@keyframes reverse-l {
+    0%{
+        text-shadow: none;
+    }
+    50%{
+        text-shadow: $white 0px 0px 5px;
+    }
+    100%{
+        text-shadow: none;
+    }
+}
+
+.slow{
+    text-shadow: none;
+}

@@ -1,0 +1,2235 @@
+@import url("https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=League+Spartan:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=League+Spartan:wght@100..900&display=swap");
+.title h1 :nth-child(1) {
+  text-shadow: none;
+  transition: 0.5s all ease-in-out 0s;
+}
+.title h1:hover :nth-child(1) {
+  text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+}
+.title h1 :nth-child(2) {
+  text-shadow: none;
+  transition: 0.5s all ease-in-out 0.05s;
+}
+.title h1:hover :nth-child(2) {
+  text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+}
+.title h1 :nth-child(3) {
+  text-shadow: none;
+  transition: 0.5s all ease-in-out 0.1s;
+}
+.title h1:hover :nth-child(3) {
+  text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+}
+.title h1 :nth-child(4) {
+  text-shadow: none;
+  transition: 0.5s all ease-in-out 0.15s;
+}
+.title h1:hover :nth-child(4) {
+  text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+}
+.title h1 :nth-child(5) {
+  text-shadow: none;
+  transition: 0.5s all ease-in-out 0.2s;
+}
+.title h1:hover :nth-child(5) {
+  text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+}
+.title h1 :nth-child(6) {
+  text-shadow: none;
+  transition: 0.5s all ease-in-out 0.25s;
+}
+.title h1:hover :nth-child(6) {
+  text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+}
+.title h1 :nth-child(7) {
+  text-shadow: none;
+  transition: 0.5s all ease-in-out 0.3s;
+}
+.title h1:hover :nth-child(7) {
+  text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+}
+.title h1 :nth-child(8) {
+  text-shadow: none;
+  transition: 0.5s all ease-in-out 0.35s;
+}
+.title h1:hover :nth-child(8) {
+  text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+}
+.title h1 :nth-child(9) {
+  text-shadow: none;
+  transition: 0.5s all ease-in-out 0.4s;
+}
+.title h1:hover :nth-child(9) {
+  text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+}
+.title h1 :nth-child(10) {
+  text-shadow: none;
+  transition: 0.5s all ease-in-out 0.45s;
+}
+.title h1:hover :nth-child(10) {
+  text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+}
+.title h1 :nth-child(11) {
+  text-shadow: none;
+  transition: 0.5s all ease-in-out 0.5s;
+}
+.title h1:hover :nth-child(11) {
+  text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+}
+.title h1 :nth-child(12) {
+  text-shadow: none;
+  transition: 0.5s all ease-in-out 0.55s;
+}
+.title h1:hover :nth-child(12) {
+  text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+}
+.title h1 :nth-child(13) {
+  text-shadow: none;
+  transition: 0.5s all ease-in-out 0.6s;
+}
+.title h1:hover :nth-child(13) {
+  text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+}
+.title h1 :nth-child(14) {
+  text-shadow: none;
+  transition: 0.5s all ease-in-out 0.65s;
+}
+.title h1:hover :nth-child(14) {
+  text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+}
+.title h1 :nth-child(15) {
+  text-shadow: none;
+  transition: 0.5s all ease-in-out 0.7s;
+}
+.title h1:hover :nth-child(15) {
+  text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+}
+.title h2 :nth-child(1) {
+  text-shadow: none;
+  transition: 0.5s all ease-in-out 0s;
+}
+.title h2:hover :nth-child(1) {
+  text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+}
+.title h2 :nth-child(2) {
+  text-shadow: none;
+  transition: 0.5s all ease-in-out 0.05s;
+}
+.title h2:hover :nth-child(2) {
+  text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+}
+.title h2 :nth-child(3) {
+  text-shadow: none;
+  transition: 0.5s all ease-in-out 0.1s;
+}
+.title h2:hover :nth-child(3) {
+  text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+}
+.title h2 :nth-child(4) {
+  text-shadow: none;
+  transition: 0.5s all ease-in-out 0.15s;
+}
+.title h2:hover :nth-child(4) {
+  text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+}
+.title h2 :nth-child(5) {
+  text-shadow: none;
+  transition: 0.5s all ease-in-out 0.2s;
+}
+.title h2:hover :nth-child(5) {
+  text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+}
+.title h2 :nth-child(6) {
+  text-shadow: none;
+  transition: 0.5s all ease-in-out 0.25s;
+}
+.title h2:hover :nth-child(6) {
+  text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+}
+.title h2 :nth-child(7) {
+  text-shadow: none;
+  transition: 0.5s all ease-in-out 0.3s;
+}
+.title h2:hover :nth-child(7) {
+  text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+}
+.title h2 :nth-child(8) {
+  text-shadow: none;
+  transition: 0.5s all ease-in-out 0.35s;
+}
+.title h2:hover :nth-child(8) {
+  text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+}
+.title h2 :nth-child(9) {
+  text-shadow: none;
+  transition: 0.5s all ease-in-out 0.4s;
+}
+.title h2:hover :nth-child(9) {
+  text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+}
+.title h2 :nth-child(10) {
+  text-shadow: none;
+  transition: 0.5s all ease-in-out 0.45s;
+}
+.title h2:hover :nth-child(10) {
+  text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+}
+.title h2 :nth-child(11) {
+  text-shadow: none;
+  transition: 0.5s all ease-in-out 0.5s;
+}
+.title h2:hover :nth-child(11) {
+  text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+}
+.title h2 :nth-child(12) {
+  text-shadow: none;
+  transition: 0.5s all ease-in-out 0.55s;
+}
+.title h2:hover :nth-child(12) {
+  text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+}
+.title h2 :nth-child(13) {
+  text-shadow: none;
+  transition: 0.5s all ease-in-out 0.6s;
+}
+.title h2:hover :nth-child(13) {
+  text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+}
+.title h2 :nth-child(14) {
+  text-shadow: none;
+  transition: 0.5s all ease-in-out 0.65s;
+}
+.title h2:hover :nth-child(14) {
+  text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+}
+.title h2 :nth-child(15) {
+  text-shadow: none;
+  transition: 0.5s all ease-in-out 0.7s;
+}
+.title h2:hover :nth-child(15) {
+  text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+}
+.title h2 :nth-child(16) {
+  text-shadow: none;
+  transition: 0.5s all ease-in-out 0.75s;
+}
+.title h2:hover :nth-child(16) {
+  text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+}
+.title h2 :nth-child(17) {
+  text-shadow: none;
+  transition: 0.5s all ease-in-out 0.8s;
+}
+.title h2:hover :nth-child(17) {
+  text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+}
+.title h2 :nth-child(18) {
+  text-shadow: none;
+  transition: 0.5s all ease-in-out 0.85s;
+}
+.title h2:hover :nth-child(18) {
+  text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+}
+.title h2 :nth-child(19) {
+  text-shadow: none;
+  transition: 0.5s all ease-in-out 0.9s;
+}
+.title h2:hover :nth-child(19) {
+  text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+}
+.title h2 :nth-child(20) {
+  text-shadow: none;
+  transition: 0.5s all ease-in-out 0.95s;
+}
+.title h2:hover :nth-child(20) {
+  text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+}
+.title h2 :nth-child(21) {
+  text-shadow: none;
+  transition: 0.5s all ease-in-out 1s;
+}
+.title h2:hover :nth-child(21) {
+  text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+}
+.title h2 :nth-child(22) {
+  text-shadow: none;
+  transition: 0.5s all ease-in-out 1.05s;
+}
+.title h2:hover :nth-child(22) {
+  text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+}
+.title h2 :nth-child(23) {
+  text-shadow: none;
+  transition: 0.5s all ease-in-out 1.1s;
+}
+.title h2:hover :nth-child(23) {
+  text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+}
+.title h2 :nth-child(24) {
+  text-shadow: none;
+  transition: 0.5s all ease-in-out 1.15s;
+}
+.title h2:hover :nth-child(24) {
+  text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+}
+.title h2 :nth-child(25) {
+  text-shadow: none;
+  transition: 0.5s all ease-in-out 1.2s;
+}
+.title h2:hover :nth-child(25) {
+  text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+}
+.title h2 :nth-child(26) {
+  text-shadow: none;
+  transition: 0.5s all ease-in-out 1.25s;
+}
+.title h2:hover :nth-child(26) {
+  text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+}
+.title h2 :nth-child(27) {
+  text-shadow: none;
+  transition: 0.5s all ease-in-out 1.3s;
+}
+.title h2:hover :nth-child(27) {
+  text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+}
+.title h2 :nth-child(28) {
+  text-shadow: none;
+  transition: 0.5s all ease-in-out 1.35s;
+}
+.title h2:hover :nth-child(28) {
+  text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+}
+.title h2 :nth-child(29) {
+  text-shadow: none;
+  transition: 0.5s all ease-in-out 1.4s;
+}
+.title h2:hover :nth-child(29) {
+  text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+}
+.title h2 :nth-child(30) {
+  text-shadow: none;
+  transition: 0.5s all ease-in-out 1.45s;
+}
+.title h2:hover :nth-child(30) {
+  text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+}
+.title h2 :nth-child(31) {
+  text-shadow: none;
+  transition: 0.5s all ease-in-out 1.5s;
+}
+.title h2:hover :nth-child(31) {
+  text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+}
+.title h2 :nth-child(32) {
+  text-shadow: none;
+  transition: 0.5s all ease-in-out 1.55s;
+}
+.title h2:hover :nth-child(32) {
+  text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+}
+.title h2 :nth-child(33) {
+  text-shadow: none;
+  transition: 0.5s all ease-in-out 1.6s;
+}
+.title h2:hover :nth-child(33) {
+  text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+}
+
+#skills h2 :nth-child(1) {
+  text-shadow: none;
+  transition: 0.5s all ease-in-out 0s;
+}
+#skills h2:hover :nth-child(1) {
+  text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+}
+#skills h2 :nth-child(2) {
+  text-shadow: none;
+  transition: 0.5s all ease-in-out 0.05s;
+}
+#skills h2:hover :nth-child(2) {
+  text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+}
+#skills h2 :nth-child(3) {
+  text-shadow: none;
+  transition: 0.5s all ease-in-out 0.1s;
+}
+#skills h2:hover :nth-child(3) {
+  text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+}
+#skills h2 :nth-child(4) {
+  text-shadow: none;
+  transition: 0.5s all ease-in-out 0.15s;
+}
+#skills h2:hover :nth-child(4) {
+  text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+}
+#skills h2 :nth-child(5) {
+  text-shadow: none;
+  transition: 0.5s all ease-in-out 0.2s;
+}
+#skills h2:hover :nth-child(5) {
+  text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+}
+#skills h2 :nth-child(6) {
+  text-shadow: none;
+  transition: 0.5s all ease-in-out 0.25s;
+}
+#skills h2:hover :nth-child(6) {
+  text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+}
+#skills h2 :nth-child(7) {
+  text-shadow: none;
+  transition: 0.5s all ease-in-out 0.3s;
+}
+#skills h2:hover :nth-child(7) {
+  text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+}
+#skills h2 :nth-child(8) {
+  text-shadow: none;
+  transition: 0.5s all ease-in-out 0.35s;
+}
+#skills h2:hover :nth-child(8) {
+  text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+}
+#skills h2 :nth-child(9) {
+  text-shadow: none;
+  transition: 0.5s all ease-in-out 0.4s;
+}
+#skills h2:hover :nth-child(9) {
+  text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+}
+#skills h2 :nth-child(10) {
+  text-shadow: none;
+  transition: 0.5s all ease-in-out 0.45s;
+}
+#skills h2:hover :nth-child(10) {
+  text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+}
+#skills h2 :nth-child(11) {
+  text-shadow: none;
+  transition: 0.5s all ease-in-out 0.5s;
+}
+#skills h2:hover :nth-child(11) {
+  text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+}
+#skills h2 :nth-child(12) {
+  text-shadow: none;
+  transition: 0.5s all ease-in-out 0.55s;
+}
+#skills h2:hover :nth-child(12) {
+  text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+}
+#skills h2 :nth-child(13) {
+  text-shadow: none;
+  transition: 0.5s all ease-in-out 0.6s;
+}
+#skills h2:hover :nth-child(13) {
+  text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+}
+#skills h2 :nth-child(14) {
+  text-shadow: none;
+  transition: 0.5s all ease-in-out 0.65s;
+}
+#skills h2:hover :nth-child(14) {
+  text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+}
+#skills h2 :nth-child(15) {
+  text-shadow: none;
+  transition: 0.5s all ease-in-out 0.7s;
+}
+#skills h2:hover :nth-child(15) {
+  text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+}
+
+.desc h3 :nth-child(1) {
+  text-shadow: none;
+  transition: 0.5s all ease-in-out 0s;
+}
+.desc h3:hover :nth-child(1) {
+  text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+}
+.desc h3 :nth-child(2) {
+  text-shadow: none;
+  transition: 0.5s all ease-in-out 0.05s;
+}
+.desc h3:hover :nth-child(2) {
+  text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+}
+.desc h3 :nth-child(3) {
+  text-shadow: none;
+  transition: 0.5s all ease-in-out 0.1s;
+}
+.desc h3:hover :nth-child(3) {
+  text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+}
+.desc h3 :nth-child(4) {
+  text-shadow: none;
+  transition: 0.5s all ease-in-out 0.15s;
+}
+.desc h3:hover :nth-child(4) {
+  text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+}
+.desc h3 :nth-child(5) {
+  text-shadow: none;
+  transition: 0.5s all ease-in-out 0.2s;
+}
+.desc h3:hover :nth-child(5) {
+  text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+}
+.desc h3 :nth-child(6) {
+  text-shadow: none;
+  transition: 0.5s all ease-in-out 0.25s;
+}
+.desc h3:hover :nth-child(6) {
+  text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+}
+.desc h3 :nth-child(7) {
+  text-shadow: none;
+  transition: 0.5s all ease-in-out 0.3s;
+}
+.desc h3:hover :nth-child(7) {
+  text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+}
+.desc h3 :nth-child(8) {
+  text-shadow: none;
+  transition: 0.5s all ease-in-out 0.35s;
+}
+.desc h3:hover :nth-child(8) {
+  text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+}
+.desc h3 :nth-child(9) {
+  text-shadow: none;
+  transition: 0.5s all ease-in-out 0.4s;
+}
+.desc h3:hover :nth-child(9) {
+  text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+}
+.desc h3 :nth-child(10) {
+  text-shadow: none;
+  transition: 0.5s all ease-in-out 0.45s;
+}
+.desc h3:hover :nth-child(10) {
+  text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+}
+.desc h3 :nth-child(11) {
+  text-shadow: none;
+  transition: 0.5s all ease-in-out 0.5s;
+}
+.desc h3:hover :nth-child(11) {
+  text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+}
+.desc h3 :nth-child(12) {
+  text-shadow: none;
+  transition: 0.5s all ease-in-out 0.55s;
+}
+.desc h3:hover :nth-child(12) {
+  text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+}
+.desc h3 :nth-child(13) {
+  text-shadow: none;
+  transition: 0.5s all ease-in-out 0.6s;
+}
+.desc h3:hover :nth-child(13) {
+  text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+}
+.desc h3 :nth-child(14) {
+  text-shadow: none;
+  transition: 0.5s all ease-in-out 0.65s;
+}
+.desc h3:hover :nth-child(14) {
+  text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+}
+.desc h3 :nth-child(15) {
+  text-shadow: none;
+  transition: 0.5s all ease-in-out 0.7s;
+}
+.desc h3:hover :nth-child(15) {
+  text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+}
+.desc h3 :nth-child(16) {
+  text-shadow: none;
+  transition: 0.5s all ease-in-out 0.75s;
+}
+.desc h3:hover :nth-child(16) {
+  text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+}
+.desc h3 :nth-child(17) {
+  text-shadow: none;
+  transition: 0.5s all ease-in-out 0.8s;
+}
+.desc h3:hover :nth-child(17) {
+  text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+}
+.desc h3 :nth-child(18) {
+  text-shadow: none;
+  transition: 0.5s all ease-in-out 0.85s;
+}
+.desc h3:hover :nth-child(18) {
+  text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+}
+.desc h3 :nth-child(19) {
+  text-shadow: none;
+  transition: 0.5s all ease-in-out 0.9s;
+}
+.desc h3:hover :nth-child(19) {
+  text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+}
+.desc h3 :nth-child(20) {
+  text-shadow: none;
+  transition: 0.5s all ease-in-out 0.95s;
+}
+.desc h3:hover :nth-child(20) {
+  text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+}
+.desc h3 :nth-child(21) {
+  text-shadow: none;
+  transition: 0.5s all ease-in-out 1s;
+}
+.desc h3:hover :nth-child(21) {
+  text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+}
+.desc h3 :nth-child(22) {
+  text-shadow: none;
+  transition: 0.5s all ease-in-out 1.05s;
+}
+.desc h3:hover :nth-child(22) {
+  text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+}
+.desc h3 :nth-child(23) {
+  text-shadow: none;
+  transition: 0.5s all ease-in-out 1.1s;
+}
+.desc h3:hover :nth-child(23) {
+  text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+}
+.desc h3 :nth-child(24) {
+  text-shadow: none;
+  transition: 0.5s all ease-in-out 1.15s;
+}
+.desc h3:hover :nth-child(24) {
+  text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+}
+.desc h3 :nth-child(25) {
+  text-shadow: none;
+  transition: 0.5s all ease-in-out 1.2s;
+}
+.desc h3:hover :nth-child(25) {
+  text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+}
+.desc h3 :nth-child(26) {
+  text-shadow: none;
+  transition: 0.5s all ease-in-out 1.25s;
+}
+.desc h3:hover :nth-child(26) {
+  text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+}
+.desc h3 :nth-child(27) {
+  text-shadow: none;
+  transition: 0.5s all ease-in-out 1.3s;
+}
+.desc h3:hover :nth-child(27) {
+  text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+}
+.desc h3 :nth-child(28) {
+  text-shadow: none;
+  transition: 0.5s all ease-in-out 1.35s;
+}
+.desc h3:hover :nth-child(28) {
+  text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+}
+.desc h3 :nth-child(29) {
+  text-shadow: none;
+  transition: 0.5s all ease-in-out 1.4s;
+}
+.desc h3:hover :nth-child(29) {
+  text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+}
+.desc h3 :nth-child(30) {
+  text-shadow: none;
+  transition: 0.5s all ease-in-out 1.45s;
+}
+.desc h3:hover :nth-child(30) {
+  text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+}
+.desc h4 :nth-child(1) {
+  transition: 0.5s all ease-in-out 0s;
+}
+.desc h4:hover :nth-child(1) {
+  text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+}
+.desc h4 :nth-child(2) {
+  transition: 0.5s all ease-in-out 0.05s;
+}
+.desc h4:hover :nth-child(2) {
+  text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+}
+.desc h4 :nth-child(3) {
+  transition: 0.5s all ease-in-out 0.1s;
+}
+.desc h4:hover :nth-child(3) {
+  text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+}
+.desc h4 :nth-child(4) {
+  transition: 0.5s all ease-in-out 0.15s;
+}
+.desc h4:hover :nth-child(4) {
+  text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+}
+.desc h4 :nth-child(5) {
+  transition: 0.5s all ease-in-out 0.2s;
+}
+.desc h4:hover :nth-child(5) {
+  text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+}
+.desc h4 :nth-child(6) {
+  transition: 0.5s all ease-in-out 0.25s;
+}
+.desc h4:hover :nth-child(6) {
+  text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+}
+.desc h4 :nth-child(7) {
+  transition: 0.5s all ease-in-out 0.3s;
+}
+.desc h4:hover :nth-child(7) {
+  text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+}
+.desc h4 :nth-child(8) {
+  transition: 0.5s all ease-in-out 0.35s;
+}
+.desc h4:hover :nth-child(8) {
+  text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+}
+.desc h4 :nth-child(9) {
+  transition: 0.5s all ease-in-out 0.4s;
+}
+.desc h4:hover :nth-child(9) {
+  text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+}
+.desc h4 :nth-child(10) {
+  transition: 0.5s all ease-in-out 0.45s;
+}
+.desc h4:hover :nth-child(10) {
+  text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+}
+.desc h4 :nth-child(11) {
+  transition: 0.5s all ease-in-out 0.5s;
+}
+.desc h4:hover :nth-child(11) {
+  text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+}
+.desc h4 :nth-child(12) {
+  transition: 0.5s all ease-in-out 0.55s;
+}
+.desc h4:hover :nth-child(12) {
+  text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+}
+.desc h4 :nth-child(13) {
+  transition: 0.5s all ease-in-out 0.6s;
+}
+.desc h4:hover :nth-child(13) {
+  text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+}
+.desc h4 :nth-child(14) {
+  transition: 0.5s all ease-in-out 0.65s;
+}
+.desc h4:hover :nth-child(14) {
+  text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+}
+.desc h4 :nth-child(15) {
+  transition: 0.5s all ease-in-out 0.7s;
+}
+.desc h4:hover :nth-child(15) {
+  text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+}
+.desc h4 :nth-child(16) {
+  transition: 0.5s all ease-in-out 0.75s;
+}
+.desc h4:hover :nth-child(16) {
+  text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+}
+.desc h4 :nth-child(17) {
+  transition: 0.5s all ease-in-out 0.8s;
+}
+.desc h4:hover :nth-child(17) {
+  text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+}
+.desc h4 :nth-child(18) {
+  transition: 0.5s all ease-in-out 0.85s;
+}
+.desc h4:hover :nth-child(18) {
+  text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+}
+.desc h4 :nth-child(19) {
+  transition: 0.5s all ease-in-out 0.9s;
+}
+.desc h4:hover :nth-child(19) {
+  text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+}
+.desc h4 :nth-child(20) {
+  transition: 0.5s all ease-in-out 0.95s;
+}
+.desc h4:hover :nth-child(20) {
+  text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+}
+.desc h4 :nth-child(21) {
+  transition: 0.5s all ease-in-out 1s;
+}
+.desc h4:hover :nth-child(21) {
+  text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+}
+.desc h4 :nth-child(22) {
+  transition: 0.5s all ease-in-out 1.05s;
+}
+.desc h4:hover :nth-child(22) {
+  text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+}
+.desc h4 :nth-child(23) {
+  transition: 0.5s all ease-in-out 1.1s;
+}
+.desc h4:hover :nth-child(23) {
+  text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+}
+.desc h4 :nth-child(24) {
+  transition: 0.5s all ease-in-out 1.15s;
+}
+.desc h4:hover :nth-child(24) {
+  text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+}
+
+@keyframes light {
+  0% {
+    text-shadow: none;
+  }
+  100% {
+    text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+  }
+}
+@keyframes light-purple {
+  100% {
+    color: var(--secondary);
+    text-shadow: hsl(273, 100%, 50%) 0px 0px 5px;
+  }
+}
+@keyframes reverse-l {
+  0% {
+    text-shadow: none;
+  }
+  50% {
+    text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+  }
+  100% {
+    text-shadow: none;
+  }
+}
+.slow {
+  text-shadow: none;
+}
+
+/* mini-reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-weight: normal;
+  scroll-behavior: smooth;
+  text-align: justify;
+}
+
+:root[data-theme=light] {
+  --primary: hsl(197, 68%, 37%);
+  --secondary: hsl(193, 92%, 72%);
+  --accent: hsl(199, 56%, 42%);
+  --text-shadow: hsl(202, 79%, 23%);
+  --btn: hsl(180, 100%, 36%);
+}
+
+:root[data-theme=dark] {
+  --primary: hsl(257, 75%, 15%);
+  --secondary: hsl(260, 92%, 72%);
+  --accent: hsl(257, 56%, 42%);
+  --text-shadow: hsl(273, 100%, 50%);
+  --btn: hsl(275, 94%, 20%);
+}
+
+/* body default style */
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+  color: hsl(0, 0%, 100%);
+  font-size: 16px;
+  text-transform: uppercase;
+}
+body::-webkit-scrollbar {
+  width: 0.25em;
+}
+body::-webkit-scrollbar-track {
+  background: hsl(0, 0%, 0%);
+}
+body::-webkit-scrollbar-thumb {
+  background: var(--btn);
+}
+
+html {
+  background: var(--primary);
+}
+
+html[data-theme=light] > body {
+  background: url(../../assets/imgs/day/pngegg-003.webp) top right/clamp(800px, 80vw, 100%) no-repeat, url(../../assets/imgs/day/pngegg-004.webp) top left/clamp(800px, 50vw, 100%) no-repeat, url(../../assets/imgs/day/cloud-004.webp) center right/clamp(1200px, 100vw, 100%) no-repeat, url(../../assets/imgs/day/cloud-007.webp) bottom center/clamp(1200px, 100vw, 100%) no-repeat;
+}
+html[data-theme=light] > body .infos {
+  background: hsla(202, 79%, 23%, 0.44);
+  padding: 24px;
+  border-radius: 20px;
+  min-height: 552px;
+}
+html[data-theme=light] > body .infos h1 *, html[data-theme=light] > body .infos h2 * {
+  text-shadow: rgba(0, 0, 0, 0.6509803922) 0px 2px 5px, rgba(0, 0, 0, 0.6509803922) 0px 2px 5px;
+}
+html[data-theme=light] > body .infos p {
+  text-shadow: rgba(0, 0, 0, 0.6509803922) 0px 0px 5px;
+  font-weight: 350;
+}
+html[data-theme=light] > body #skills h2 * {
+  text-shadow: rgba(0, 0, 0, 0.6509803922) 0px 2px 5px, rgba(0, 0, 0, 0.6509803922) 0px 2px 5px;
+}
+
+html[data-theme=dark] > body {
+  background: var(--primary) url(../../assets/imgs/bg/bg.gif) top center/100%;
+}
+html[data-theme=dark] > body #skills {
+  background: url(../../assets/imgs/bg/left.webp) left/75vh no-repeat, url(../../assets/imgs/bg/center-002.webp) center/45vw no-repeat, url(../../assets/imgs/bg/right.webp) right/75vh no-repeat;
+  box-shadow: inset var(--primary) 0px 0px 50px, inset var(--primary) 0px 0px 50px, inset var(--primary) 0px 0px 25px, inset var(--primary) 0px 0px 25px, inset var(--primary) 0px 0px 25px, inset var(--primary) 0px 0px 50px;
+}
+html[data-theme=dark] > body .infos {
+  padding: 24px;
+  min-height: 552px;
+}
+html[data-theme=dark] > body .infos p {
+  font-weight: 350;
+}
+html[data-theme=dark] > body #skills h2 * {
+  text-shadow: rgba(0, 0, 0, 0.6509803922) 0px 2px 5px, rgba(0, 0, 0, 0.6509803922) 0px 2px 5px;
+}
+
+.switch-mode {
+  position: fixed;
+  top: 55px;
+  right: 12px;
+  border-radius: 20px;
+  border: #1C274C 2px solid;
+  background: rgba(0, 0, 0, 0.768627451) url(../../assets/imgs/bg/bottom.webp) center/300px no-repeat;
+  padding: 5px;
+  width: max-content;
+  display: flex;
+  gap: 5px;
+  flex-direction: column;
+}
+.switch-mode .sep {
+  background: #777;
+  width: 100%;
+  height: 2px;
+}
+.switch-mode button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  opacity: 0.6;
+  transition: opacity 0.25s ease-in-out;
+}
+.switch-mode button:hover {
+  opacity: 1;
+}
+
+.fade-in-section {
+  opacity: 0;
+  filter: blur(2px);
+  transition: opacity 1s ease-out 0.25s, filter 1s ease-out 0.25s, transform 1s ease-out 0.25s;
+}
+
+.is-visible {
+  opacity: 1;
+  filter: blur(0);
+  transform: translate(0, 0);
+}
+
+[not-yet] {
+  pointer-events: none;
+}
+
+/* importing fonts */
+a,
+span {
+  font-family: "League Spartan", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  color: hsl(0, 0%, 100%);
+}
+
+h1 {
+  font-family: "League Spartan", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: clamp(1.5em, 10vw, 3em);
+  width: max-content;
+  text-shadow: hsl(0, 0%, 0%) 2px 2px 5px;
+}
+
+h2 {
+  font-family: "League Spartan", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: clamp(1em, 5vw, 1.3em);
+  text-shadow: hsl(0, 0%, 0%) 2px 2px 5px;
+}
+
+h3 {
+  font-family: "League Spartan", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: 1px;
+}
+
+h4 {
+  font-family: "League Spartan", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  letter-spacing: 1px;
+}
+
+p {
+  font-family: "League Spartan", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.active {
+  color: var(--secondary);
+  text-shadow: var(--text-shadow) 0px 0px 5px;
+}
+
+header {
+  padding: 12px 16px;
+  background: hsl(0, 0%, 0%);
+}
+header nav {
+  display: flex;
+  justify-content: space-between;
+}
+header a {
+  transition: 0.25s all ease-in-out;
+  position: relative;
+  text-transform: uppercase;
+}
+header a :nth-child(1) {
+  transition: 0.5s all ease-in-out 0s;
+}
+header a:hover :nth-child(1) {
+  color: var(--secondary);
+  text-shadow: hsl(273, 100%, 50%) 0px 0px 5px;
+}
+header a :nth-child(2) {
+  transition: 0.5s all ease-in-out 0.02s;
+}
+header a:hover :nth-child(2) {
+  color: var(--secondary);
+  text-shadow: hsl(273, 100%, 50%) 0px 0px 5px;
+}
+header a :nth-child(3) {
+  transition: 0.5s all ease-in-out 0.04s;
+}
+header a:hover :nth-child(3) {
+  color: var(--secondary);
+  text-shadow: hsl(273, 100%, 50%) 0px 0px 5px;
+}
+header a :nth-child(4) {
+  transition: 0.5s all ease-in-out 0.06s;
+}
+header a:hover :nth-child(4) {
+  color: var(--secondary);
+  text-shadow: hsl(273, 100%, 50%) 0px 0px 5px;
+}
+header a :nth-child(5) {
+  transition: 0.5s all ease-in-out 0.08s;
+}
+header a:hover :nth-child(5) {
+  color: var(--secondary);
+  text-shadow: hsl(273, 100%, 50%) 0px 0px 5px;
+}
+header a :nth-child(6) {
+  transition: 0.5s all ease-in-out 0.1s;
+}
+header a:hover :nth-child(6) {
+  color: var(--secondary);
+  text-shadow: hsl(273, 100%, 50%) 0px 0px 5px;
+}
+header a :nth-child(7) {
+  transition: 0.5s all ease-in-out 0.12s;
+}
+header a:hover :nth-child(7) {
+  color: var(--secondary);
+  text-shadow: hsl(273, 100%, 50%) 0px 0px 5px;
+}
+header a :nth-child(8) {
+  transition: 0.5s all ease-in-out 0.14s;
+}
+header a:hover :nth-child(8) {
+  color: var(--secondary);
+  text-shadow: hsl(273, 100%, 50%) 0px 0px 5px;
+}
+header a :nth-child(9) {
+  transition: 0.5s all ease-in-out 0.16s;
+}
+header a:hover :nth-child(9) {
+  color: var(--secondary);
+  text-shadow: hsl(273, 100%, 50%) 0px 0px 5px;
+}
+header a :nth-child(10) {
+  transition: 0.5s all ease-in-out 0.18s;
+}
+header a:hover :nth-child(10) {
+  color: var(--secondary);
+  text-shadow: hsl(273, 100%, 50%) 0px 0px 5px;
+}
+header a :nth-child(11) {
+  transition: 0.5s all ease-in-out 0.2s;
+}
+header a:hover :nth-child(11) {
+  color: var(--secondary);
+  text-shadow: hsl(273, 100%, 50%) 0px 0px 5px;
+}
+
+footer {
+  background: hsl(0, 0%, 0%);
+  padding: 50px 0 12px 0;
+  margin-top: 8%;
+}
+footer a {
+  font-family: "League Spartan", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+footer h3,
+footer h4 {
+  color: var(--secondary);
+  text-shadow: var(--text-shadow) 0px 0px 5px;
+}
+footer p:not(.not),
+footer a {
+  text-transform: initial;
+  font-size: 1.2em;
+}
+footer .contact {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 48px 12px;
+  margin-bottom: 60px;
+  line-height: 20px;
+}
+footer .contact h4 {
+  margin-bottom: 12px;
+}
+footer .contact div {
+  min-width: max-content;
+  margin: 0 auto 0 auto;
+}
+footer .social-media {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px 10%;
+  justify-content: center;
+  margin-bottom: 24px;
+}
+footer .social-media .me {
+  text-align: center;
+}
+footer .social-media .icons {
+  display: flex;
+  gap: 12px;
+  width: max-content;
+  margin: 8px auto;
+}
+footer .social-media .icons a {
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  transition: 0.25s transform ease-in-out;
+}
+footer .social-media .icons a:hover {
+  transform: scale(1.1) translateY(-5px);
+}
+footer .social-media .icons img {
+  width: 100%;
+  height: 100%;
+}
+footer .copyright {
+  margin-top: 12px;
+  margin-bottom: 24px;
+}
+footer .copyright p {
+  text-align: center;
+}
+
+#bio {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 48px 0;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  min-height: calc(100vh - 45px);
+}
+
+.infos .content {
+  width: 50ch;
+  margin: 0 auto;
+  position: relative;
+}
+.infos .text {
+  line-height: 25px;
+  margin-top: 24px;
+  text-transform: initial;
+  font-size: 1.2em;
+}
+
+.desc .content {
+  background: hsl(0, 0%, 0%);
+  width: clamp(350px, 90%, 450px);
+  padding: 24px;
+  border-radius: 20px;
+  margin: 0 auto;
+}
+.desc .photo {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 15px;
+  box-shadow: #707070 0px 0px 8px;
+}
+.desc .photo img {
+  width: 135%;
+  height: 100%;
+  object-fit: cover;
+  object-position: -100px 0%;
+}
+.desc h3, .desc h4 {
+  text-align: center;
+  margin: 24px 0;
+}
+.desc .about div {
+  display: flex;
+  justify-content: space-between;
+  line-height: 25px;
+  margin: 0 18px;
+}
+.desc .tools {
+  display: flex;
+  justify-content: space-evenly;
+}
+.desc .tools a {
+  width: 55px;
+  transition: 0.25s transform ease-in-out;
+}
+.desc .tools a:hover {
+  transform: scale(1.1) translateY(-5px);
+}
+.desc .tools img {
+  width: 100%;
+  height: 100%;
+}
+
+#skills {
+  margin-top: 25px;
+  min-height: 100vh;
+}
+#skills h2 {
+  text-align: center;
+  font-size: clamp(1.5em, 7vw, 2.5em);
+  margin-bottom: 48px;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 48px;
+  justify-content: space-evenly;
+}
+.cards h3, .cards h4 {
+  text-align: center;
+  margin-bottom: 18px;
+  color: var(--secondary);
+  font-size: 1.35em;
+}
+.cards p {
+  font-size: 1.15em;
+  text-transform: initial;
+}
+
+.card {
+  max-width: 325px;
+  line-height: 20px;
+  background: hsl(240, 3%, 12%);
+  box-shadow: hsla(0, 0%, 100%, 0.151) -15px 15px 20px, hsla(0, 0%, 0%, 0.568) 15px -15px 20px;
+  padding: 21px 21px 32px 21px;
+  border-radius: 40px;
+  position: relative;
+}
+.card a {
+  position: absolute;
+  bottom: -25px;
+  right: -35px;
+  letter-spacing: 1px;
+  padding: 15px 21px 12px 21px;
+  background: var(--accent) url(../../assets/imgs/right.svg) 85% center/0px no-repeat;
+  border-radius: 30px;
+  border: 2px solid var(--primary);
+  box-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+  transition: 0.25s right ease-in-out 1.25s, 0.25s background ease-in-out 1.25s, 0.25s padding ease-in-out 1.25s;
+}
+.card a :nth-child(1) {
+  text-shadow: none;
+  transition: 0.5s all ease-in-out 0s;
+}
+.card a:hover :nth-child(1) {
+  text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+}
+.card a :nth-child(2) {
+  text-shadow: none;
+  transition: 0.5s all ease-in-out 0.05s;
+}
+.card a:hover :nth-child(2) {
+  text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+}
+.card a :nth-child(3) {
+  text-shadow: none;
+  transition: 0.5s all ease-in-out 0.1s;
+}
+.card a:hover :nth-child(3) {
+  text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+}
+.card a :nth-child(4) {
+  text-shadow: none;
+  transition: 0.5s all ease-in-out 0.15s;
+}
+.card a:hover :nth-child(4) {
+  text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+}
+.card a :nth-child(5) {
+  text-shadow: none;
+  transition: 0.5s all ease-in-out 0.2s;
+}
+.card a:hover :nth-child(5) {
+  text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+}
+.card a :nth-child(6) {
+  text-shadow: none;
+  transition: 0.5s all ease-in-out 0.25s;
+}
+.card a:hover :nth-child(6) {
+  text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+}
+.card a :nth-child(7) {
+  text-shadow: none;
+  transition: 0.5s all ease-in-out 0.3s;
+}
+.card a:hover :nth-child(7) {
+  text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+}
+.card a :nth-child(8) {
+  text-shadow: none;
+  transition: 0.5s all ease-in-out 0.35s;
+}
+.card a:hover :nth-child(8) {
+  text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+}
+.card a :nth-child(9) {
+  text-shadow: none;
+  transition: 0.5s all ease-in-out 0.4s;
+}
+.card a:hover :nth-child(9) {
+  text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+}
+.card a :nth-child(10) {
+  text-shadow: none;
+  transition: 0.5s all ease-in-out 0.45s;
+}
+.card a:hover :nth-child(10) {
+  text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+}
+.card a :nth-child(11) {
+  text-shadow: none;
+  transition: 0.5s all ease-in-out 0.5s;
+}
+.card a:hover :nth-child(11) {
+  text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+}
+.card a :nth-child(12) {
+  text-shadow: none;
+  transition: 0.5s all ease-in-out 0.55s;
+}
+.card a:hover :nth-child(12) {
+  text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+}
+.card a :nth-child(13) {
+  text-shadow: none;
+  transition: 0.5s all ease-in-out 0.6s;
+}
+.card a:hover :nth-child(13) {
+  text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+}
+.card a :nth-child(14) {
+  text-shadow: none;
+  transition: 0.5s all ease-in-out 0.65s;
+}
+.card a:hover :nth-child(14) {
+  text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+}
+.card a :nth-child(15) {
+  text-shadow: none;
+  transition: 0.5s all ease-in-out 0.7s;
+}
+.card a:hover :nth-child(15) {
+  text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+}
+.card a :nth-child(16) {
+  text-shadow: none;
+  transition: 0.5s all ease-in-out 0.75s;
+}
+.card a:hover :nth-child(16) {
+  text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+}
+.card a :nth-child(17) {
+  text-shadow: none;
+  transition: 0.5s all ease-in-out 0.8s;
+}
+.card a:hover :nth-child(17) {
+  text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+}
+.card a :nth-child(18) {
+  text-shadow: none;
+  transition: 0.5s all ease-in-out 0.85s;
+}
+.card a:hover :nth-child(18) {
+  text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+}
+.card a :nth-child(19) {
+  text-shadow: none;
+  transition: 0.5s all ease-in-out 0.9s;
+}
+.card a:hover :nth-child(19) {
+  text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+}
+.card a :nth-child(20) {
+  text-shadow: none;
+  transition: 0.5s all ease-in-out 0.95s;
+}
+.card a:hover :nth-child(20) {
+  text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+}
+.card a:hover {
+  right: -62px;
+  background: var(--accent) url(../../assets/imgs/right.svg) 97% center/25px no-repeat;
+  padding: 15px 48px 12px 21px;
+}
+
+.contact-me {
+  position: absolute;
+  bottom: -70px;
+  right: 0;
+  letter-spacing: 1px;
+  padding: 15px 21px 12px 21px;
+  margin: 0 0 0 auto;
+  background: var(--accent);
+  border-radius: 30px;
+  border: 2px solid var(--primary);
+  box-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+  transition: 0.25s right ease-in-out 1.25s, 0.25s background ease-in-out 1.25s, 0.25s padding ease-in-out 1.25s;
+}
+.contact-me :nth-child(1) {
+  text-shadow: none;
+  transition: 0.5s all ease-in-out 0s;
+}
+.contact-me:hover :nth-child(1) {
+  text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+}
+.contact-me :nth-child(2) {
+  text-shadow: none;
+  transition: 0.5s all ease-in-out 0.05s;
+}
+.contact-me:hover :nth-child(2) {
+  text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+}
+.contact-me :nth-child(3) {
+  text-shadow: none;
+  transition: 0.5s all ease-in-out 0.1s;
+}
+.contact-me:hover :nth-child(3) {
+  text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+}
+.contact-me :nth-child(4) {
+  text-shadow: none;
+  transition: 0.5s all ease-in-out 0.15s;
+}
+.contact-me:hover :nth-child(4) {
+  text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+}
+.contact-me :nth-child(5) {
+  text-shadow: none;
+  transition: 0.5s all ease-in-out 0.2s;
+}
+.contact-me:hover :nth-child(5) {
+  text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+}
+.contact-me :nth-child(6) {
+  text-shadow: none;
+  transition: 0.5s all ease-in-out 0.25s;
+}
+.contact-me:hover :nth-child(6) {
+  text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+}
+.contact-me :nth-child(7) {
+  text-shadow: none;
+  transition: 0.5s all ease-in-out 0.3s;
+}
+.contact-me:hover :nth-child(7) {
+  text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+}
+.contact-me :nth-child(8) {
+  text-shadow: none;
+  transition: 0.5s all ease-in-out 0.35s;
+}
+.contact-me:hover :nth-child(8) {
+  text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+}
+.contact-me :nth-child(9) {
+  text-shadow: none;
+  transition: 0.5s all ease-in-out 0.4s;
+}
+.contact-me:hover :nth-child(9) {
+  text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+}
+.contact-me :nth-child(10) {
+  text-shadow: none;
+  transition: 0.5s all ease-in-out 0.45s;
+}
+.contact-me:hover :nth-child(10) {
+  text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+}
+.contact-me :nth-child(11) {
+  text-shadow: none;
+  transition: 0.5s all ease-in-out 0.5s;
+}
+.contact-me:hover :nth-child(11) {
+  text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+}
+.contact-me :nth-child(12) {
+  text-shadow: none;
+  transition: 0.5s all ease-in-out 0.55s;
+}
+.contact-me:hover :nth-child(12) {
+  text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+}
+.contact-me :nth-child(13) {
+  text-shadow: none;
+  transition: 0.5s all ease-in-out 0.6s;
+}
+.contact-me:hover :nth-child(13) {
+  text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+}
+.contact-me :nth-child(14) {
+  text-shadow: none;
+  transition: 0.5s all ease-in-out 0.65s;
+}
+.contact-me:hover :nth-child(14) {
+  text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+}
+.contact-me :nth-child(15) {
+  text-shadow: none;
+  transition: 0.5s all ease-in-out 0.7s;
+}
+.contact-me:hover :nth-child(15) {
+  text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+}
+.contact-me :nth-child(16) {
+  text-shadow: none;
+  transition: 0.5s all ease-in-out 0.75s;
+}
+.contact-me:hover :nth-child(16) {
+  text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+}
+.contact-me :nth-child(17) {
+  text-shadow: none;
+  transition: 0.5s all ease-in-out 0.8s;
+}
+.contact-me:hover :nth-child(17) {
+  text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+}
+.contact-me :nth-child(18) {
+  text-shadow: none;
+  transition: 0.5s all ease-in-out 0.85s;
+}
+.contact-me:hover :nth-child(18) {
+  text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+}
+.contact-me :nth-child(19) {
+  text-shadow: none;
+  transition: 0.5s all ease-in-out 0.9s;
+}
+.contact-me:hover :nth-child(19) {
+  text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+}
+.contact-me :nth-child(20) {
+  text-shadow: none;
+  transition: 0.5s all ease-in-out 0.95s;
+}
+.contact-me:hover :nth-child(20) {
+  text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+}
+
+#real {
+  margin: 96px auto 0;
+  padding: 0 48px;
+}
+
+.box-r {
+  background: hsl(0, 0%, 0%);
+  padding: 24px;
+  border-radius: 30px;
+  margin: 24px 0;
+  height: auto;
+}
+.box-r h2 {
+  margin-bottom: 18px;
+}
+.box-r div a {
+  flex-grow: 1;
+  display: grid;
+  place-content: center;
+  text-align: center;
+  border-radius: 30px;
+  width: calc(33.3333333333% - 25px);
+  min-width: 265px;
+  font-family: "League Spartan", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  background: var(--accent);
+  padding: 24px 24px 20px;
+  margin: 0 auto;
+  background: var(--accent) url(../../assets/imgs/right.svg) 85% center/0px no-repeat;
+  border: 2px solid var(--primary);
+  box-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+  transition: 0.25s background ease-in-out 0.05s, 0.25s box-shadow ease-in-out 0.05s;
+  position: relative;
+}
+.box-r div a :nth-child(1) {
+  text-shadow: none;
+  transition: 0.5s all ease-in-out 0s;
+}
+.box-r div a:hover :nth-child(1) {
+  text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+}
+.box-r div a :nth-child(2) {
+  text-shadow: none;
+  transition: 0.5s all ease-in-out 0.05s;
+}
+.box-r div a:hover :nth-child(2) {
+  text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+}
+.box-r div a :nth-child(3) {
+  text-shadow: none;
+  transition: 0.5s all ease-in-out 0.1s;
+}
+.box-r div a:hover :nth-child(3) {
+  text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+}
+.box-r div a :nth-child(4) {
+  text-shadow: none;
+  transition: 0.5s all ease-in-out 0.15s;
+}
+.box-r div a:hover :nth-child(4) {
+  text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+}
+.box-r div a :nth-child(5) {
+  text-shadow: none;
+  transition: 0.5s all ease-in-out 0.2s;
+}
+.box-r div a:hover :nth-child(5) {
+  text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+}
+.box-r div a :nth-child(6) {
+  text-shadow: none;
+  transition: 0.5s all ease-in-out 0.25s;
+}
+.box-r div a:hover :nth-child(6) {
+  text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+}
+.box-r div a :nth-child(7) {
+  text-shadow: none;
+  transition: 0.5s all ease-in-out 0.3s;
+}
+.box-r div a:hover :nth-child(7) {
+  text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+}
+.box-r div a :nth-child(8) {
+  text-shadow: none;
+  transition: 0.5s all ease-in-out 0.35s;
+}
+.box-r div a:hover :nth-child(8) {
+  text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+}
+.box-r div a :nth-child(9) {
+  text-shadow: none;
+  transition: 0.5s all ease-in-out 0.4s;
+}
+.box-r div a:hover :nth-child(9) {
+  text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+}
+.box-r div a :nth-child(10) {
+  text-shadow: none;
+  transition: 0.5s all ease-in-out 0.45s;
+}
+.box-r div a:hover :nth-child(10) {
+  text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+}
+.box-r div a :nth-child(11) {
+  text-shadow: none;
+  transition: 0.5s all ease-in-out 0.5s;
+}
+.box-r div a:hover :nth-child(11) {
+  text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+}
+.box-r div a :nth-child(12) {
+  text-shadow: none;
+  transition: 0.5s all ease-in-out 0.55s;
+}
+.box-r div a:hover :nth-child(12) {
+  text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+}
+.box-r div a :nth-child(13) {
+  text-shadow: none;
+  transition: 0.5s all ease-in-out 0.6s;
+}
+.box-r div a:hover :nth-child(13) {
+  text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+}
+.box-r div a :nth-child(14) {
+  text-shadow: none;
+  transition: 0.5s all ease-in-out 0.65s;
+}
+.box-r div a:hover :nth-child(14) {
+  text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+}
+.box-r div a :nth-child(15) {
+  text-shadow: none;
+  transition: 0.5s all ease-in-out 0.7s;
+}
+.box-r div a:hover :nth-child(15) {
+  text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+}
+.box-r div a :nth-child(16) {
+  text-shadow: none;
+  transition: 0.5s all ease-in-out 0.75s;
+}
+.box-r div a:hover :nth-child(16) {
+  text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+}
+.box-r div a :nth-child(17) {
+  text-shadow: none;
+  transition: 0.5s all ease-in-out 0.8s;
+}
+.box-r div a:hover :nth-child(17) {
+  text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+}
+.box-r div a :nth-child(18) {
+  text-shadow: none;
+  transition: 0.5s all ease-in-out 0.85s;
+}
+.box-r div a:hover :nth-child(18) {
+  text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+}
+.box-r div a :nth-child(19) {
+  text-shadow: none;
+  transition: 0.5s all ease-in-out 0.9s;
+}
+.box-r div a:hover :nth-child(19) {
+  text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+}
+.box-r div a :nth-child(20) {
+  text-shadow: none;
+  transition: 0.5s all ease-in-out 0.95s;
+}
+.box-r div a:hover :nth-child(20) {
+  text-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+}
+.box-r div a::after {
+  position: absolute;
+  right: 50px;
+  top: 50%;
+  transform: translateY(-50%);
+  content: "";
+  width: 2px;
+  height: 0%;
+  transform-origin: center;
+  background: var(--secondary);
+  transition: 0.25s all ease-in-out 0.1s;
+}
+.box-r div a:hover, .box-r div a:focus {
+  background: var(--accent) url(../../assets/imgs/right.svg) 97% center/25px no-repeat;
+  box-shadow: hsl(0, 0%, 100%) 0px 0px 12px;
+}
+.box-r div a:hover::after, .box-r div a:focus::after {
+  height: 75%;
+}
+.box-r .proto-btn {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  justify-content: space-between;
+}
+.box-r .proto-btn div {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  border-radius: 8px;
+  width: calc(33.3333333333% - 25px);
+  max-width: 400px;
+  min-width: 265px;
+  font-family: "League Spartan", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  background: var(--accent);
+  padding: 24px 24px 20px;
+  background: var(--accent) url(../../assets/imgs/down.svg) 97% 18px/25px no-repeat;
+  border: 2px solid var(--primary);
+  box-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+  position: relative;
+}
+.box-r .proto-btn div::after {
+  position: absolute;
+  right: 50px;
+  top: 30px;
+  transform: translateY(-50%);
+  content: "";
+  width: 2px;
+  height: 25px;
+  transform-origin: center;
+  background: var(--secondary);
+}
+.box-r .proto-box {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  justify-content: space-between;
+}
+
+.proto-btn div {
+  overflow: hidden;
+  height: 60px;
+  transition: 0.25s all ease-in-out 0.5s;
+  cursor: cell;
+}
+.proto-btn div:hover {
+  height: 250px;
+}
+
+.hidden {
+  margin: 24px 0 0;
+}
+.hidden p {
+  border-radius: 30px;
+  padding: 12px 24px 10px;
+  border: 2px solid hsl(0, 0%, 100%);
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
+  position: relative;
+  cursor: pointer;
+}
+.hidden p a {
+  padding: 12px 24px 10px !important;
+  font-weight: normal;
+  display: initial;
+  place-content: initial;
+  text-align: initial;
+  border-radius: initial;
+  width: initial;
+  min-width: initial;
+  background: initial;
+  margin: initial;
+  border: initial;
+  box-shadow: initial;
+  transition: initial;
+  position: initial;
+}
+.hidden p a:hover, .hidden p a:focus {
+  background: none;
+  box-shadow: none;
+}
+.hidden p a:hover::after, .hidden p a:focus::after {
+  height: 0;
+}
+
+.design .img {
+  height: 240px;
+  border-radius: 10px;
+  border: 2px solid var(--primary);
+  box-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+  overflow: hidden;
+}
+.design img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50% 5%;
+}
+.design .wrap {
+  display: flex;
+  flex-direction: column;
+  width: 28.5714285714%;
+  gap: 12px;
+}
+.design .wrap a {
+  width: 100%;
+}
+
+.video-box {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  justify-content: space-evenly;
+}
+.video-box .video {
+  max-width: 375px;
+  width: 100%;
+  min-width: 275px;
+}
+.video-box .thumb {
+  position: relative;
+  overflow: hidden;
+  border-radius: 20px 20px 5px 5px;
+}
+.video-box .thumb .preview {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50% 5%;
+}
+.video-box .play {
+  max-width: 85px;
+  width: 20%;
+  min-width: 45px;
+  aspect-ratio: 1/1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(1);
+  cursor: pointer;
+  transition: transform 0.25s ease-in-out;
+}
+.video-box .play:hover {
+  transform: translate(-50%, -50%) scale(1.1);
+}
+.video-box .vid::after {
+  display: none;
+}
+.video-box .vid {
+  display: inline-block;
+  border: none;
+  box-shadow: none;
+  width: 100%;
+  border-radius: 5px 5px 20px 20px;
+  background: var(--accent);
+  text-align: left;
+  pointer-events: none;
+}
+.video-box .vid:hover {
+  background: var(--accent);
+}
+
+.maquettes .grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-auto-rows: minmax(50px, 1fr);
+  gap: 12px;
+}
+.maquettes .grid .item {
+  border: 2px solid var(--primary);
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+  min-height: 50px;
+  position: relative;
+  cursor: pointer;
+}
+.maquettes .grid .item:hover::after, .maquettes .grid .item:focus::after {
+  filter: blur(0);
+  opacity: 1;
+}
+.maquettes .grid .item:hover h2, .maquettes .grid .item:focus h2 {
+  filter: blur(0);
+  opacity: 1;
+}
+.maquettes .grid .item h2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  z-index: 2;
+  border: 2px solid hsl(0, 0%, 100%);
+  border-radius: 30px;
+  padding: 12px 21px 10px;
+  width: max-content;
+  transition: border-radius 0.25s ease-in-out, opacity 0.25s ease-in-out 0.25s;
+  font-weight: 400;
+  backdrop-filter: blur(5px);
+  cursor: pointer;
+  filter: blur(5px);
+  opacity: 0;
+}
+.maquettes .grid .item h2:hover {
+  border-radius: 12px;
+}
+.maquettes .grid .item::after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7215686275);
+  filter: blur(5px);
+  opacity: 0;
+  transition: all 0.25s ease-in-out;
+}
+.maquettes .grid .item img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.maquettes .grid .item-1,
+.maquettes .grid .item-2,
+.maquettes .grid .item-3,
+.maquettes .grid .item-4 {
+  grid-row: span 2;
+}
+.maquettes .grid .item-5 {
+  grid-row: 1;
+}
+.maquettes .grid .item-6 {
+  grid-row: 2;
+}
+
+.photo .grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-auto-rows: minmax(50px, 1fr);
+  gap: 12px;
+}
+.photo .grid .item {
+  border: 2px solid var(--primary);
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+  min-height: 50px;
+  grid-row: span 2;
+  cursor: pointer;
+}
+.photo .grid .item img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.lightbox {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  border-radius: 20px;
+  border: 2px solid var(--primary);
+  box-shadow: hsl(0, 0%, 100%) 0px 0px 5px;
+  overflow: hidden;
+  transform: translate(-50%, -50%);
+  width: 90%;
+  height: 90%;
+  background: rgb(0, 0, 0);
+  z-index: 9999;
+}
+
+.swiper {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.swiper-slide {
+  width: 300px;
+  height: 300px;
+  margin: auto 0;
+}
+
+.swiper-pagination-bullet {
+  background: #fff !important;
+}
+
+.swiper-slide img {
+  display: block;
+  max-width: 100%;
+  max-height: 90%;
+  height: auto;
+  margin: 35px auto 0;
+}
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  background: none;
+  border: none;
+  opacity: 0.8;
+  color: white;
+  cursor: pointer;
+  z-index: 9999;
+  transition: 0.05s opacity ease-in-out;
+}
+.close-button:hover {
+  opacity: 1;
+}
+
+/*Desktop First*/
+.container {
+  max-width: 1536px;
+  margin: 0 auto;
+}
+
+/*2xl*/
+@media (max-width: 1536px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+/*xl*/
+@media (max-width: 1280px) {
+  .container {
+    max-width: 1024px;
+  }
+}
+/*lg*/
+@media (max-width: 1024px) {
+  .container {
+    max-width: 768px;
+  }
+  #bio {
+    margin-top: 75px;
+  }
+  #skills {
+    margin-bottom: 100px;
+  }
+  .design .wrap {
+    width: 50%;
+    gap: 12px;
+  }
+}
+/*md*/
+@media (max-width: 768px) {
+  .container {
+    max-width: 640px;
+  }
+  footer .contact {
+    padding: 0 10%;
+    gap: 21px;
+  }
+  footer .contact div {
+    margin: 0 auto 0 0;
+  }
+  footer .contact .large {
+    order: 4;
+  }
+  html[data-theme=dark] > body #skills {
+    height: 100%;
+    background: url(../../assets/imgs/bg/top.webp) top/100vh no-repeat, url(../../assets/imgs/bg/center-002.webp) center/45vw no-repeat, url(../../assets/imgs/bg/bottom.webp) bottom/100vh no-repeat;
+  }
+  .design div {
+    flex-direction: column;
+  }
+  .design .wrap {
+    width: 100%;
+    gap: 12px;
+  }
+  .design .wrap a {
+    width: auto;
+  }
+  html[data-theme=light] > body {
+    background: url(../../assets/imgs/day/pngegg-003.png) top right/clamp(800px, 80vw, 100%) no-repeat, url(../../assets/imgs/day/pngegg-004.png) top left/clamp(800px, 50vw, 100%) no-repeat, url(../../assets/imgs/day/cloud-003.webp) center left/clamp(1200px, 100vw, 100%) no-repeat, url(../../assets/imgs/day/cloud-004.webp) center right/clamp(1200px, 100vw, 100%) no-repeat, url(../../assets/imgs/day/cloud-007.webp) bottom center/clamp(1200px, 100vw, 100%) no-repeat;
+    background-attachment: fixed;
+  }
+  html[data-theme=light] > body .infos {
+    background: hsla(193, 63%, 12%, 0.549);
+    padding: 24px;
+    border-radius: 20px;
+    min-height: 552px;
+  }
+  html[data-theme=light] > body .infos p {
+    text-shadow: rgba(0, 0, 0, 0.6509803922) 0px 0px 5px;
+  }
+}
+/*sm*/
+@media (max-width: 640px) {
+  .container {
+    max-width: 475px;
+  }
+  body {
+    font-size: 14px;
+  }
+  header a {
+    font-size: 1.2em;
+  }
+  .maquettes .item-5,
+  .maquettes .item-6 {
+    grid-column: span 2;
+  }
+}
+/*xs*/
+@media (max-width: 475px) {
+  .container {
+    width: 100%;
+  }
+  .copyright {
+    width: 30ch;
+    margin: 0 auto;
+  }
+  .card a {
+    right: 50%;
+    transform: translateX(50%);
+    min-width: max-content;
+  }
+  #real {
+    margin: 48px 18px 0;
+  }
+  .video {
+    padding: 18px 12px;
+  }
+  .maquettes .item {
+    grid-column: span 2;
+  }
+}
+main {
+  width: 100%;
+}

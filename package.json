@@ -1,0 +1,22 @@
+{
+  "name": "portefolio-final",
+  "version": "1.0.0",
+  "description": "Web designer portefolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "portefolio"
+  ],
+  "author": "Axel RAKOTOARIVAO",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^5.0.0",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.72.0"
+  },
+  "dependencies": {
+    "lightgallery": "^2.7.2"
+  }
+}

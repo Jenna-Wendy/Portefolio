@@ -1,0 +1,26 @@
+// mixins
+@import './addons/mixins';
+// animations
+@import './animations/animations';
+
+
+// default body
+@import './addons/default';
+
+// typo
+@import './addons/typo';
+
+// navbar and footer
+@import './components/navbar';
+@import './components/footer';
+
+// home and other page
+@import './pages/home';
+@import './pages/projects';
+
+// responsive
+@import 'responsive';
+
+main{
+    width: 100%;
+}

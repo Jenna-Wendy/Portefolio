@@ -1,0 +1,17 @@
+header {
+    padding: 12px 16px;
+    background: $black;
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    a{
+        transition: .25s all ease-in-out;
+        position: relative;
+        text-transform: uppercase;
+
+        @include turn-purple($num-children: 11, $speed: 0.02s);
+    }
+}
