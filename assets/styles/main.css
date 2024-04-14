@@ -929,6 +929,7 @@ html[data-theme=dark] > body #skills h2 * {
   display: flex;
   gap: 5px;
   flex-direction: column;
+  z-index: 3;
 }
 .switch-mode .sep {
   background: #777;
@@ -2211,14 +2212,62 @@ footer .copyright p {
   .container {
     width: 100%;
   }
+  .infos h2 {
+    font-size: 1.45em;
+    text-align: left;
+  }
+  .infos .content {
+    width: 100%;
+  }
+  .infos .text {
+    margin-top: 21px;
+  }
+  .desc {
+    margin-top: 52px;
+    padding: 0 16px;
+  }
+  .desc .content {
+    width: 100%;
+  }
+  .desc .about div {
+    margin: 0;
+  }
+  .desc .tools a {
+    width: 42px;
+  }
+  #bio {
+    margin-top: 25px;
+  }
+  #bio .infos {
+    padding: 16px;
+  }
+  #skills h2 {
+    margin: 100px 0 12px;
+  }
+  .cards {
+    gap: 48px;
+    padding: 16px;
+  }
+  .card {
+    box-shadow: hsla(0, 0%, 100%, 0.151) -8px 8px 10px, hsla(0, 0%, 0%, 0.568) 8px -8px 10px;
+    padding: 16px 16px 36px;
+    border-radius: 20px;
+  }
+  .card a {
+    bottom: -20px;
+    right: 50%;
+    transform: translateX(50%);
+    padding: 8px 16px;
+    min-width: max-content;
+  }
+  .card a:hover {
+    right: 50%;
+    background: var(--accent);
+    padding: 8px 22px;
+  }
   .copyright {
     width: 30ch;
     margin: 0 auto;
-  }
-  .card a {
-    right: 50%;
-    transform: translateX(50%);
-    min-width: max-content;
   }
   #real {
     margin: 48px 18px 0;
