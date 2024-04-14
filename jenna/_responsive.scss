@@ -230,16 +230,35 @@
     // }
 
     #real {
-        margin: $spacing-xxl $spacing-lg 0;
+        margin: $spacing-xl 16px 0;
+        padding: 0;
+        .box-r{
+            padding: 16px;
+        }
+        .grid{
+            gap: 16px;
+        }
     }
 
     .video {
         padding: $spacing-lg $spacing;
+        position: relative;
     }
 
     .maquettes {
         .item {
             grid-column: span 2;
+        }
+    }
+
+    #video{
+        padding-bottom: 30px;
+        a{
+            position: absolute;
+            width: 250px;
+            bottom: -30px;
+            left: 50%;
+            transform: translateX(-50%);
         }
     }
 }
