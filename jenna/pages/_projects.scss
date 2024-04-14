@@ -203,7 +203,7 @@
     .thumb {
         position: relative;
         overflow: hidden;
-        border-radius: $bor-ra $bor-ra 5px 5px;
+        border-radius: $bor-ra $bor-ra $bor-ra-lg $bor-ra-lg;
 
         .preview {
             width: 100%;

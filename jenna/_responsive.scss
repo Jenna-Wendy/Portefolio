@@ -92,24 +92,22 @@
     }
 
     html[data-theme="light"]>body {
-        background: url(../../assets/imgs/day/pngegg-003.png) top right/clamp(800px, 80vw, 100%) no-repeat,
-            url(../../assets/imgs/day/pngegg-004.png) top left/clamp(800px, 50vw, 100%) no-repeat,
+        background: url(../../assets/imgs/day/pngegg-003.png) top right/clamp(800px, 80vw, 100%),
+            url(../../assets/imgs/day/pngegg-004.png) top right/clamp(800px, 50vw, 100%),
             // url(../../assets/imgs/day/cloud-004.webp) 110% 20%/50vw no-repeat,
-            url(../../assets/imgs/day/cloud-003.webp) center left/clamp(1200px, 100vw, 100%) no-repeat,
-            url(../../assets/imgs/day/cloud-004.webp) center right/clamp(1200px, 100vw, 100%) no-repeat,
+            url(../../assets/imgs/day/cloud-003.webp) top right/clamp(1200px, 100vw, 100%),
+            url(../../assets/imgs/day/cloud-004.webp) top right/clamp(1200px, 100vw, 100%),
             url(../../assets/imgs/day/cloud-007.webp) bottom center/clamp(1200px, 100vw, 100%) no-repeat;
-        background-attachment: fixed;
+        // background-attachment: fixed;
     
         // url(../../assets/imgs/day/sun.webp) top right/75vw no-repeat;
         .infos {
-            background: hsla(193, 63%, 12%, 0.549);
+            background: none;
             padding: 24px;
             border-radius: $bor-ra;
             min-height: 552px;
-    
             p {
-                //  color: #000;
-                text-shadow: #000000a6 0px 0px 5px;
+                text-shadow: none;
             }
         }
     }
@@ -264,10 +262,15 @@
         padding-bottom: 30px;
         a{
             position: absolute;
+            border-radius: $bor-ra-lg;
+            text-align: center;
             width: 250px;
             bottom: -30px;
             left: 50%;
             transform: translateX(-50%);
+            .thumb {
+                border-radius: $bor-ra;
+            }
         }
     }
 
