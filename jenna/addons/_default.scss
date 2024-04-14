@@ -63,7 +63,7 @@ html[data-theme="light"]>body {
 
     // url(../../assets/imgs/day/sun.webp) top right/75vw no-repeat;
     .infos {
-        background: hsla(202, 79%, 23%, 0.44);
+        // background: hsla(202, 79%, 23%, 0.44);
         padding: 24px;
         border-radius: $bor-ra;
         min-height: 552px;
@@ -72,9 +72,9 @@ html[data-theme="light"]>body {
             text-shadow: #000000a6 0px 2px 5px, #000000a6 0px 2px 5px;
         }
         p {
-            //  color: #000;
-            text-shadow: #000000a6 0px 0px 5px;
-            font-weight: 350;
+             color: #0c1f4b;
+            // text-shadow: #000000a6 0px 0px 5px;
+            font-weight: 450;
         }
     }
     #skills{

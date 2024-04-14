@@ -883,7 +883,6 @@ html[data-theme=light] > body {
   background: url(../../assets/imgs/day/pngegg-003.webp) top right/clamp(800px, 80vw, 100%) no-repeat, url(../../assets/imgs/day/pngegg-004.webp) top left/clamp(800px, 50vw, 100%) no-repeat, url(../../assets/imgs/day/cloud-004.webp) center right/clamp(1200px, 100vw, 100%) no-repeat, url(../../assets/imgs/day/cloud-007.webp) bottom center/clamp(1200px, 100vw, 100%) no-repeat;
 }
 html[data-theme=light] > body .infos {
-  background: hsla(202, 79%, 23%, 0.44);
   padding: 24px;
   border-radius: 20px;
   min-height: 552px;
@@ -892,8 +891,8 @@ html[data-theme=light] > body .infos h1 *, html[data-theme=light] > body .infos 
   text-shadow: rgba(0, 0, 0, 0.6509803922) 0px 2px 5px, rgba(0, 0, 0, 0.6509803922) 0px 2px 5px;
 }
 html[data-theme=light] > body .infos p {
-  text-shadow: rgba(0, 0, 0, 0.6509803922) 0px 0px 5px;
-  font-weight: 350;
+  color: #0c1f4b;
+  font-weight: 450;
 }
 html[data-theme=light] > body #skills h2 * {
   text-shadow: rgba(0, 0, 0, 0.6509803922) 0px 2px 5px, rgba(0, 0, 0, 0.6509803922) 0px 2px 5px;
@@ -1922,7 +1921,7 @@ footer .copyright p {
 .video-box .thumb {
   position: relative;
   overflow: hidden;
-  border-radius: 20px 20px 5px 5px;
+  border-radius: 20px 20px 30px 30px;
 }
 .video-box .thumb .preview {
   width: 100%;
@@ -2178,17 +2177,16 @@ footer .copyright p {
     width: auto;
   }
   html[data-theme=light] > body {
-    background: url(../../assets/imgs/day/pngegg-003.png) top right/clamp(800px, 80vw, 100%) no-repeat, url(../../assets/imgs/day/pngegg-004.png) top left/clamp(800px, 50vw, 100%) no-repeat, url(../../assets/imgs/day/cloud-003.webp) center left/clamp(1200px, 100vw, 100%) no-repeat, url(../../assets/imgs/day/cloud-004.webp) center right/clamp(1200px, 100vw, 100%) no-repeat, url(../../assets/imgs/day/cloud-007.webp) bottom center/clamp(1200px, 100vw, 100%) no-repeat;
-    background-attachment: fixed;
+    background: url(../../assets/imgs/day/pngegg-003.png) top right/clamp(800px, 80vw, 100%), url(../../assets/imgs/day/pngegg-004.png) top right/clamp(800px, 50vw, 100%), url(../../assets/imgs/day/cloud-003.webp) top right/clamp(1200px, 100vw, 100%), url(../../assets/imgs/day/cloud-004.webp) top right/clamp(1200px, 100vw, 100%), url(../../assets/imgs/day/cloud-007.webp) bottom center/clamp(1200px, 100vw, 100%) no-repeat;
   }
   html[data-theme=light] > body .infos {
-    background: hsla(193, 63%, 12%, 0.549);
+    background: none;
     padding: 24px;
     border-radius: 20px;
     min-height: 552px;
   }
   html[data-theme=light] > body .infos p {
-    text-shadow: rgba(0, 0, 0, 0.6509803922) 0px 0px 5px;
+    text-shadow: none;
   }
 }
 /*sm*/
@@ -2299,10 +2297,15 @@ footer .copyright p {
   }
   #video a {
     position: absolute;
+    border-radius: 30px;
+    text-align: center;
     width: 250px;
     bottom: -30px;
     left: 50%;
     transform: translateX(-50%);
+  }
+  #video a .thumb {
+    border-radius: 20px;
   }
   h1 {
     font-family: "League Spartan", sans-serif;
