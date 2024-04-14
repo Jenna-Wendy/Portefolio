@@ -125,6 +125,7 @@ html[data-theme="dark"]>body {
     display: flex;
     gap: 5px;
     flex-direction: column;
+    z-index: 3;
 
     .sep {
         background: #777;
