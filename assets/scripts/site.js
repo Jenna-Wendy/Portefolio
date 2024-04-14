@@ -84,3 +84,6 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     });
 });
+
+
+// TODO switch swiper to lightgallery
