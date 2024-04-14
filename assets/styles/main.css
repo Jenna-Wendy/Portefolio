@@ -2206,14 +2206,22 @@ footer .copyright p {
   .maquettes .item-6 {
     grid-column: span 2;
   }
+  .fade-in-section {
+    opacity: 1;
+    filter: blur(0);
+  }
 }
 /*xs*/
 @media (max-width: 475px) {
   .container {
     width: 100%;
   }
+  html[data-theme=dark] > body {
+    background: var(--primary) url(../../assets/imgs/bg/bg.gif) top center/auto 100vw;
+  }
   .infos h2 {
-    font-size: 1.45em;
+    font-size: 1.4em;
+    word-spacing: 8px;
     text-align: left;
   }
   .infos .content {
@@ -2295,6 +2303,19 @@ footer .copyright p {
     bottom: -30px;
     left: 50%;
     transform: translateX(-50%);
+  }
+  h1 {
+    font-family: "League Spartan", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: clamp(1.5em, 9vw, 3em);
+    width: max-content;
+    text-shadow: hsl(0, 0%, 0%) 2px 2px 5px;
+  }
+  .contact-me {
+    bottom: -70px;
+    padding: 10px 16px;
   }
 }
 main {

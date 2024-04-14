@@ -15,7 +15,9 @@ document.addEventListener("DOMContentLoaded", function() {
 
     const fadeInSections = document.querySelectorAll('.fade-in-section');
     fadeInSections.forEach(section => {
-        observer.observe(section);
+        if (window.innerWidth >= 640) { // Check viewport width before applying fade-in
+            observer.observe(section);
+        }
     });
 
     // Function to update slides per view based on viewport width

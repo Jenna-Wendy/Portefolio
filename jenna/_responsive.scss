@@ -139,6 +139,10 @@
             grid-column: span 2;
         }
     }
+    .fade-in-section {
+        opacity: 1;
+        filter: blur(0);
+    }
 }
 
 /*xs*/
@@ -147,9 +151,14 @@
         width: 100%;
     }
 
+    html[data-theme="dark"]>body {
+        background: var(--primary) url(../../assets/imgs/bg/bg.gif) top center/auto 100vw;
+    }
+
     .infos {
         h2{
-            font-size: 1.45em;
+            font-size: 1.40em;
+            word-spacing: 8px;
             text-align: left;
         }
         .content {
@@ -260,5 +269,17 @@
             left: 50%;
             transform: translateX(-50%);
         }
+    }
+
+    h1 {
+        @include leaguespartan(600);
+        font-size: clamp(1.5em, 9vw, 3em);
+        width: max-content;
+        text-shadow: $black 2px 2px 5px;
+    }
+
+    .contact-me{
+        bottom: -70px;
+        padding: 10px 16px;
     }
 }
