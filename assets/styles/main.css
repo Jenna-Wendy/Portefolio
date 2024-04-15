@@ -2022,6 +2022,29 @@ footer .copyright p {
   width: 100%;
   object-fit: cover;
 }
+.maquettes .grid .item a {
+  flex-grow: 0;
+  display: inline;
+  place-content: initial;
+  text-align: left;
+  border-radius: 0;
+  width: auto;
+  min-width: 0;
+  background: none;
+  padding: 0;
+  margin: 0;
+  border: none;
+  box-shadow: none;
+  transition: none;
+  position: static;
+}
+.maquettes .grid .item a:hover, .maquettes .grid .item a:focus {
+  background: none;
+  box-shadow: none;
+}
+.maquettes .grid .item a::after {
+  content: none;
+}
 .maquettes .grid .item-1,
 .maquettes .grid .item-2,
 .maquettes .grid .item-3,
