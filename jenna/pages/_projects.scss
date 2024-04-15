@@ -321,6 +321,31 @@
                 width: 100%;
                 object-fit: cover;
             }
+
+            a {
+                flex-grow: 0; // Reset to default value
+                display: inline; // Typically, anchor tags are inline
+                place-content: initial;
+                text-align: left; // Default text alignment
+                border-radius: 0; // No border radius
+                width: auto; // Reset width to default
+                min-width: 0; // Reset minimum width
+                background: none; // No background
+                padding: 0; // No padding
+                margin: 0; // No margin
+                border: none; // No border
+                box-shadow: none; // No box shadow
+                transition: none; // No transitions
+                position: static; // Reset position to static
+                &:hover,
+                &:focus {
+                    background: none;
+                    box-shadow: none;
+                }
+                &::after {
+                    content: none; // Remove pseudo-element
+                }
+            }
         }
 
         .item-1,
